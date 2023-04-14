@@ -1391,6 +1391,35 @@ a:hover.menu-item {
 /* Teléfonos */
 @media only screen and (max-width: 575px){
 
+    .title-price {
+        display: flex;
+    flex-direction: column;
+}
+
+    .slide .info-section {
+    flex: 0 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px;
+    gap: 10px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    color: #131313;
+    background-color: #f0f0f0;
+}
+
+.product-detail-btn {
+    display: none;
+}
+
+ .slide .info-section .title-price > span {
+        font-size: 1rem;
+    }
+
+ .slide .info-section .brand > span {
+        font-size: 1rem;
+    }
+
   
     
 
