@@ -615,7 +615,6 @@ a:hover.menu-item {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    
 }
 
 .bandera-2 {
@@ -625,7 +624,6 @@ a:hover.menu-item {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    
 }
 
 .wr-banner {
@@ -645,7 +643,7 @@ a:hover.menu-item {
 }
 
 .wr-1-optional {
-    background-color: #F6E2FA;
+    background-color: #f6e2fa;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -653,7 +651,6 @@ a:hover.menu-item {
     align-items: flex-start;
     gap: 3rem;
 }
-
 
 .wr-1 h2 {
     font-size: 5rem;
@@ -668,7 +665,7 @@ a:hover.menu-item {
     line-height: 5rem;
     max-width: 100%;
     white-space: normal;
-    color: #EB5AED;
+    color: #eb5aed;
 }
 
 .wr-2 {
@@ -685,14 +682,9 @@ a:hover.menu-item {
     background-size: cover;
 }
 
-
 .cell {
     position: relative;
-    
 }
-
-
-
 
 .cell__title,
 .preview__item-title {
@@ -965,17 +957,11 @@ a:hover.menu-item {
 }
 
 .slide-2 {
-    
-
     display: flex;
     flex-direction: column;
     width: 100%;
     padding: 8px;
 }
-
-
-
-
 
 .slide:hover {
     cursor: pointer;
@@ -985,13 +971,10 @@ a:hover.menu-item {
     flex: 70%;
 }
 
-
-
 .image-section img {
     padding: 0;
     margin: 0;
 }
-
 
 .slide .image-section img {
     object-fit: cover;
@@ -1004,10 +987,9 @@ a:hover.menu-item {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 16px;
+    padding: 5px 0;
     font-family: neue-haas-grotesk-display, sans-serif;
     color: #131313;
-    background-color: #f0f0f0;
 }
 
 .slide .info-section-2 {
@@ -1025,7 +1007,6 @@ a:hover.menu-item {
 .bck-color {
     background-color: black;
 }
-
 
 .slide .info-section .title-price {
     display: flex;
@@ -1063,7 +1044,7 @@ a:hover.menu-item {
     color: #e900ff;
 }
 
-.brand > span{
+.brand > span {
     font-weight: 600;
 }
 
@@ -1093,14 +1074,10 @@ a:hover.menu-item {
 }
 
 .cards {
-
     display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
 }
-
-
 
 .more-elements {
     white-space: normal;
@@ -1109,15 +1086,11 @@ a:hover.menu-item {
     flex-direction: row;
     align-items: center;
     gap: 10px;
-} 
+}
 
 .more-elements > span:hover {
     cursor: pointer;
 }
-
-
-
-
 
 /* End section grid*/
 
@@ -1132,12 +1105,9 @@ a:hover.menu-item {
         --padding-sides: 4rem;
         --padding-row: 2rem;
     }
-
-    
 }
 
 @media only screen and (min-width: 100px) and (max-width: 575px) {
-    
     .cards {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -1201,15 +1171,15 @@ a:hover.menu-item {
         background-color: #e900ff;
         display: flex;
         flex-direction: column;
-        justify-content:flex-start;
+        justify-content: flex-start;
     }
 
     .bandera-2 {
         margin: 1rem;
-        background-color: #F6E2FA;
+        background-color: #f6e2fa;
         display: flex;
         flex-direction: column;
-        justify-content:flex-start;
+        justify-content: flex-start;
     }
 
     .wr-banner {
@@ -1228,7 +1198,7 @@ a:hover.menu-item {
     }
 
     .wr-1-optional {
-        background-color: #F6E2FA;
+        background-color: #f6e2fa;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -1237,7 +1207,7 @@ a:hover.menu-item {
         gap: 1rem;
         min-height: 300px;
     }
-    
+
     .wr-1 h2 {
         font-size: 2rem;
         line-height: 2.5rem;
@@ -1251,7 +1221,7 @@ a:hover.menu-item {
         line-height: 2.5rem;
         max-width: 90%;
         white-space: normal;
-        color: #EB5AED;
+        color: #eb5aed;
     }
 
     .wr-2 {
@@ -1261,7 +1231,6 @@ a:hover.menu-item {
     .wr-2-optional {
         min-height: 300px;
     }
-    
 
     .frame {
         width: 100%;
@@ -1329,24 +1298,18 @@ a:hover.menu-item {
     }
 }
 
-
-
 /* Escritorio extra grande */
-@media only screen and (min-width: 1200px){
-
+@media only screen and (min-width: 1200px) {
     .cards {
         grid-template-columns: repeat(4, 1fr);
     }
-
 }
 /* Escritorio grande */
-@media only screen and (min-width: 992px) and (max-width: 1199px){
-
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 /* Escritorio pequeño / tablet */
-@media only screen and (min-width: 768px) and (max-width: 991px){
-
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .wr-1 h2 {
         font-size: 2rem;
         line-height: 2.5rem;
@@ -1360,15 +1323,12 @@ a:hover.menu-item {
         line-height: 2.5rem;
         max-width: 90%;
         white-space: normal;
-        color: #EB5AED;
+        color: #eb5aed;
     }
-
-
 }
 
 /* Tablets y phablets */
-@media only screen and (min-width: 576px) and (max-width: 767px){
-
+@media only screen and (min-width: 576px) and (max-width: 767px) {
     .wr-1 h2 {
         font-size: 2rem;
         line-height: 2.5rem;
@@ -1382,46 +1342,39 @@ a:hover.menu-item {
         line-height: 2.5rem;
         max-width: 90%;
         white-space: normal;
-        color: #EB5AED;
+        color: #eb5aed;
     }
-
-
 }
 
 /* Teléfonos */
-@media only screen and (max-width: 575px){
-
+@media only screen and (max-width: 575px) {
     .title-price {
         display: flex;
-    flex-direction: column;
-}
+        flex-direction: column;
+    }
 
     .slide .info-section {
-    flex: 0 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 5px;
-    gap: 10px;
-    font-family: neue-haas-grotesk-display, sans-serif;
-    color: #131313;
-    background-color: #f0f0f0;
-}
+        flex: 0 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 5px 0;
+        gap: 10px;
+        font-family: neue-haas-grotesk-display, sans-serif;
+        color: #131313;
+    }
 
-.product-detail-btn {
-    display: none;
-}
+    .product-detail-btn {
+        display: none;
+    }
 
- .slide .info-section .title-price > span {
+    .slide .info-section .title-price > span {
         font-size: 1rem;
     }
 
- .slide .info-section .brand > span {
+    .slide .info-section .brand > span {
         font-size: 1rem;
     }
-
-  
-    
 
     .slide .info-section-2 {
         flex: 30%;
@@ -1438,5 +1391,4 @@ a:hover.menu-item {
     .slide .info-section-2 .brand > span {
         font-size: 1.5rem;
     }
-
 }
