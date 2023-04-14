@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Menu to Grid Layout Animation | Codrops</title>
+      <meta name="description" content="A menu that animates to a grid layout using GSAP flip" />
+      <meta name="keywords" content="gsap, flip, javascript, web design, grid, layout" />
+      <meta name="author" content="Codrops" />
+      <link rel="shortcut icon" href="favicon.ico">
+      <link rel="stylesheet" href="https://use.typekit.net/gdf6msi.css">
+      <link rel="stylesheet" type="text/css" href="css/base.css" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/ScrollTrigger.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.8.3/smooth-scrollbar.js"></script>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   </head>
+   <body>
+      <main>
+         <div id="header-sticky" class="header-sticky"><!-- Header sticky section -->
+         <div class="frame"><!-- Main menu section -->
+            <div class="frame__title"><a href="index.html" class="frame__prevdemo" href="">Shinee</a><span>Beauty&Cosmetics</span></div>
+            <div class="responsive-frame">
+               <div class="menu-section">
+                  <a class="frame__prevdemo hover-line" href="">Instagram</a>
+                  <a class="frame__prevdemo hover-line" href="">Facebook</a>
+                  <a class="frame__prevdemo hover-line" href="">Pinterest</a>
+               </div>
+               <div class="fade"></div>
+               <div class="menu-responsive show-menu"><img src="assets/icon-1.svg" alt=""></div>
+               <nav class="menu_container">
+                  <ul class="menu">
+                      <div class="section-1">
+                          <a>Compra ahora por Whatsapp</a>
+                          <button class="clean-btn">Comprar ahora</button>
+                      </div>
+
+                      <div class="section-2">
+                          <li><a class="frame__prevdemo" href="#">Instagram</a></li>
+                          <li><a class="frame__prevdemo" href="#">Facebook</a></li>
+                          <li><a class="frame__prevdemo" href="#">Pinterest</a></li>
+                      </div>
+
+                      <div class="section-3">
+                          <li><a href="index.html" class="frame__prevdemo" href="#">Inicio</a></li>
+                          <li><a href="sombras.html" class="frame__prevdemo" href="#">Sombras</a></li>
+                          <li><a href="iluminadores.html" class="frame__prevdemo" href="#">Iluminadores</a></li>
+                          <li><a href="rubores.html" class="frame__prevdemo" href="#">Rubores</a></li>
+                          <li><a href="contornos.html" class="frame__prevdemo" href="#">Contornos</a></li>
+                          <li><a href="polvos.html" class="frame__prevdemo" href="#">Polvos</a></li>
+                          <li><a href="bases.html" class="frame__prevdemo item-selected" href="#">Bases</a></li>
+                          <li><a href="labios.html" class="frame__prevdemo" href="#">Labios</a></li>
+                          <li><a href="correctores.html" class="frame__prevdemo" href="#">Correctores</a></li>
+                          <li><a href="delineadores.html" class="frame__prevdemo" href="#">Delineadores</a></li>
+                          <li><a href="pestañas.html" class="frame__prevdemo" href="#">Pestañas</a></li>
+                          <li><a href="cejas.html" class="frame__prevdemo" href="#">Cejas</a></li>
+                          <li><a href="primers.html" class="frame__prevdemo" href="#">Primers</a></li>
+                          <li><a href="desmaquillantes.html" class="frame__prevdemo" href="#">Desmaquillantes</a></li>
+                          <li><a href="jabones-faciales.html" class="frame__prevdemo" href="#">Jabones faciales</a></li>
+                          <li><a href="serums&acidos.html" class="frame__prevdemo" href="#">Serums&Acidos</a></li>
+                          <li><a href="tonicos.html" class="frame__prevdemo" href="#">Tonicos</a></li>
+                          <li><a href="hidratantes.html" class="frame__prevdemo" href="#">Hidratantes</a></li>
+                          <li><a href="mascarillas.html" class="frame__prevdemo" href="#">Mascarillas</a></li>
+                          <li><a href="cremas.html" class="frame__prevdemo" href="#">Cremas</a></li>
+                          <li><a href="accesorios.html" class="frame__prevdemo" href="#">Accesorios</a></li>
+                      </div>
+                  </ul>
+              </nav>
+            </div>
+         </div><!-- End Main menu section -->
+         
+         <div class="slider-menu-wrapper"><!-- Nav Bar section -->
+            <div id="slider-menu-wrapper-2" class="slider-menu-wrapper-2">
+               <div id="slider-menu" class="slider-menu">
+                  <a href="index.html" class="menu-item">Inicio</a>
+                  <a href="sombras.html" class="menu-item">Sombras</a>
+                  <a href="iluminadores.html" class="menu-item">Iluminadores</a>
+                  <a href="rubores.html" class="menu-item">Rubores</a>
+                  <a href="contornos.html" class="menu-item">Contornos</a>
+                  <a href="polvos.html" class="menu-item">Polvos</a>
+                  <a href="" class="menu-item selected" aria-selected="true">Bases</a>
+                  <a href="labios.html" class="menu-item">Labios</a>
+                  <a href="correctores.html" class="menu-item">Correctores</a>
+                  <a href="delineadores.html" class="menu-item">Delineadores</a>
+                  <a href="pestañas.html" class="menu-item">Pestañas</a>
+                  <a href="cejas.html" class="menu-item">Cejas</a>
+                  <a href="primers.html" class="menu-item">Primers</a>
+                  <a href="desmaquillantes.html" class="menu-item">Desmaquillantes</a>
+                  <a href="jabones-faciales.html" class="menu-item">Jabones faciales</a>
+                  <a href="serums&acidos.html" class="menu-item">Serums&Acidos</a>
+                  <a href="tonicos.html" class="menu-item">Tonicos</a>
+                  <a href="hidratantes.html" class="menu-item">Hidratantes</a>
+                  <a href="mascarillas.html" class="menu-item">Mascarillas</a>
+                  <a href="cremas.html" class="menu-item">Cremas</a>
+                  <a href="accesorios.html" class="menu-item">Accesorios</a>
+                  <span id="line-selected-item" class="line-selected-item"></span>
+               </div>
+            </div>
+            <button id="pnAdvancerLeft" class="pn-Advancer pn-Advancer_Left" type="button"><span class="pointer material-symbols-outlined">chevron_left</span></button>
+            <button id="pnAdvancerRight" class="pn-Advancer pn-Advancer_Right" type="button"><span class="pointer material-symbols-outlined">chevron_right</span></button>
+         </div><!-- End Nav Bar section -->
+         
+		</div><!-- End header sticky section -->
+
+         <div class="intro">
+            <h1 class="frame__title-main">Bases</h1>
+         </div>
+		 
+         <section class="content">
+            <div class="cover"></div>
+            <div class="row">
+               <div class="cell cell--text">
+                  <h2 class="cell__title oh"><span class="oh__inner">Ultimos productos</span></h2>
+               </div>
+               <div class="cell cell--images">
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/6.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/7.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/8.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/9.avif)"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="cell cell--text">
+                  <h2 class="cell__title oh"><span class="oh__inner">Mas vendidos</span></h2>
+               </div>
+               <div class="cell cell--images">
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/1.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/2.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/3.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/4.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/5.avif)"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="cell cell--text">
+                  <h2 class="cell__title oh"><span class="oh__inner">Marcas</span></h2>
+               </div>
+               <div class="cell cell--images">
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/10.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/11.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/12.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/13.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/14.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/15.avif)"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="cell cell--text">
+                  <h2 class="cell__title oh"><span class="oh__inner">Descuentos</span></h2>
+               </div>
+               <div class="cell cell--images">
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/16.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/17.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/18.avif)"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="cell cell--text">
+                  <h2 class="cell__title oh"><span class="oh__inner">Love Box</span></h2>
+               </div>
+               <div class="cell cell--images">
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/29.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/30.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/1.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/10.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/12.avif)"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="cell cell--text">
+                  <h2 class="cell__title oh"><span class="oh__inner">Sobre Shinee</span></h2>
+               </div>
+               <div class="cell cell--images">
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/29.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/30.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/1.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/10.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/12.avif)"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="cell cell--text">
+                  <h2 class="cell__title oh"><span class="oh__inner">Disclaimer</span></h2>
+               </div>
+               <div class="cell cell--images">
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/29.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/30.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/1.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/10.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/12.avif)"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="cell cell--text">
+                  <h2 class="cell__title oh"><span class="oh__inner">Garantia y devoluciones</span></h2>
+               </div>
+               <div class="cell cell--images">
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/29.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/30.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/1.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/10.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/12.avif)"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="cell cell--text">
+                  <h2 class="cell__title oh"><span class="oh__inner">Contacto</span></h2>
+               </div>
+               <div class="cell cell--images">
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/29.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/30.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/1.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/10.avif)"></div>
+                  </div>
+                  <div class="cell__img">
+                     <div class="cell__img-inner" style="background-image:url(images/)"></div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- /content -->
+         <footer class="page-footer">
+            <p class="page-footer__text">What alacrity around one and the same dropping! Never did adventurers hurrying from the four corners of the earth display such eagerness in working a Californian claim.</p>
+            <p class="page-footer__text">Before the sun becomes too hot, they are there in their hundreds, large and small, promiscuously, of every sort, shape and size, hastening to carve themselves a slice of the common cake. There are some that work in the open air and scrape the surface; there are some that dig themselves galleries in the thick of the heap, in search of choice veins; others work the lower stratum and bury their spoil without delay in the underlying ground; others—the smallest—stand aside to crumble a morsel that has fallen from the mighty excavations of their more powerful fellow-workers. Some, the newcomers and, no doubt, the hungriest, consume their meal on the spot; but the greater number mean to put by a substance that will allow them to spend long days in plenty, down in some safe retreat. A nice, fresh dropping is not found just when you want it, amid the fields bare of thyme; a windfall of that sort is as manna from the sky; only fortune’s favourites receive so fair a portion. Wherefore the riches of to-day are prudently stored for the morrow.</p>
+            <p class="page-footer__text">Who is this that trots towards the heap, fearing lest he come too late? His long legs move with a sudden, awkward action, as though driven by some mechanism within his belly; his little red antennæ spread their fan, a sign of anxious greed. He is coming, he has come, not without sending some few banqueters sprawling. It is the Sacred Beetle, clad all in black, the biggest and most famous of our Dung-beetles. Ancient Egypt held him in veneration and looked upon him as a symbol of immortality. Here he now sits at table, beside his fellow-guests, each of whom is giving the last touches to his ball with the flat of his broad fore-legs or else enriching it with yet one more layer before retiring to enjoy the fruit of his labours in peace. Let us follow the construction of the famous ball in all its phases.</p>
+            <p class="page-footer__text">For his own needs, the Beetle is less fastidious and contents himself with a wholesale selection. The notched shield scoops and digs, eliminates and gathers somewhat at random. The fore-legs play a mighty part in the work. They are flattened, curved into the segment of a circle, supplied with powerful nervures and armed on the outside with five sturdy teeth. If a powerful effort be needed to remove an obstacle or to force a way through the thickest part of the heap, the Dung-beetle makes [6]play with his elbows, that is to say, he flings his toothed legs to right and left and clears a semi-circular space with a vigorous thrust of the rake. Room once made, a different kind of work is found for these same limbs: they collect armfuls of the material raked together by the shield and push it under the insect’s belly, between the four hind-legs. These are shaped for the turner’s trade. The legs, especially the last two, are long and slender, slightly bowed and ending in a very sharp claw. One has but to look at them to recognize a pair of spherical compasses capable of embracing a globular body in their curved branches and improving its form. In fact, their mission is to shape the ball.</p>
+            <p class="page-footer__credits">
+               Made by <a href="https://twitter.com/codrops">@codrops</a>
+            </p>
+         </footer>
+      </main>
+      <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+	  <script src="js/controls-nav-bar.js"></script>
+	  <script src="js/rev.js"></script>
+      <script src="js/responsive-menu.js"></script>
+	  <script>
+		window.onscroll = function(){myFunction()};
+
+		var nav = document.getElementById("header-sticky");
+		var sticky = nav.offsetTop;
+
+		function myFunction() {
+		if (window.pageYOffset >= sticky) {
+			nav.classList.add("sticky")
+		} else {
+			nav.classList.remove("sticky");
+		}
+		}
+	  </script>
+   </body>
+</html>
