@@ -1251,10 +1251,7 @@ a:hover.menu-item {
         justify-content: flex-start;
     }
 
-    .wr-banner {
-        flex: 1 1;
-        padding: 2rem 2rem;
-    }
+   
 
     .wr-1 {
         background-color: #e900ff;
@@ -1273,7 +1270,7 @@ a:hover.menu-item {
         flex-wrap: wrap;
         justify-content: flex-end;
         align-items: flex-start;
-        align-content: flex-end;
+        align-content: center;
         gap: 2rem;
     }
 
@@ -1284,6 +1281,7 @@ a:hover.menu-item {
         flex-wrap: wrap;
         justify-content: flex-start;
         align-items: flex-start;
+        align-content: center;
         gap: 1rem;
         min-height: 300px;
     }
@@ -1299,7 +1297,7 @@ a:hover.menu-item {
     .wr-1-optional h2 {
         font-size: 2rem;
         line-height: 2.5rem;
-        max-width: 100%;
+        max-width: 90%;
         white-space: normal;
         color: #eb5aed;
     }
@@ -1315,7 +1313,7 @@ a:hover.menu-item {
 
     .wr-3 h2 {
         font-size: 3rem;
-        line-height: 2.5rem;
+        line-height: 3rem;
         font-weight: 600;
         max-width: 100%;
         color: aliceblue;
@@ -1433,10 +1431,48 @@ a:hover.menu-item {
         white-space: normal;
         color: #eb5aed;
     }
+
+    .wr-1-optional {
+        background-color: #f6e2fa;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: center;
+        gap: 1rem;
+        min-height: 300px;
+    }
+
 }
 
 /* Teléfonos */
 @media only screen and (max-width: 575px) {
+
+    .wr-1 {
+     
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: center;
+     
+    }
+
+
+    .wr-1-optional {
+        background-color: #f6e2fa;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: center;
+        gap: 1rem;
+        min-height: 300px;
+    }
+
     .title-price {
         display: flex;
         flex-direction: column;
@@ -1506,6 +1542,21 @@ a:hover.menu-item {
         text-align: left;
     }
 
+    .wr-banner {
+        flex: 1 1;
+        padding: 2rem 1rem;
+    }
+
+    .wr-3 {
+        min-height: 350px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: flex-start;
+        align-content: center;
+        gap: 2rem;
+    }
 
    
 }
