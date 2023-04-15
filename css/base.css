@@ -749,8 +749,15 @@ a:hover.menu-item {
 }
 
 .page-footer {
-    padding: 1rem;
+    padding: 2rem 1rem;
 }
+
+.border-line {
+    border-bottom: 1px solid var(--color-row-border);
+}
+
+
+
 
 .page-footer__text {
     width: 100%;
@@ -762,6 +769,10 @@ a:hover.menu-item {
     font-weight: 800;
     padding-top: 5vh;
     text-align: left;
+}
+
+.page-footer__credits{
+    color: #e900ff;
 }
 
 .preview {
@@ -1391,5 +1402,9 @@ a:hover.menu-item {
 
     .slide .info-section-2 .brand > span {
         font-size: 1.5rem;
+    }
+
+    .page-footer {
+        padding: 0rem 1rem;
     }
 }
