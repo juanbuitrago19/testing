@@ -718,7 +718,7 @@ a:hover.menu-item {
 .wr-1 h2 {
     font-size: 5rem;
     line-height: 5rem;
-    max-width: 90%;
+    max-width: 100%;
     white-space: normal;
     color: white;
 }
@@ -1578,8 +1578,8 @@ a:hover.menu-item {
         text-align: center;
         font-family: auger-mono, monospace;
         text-decoration: none;
-        font-size: 0.8rem;
-        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        padding: 1rem;
         border-radius: 100px;
     }
 
@@ -1591,7 +1591,7 @@ a:hover.menu-item {
 
     .wr-banner {
         flex: 1 1;
-        padding: 10rem 2rem;
+        padding: 3rem 2rem;
     }
 
     .wr-banner-2 {
