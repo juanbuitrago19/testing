@@ -633,6 +633,15 @@ a:hover.menu-item {
     padding: 10rem 2rem;
 }
 
+.wr-banner-2 {
+    flex: 1 1;
+    padding: 10rem 1rem;
+}
+
+.wr-banner-3 {
+    padding: 5rem 0rem;
+}
+
 .wr-1 {
     color: #f5f3f4;
     background-color: #e900ff;
@@ -657,6 +666,44 @@ a:hover.menu-item {
     align-items: flex-start;
     gap: 3rem;
 }
+
+.wr-4 {
+
+    background-color: #e900ff;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wr-4 h2 {
+    display: table;
+  white-space: nowrap;
+    font-size: 6rem;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+
+.wr-5 {
+    padding: 1rem;
+    background-color: #000;
+    color: #f5f3f4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.wr-5 > a {
+    color: #f5f3f4;
+    font-size: 1rem;
+}
+
+
+
 
 .wr-1-optional {
     background-color: #f6e2fa;
@@ -801,7 +848,7 @@ a:hover.menu-item {
 
 .page-footer__credits {
     font-weight: 800;
-    padding-top: 5vh;
+    padding-top: 1vh;
     text-align: left;
 }
 
@@ -1544,7 +1591,12 @@ a:hover.menu-item {
 
     .wr-banner {
         flex: 1 1;
-        padding: 2rem 1rem;
+        padding: 10rem 2rem;
+    }
+
+    .wr-banner-2 {
+        flex: 1 1;
+        padding: 5rem 1rem;
     }
 
     .wr-3 {
@@ -1556,6 +1608,31 @@ a:hover.menu-item {
         align-items: flex-start;
         align-content: center;
         gap: 2rem;
+    }
+
+    .wr-5 {
+        padding: 1rem;
+        background-color: #000;
+        color: #f5f3f4;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .wr-5 > a {
+        color: #f5f3f4;
+        font-size: 0.8rem;
+    }
+
+    .wr-4 > h2 {
+        font-size: 2rem;
+    }
+
+    .wr-banner-3 {
+        padding: 2rem 0rem;
     }
 
    

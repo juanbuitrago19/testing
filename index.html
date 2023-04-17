@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://use.typekit.net/gdf6msi.css" />
         <link rel="stylesheet" type="text/css" href="css/base.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
     </head>
     <body>
         <main>
@@ -356,8 +357,7 @@
                         <h2 class="cell__title oh"><span class="oh__inner">Mas vendidos</span></h2>
                     </div>
 
-                    <button class="ship-btn cell--images">Ver mas  <span class="material-symbols-outlined">arrow_circle_right</span></button>
-
+                    <button class="ship-btn cell--images">Ver mas</button>
                 </div>
 
                 <section class="products__wrapper">
@@ -578,16 +578,15 @@
                     <p class="page-footer__credits">HECHO CON ♥ EN COLOMBIA.</p>
 
                     <p class="page-footer__text">
-                        Shinee es un espacio digital multimarca donde podrás encontrar productos cosméticos y de skincare enfocados en marcas colombianas.</p>
-                    <p class="page-footer__text">
-                        Queríamos crear una marca con una vibración única, donde las personas puedan redescubrir el significado de la belleza y el cuidado personal,
-                        más allá de comercializar productos, queremos ser una opción diferente en el mercado. Buscamos las mejores marcas desarrolladas en Colombia y
-                        hacemos lo posible por tener un set de productos de muy alta calidad y asequible para todos.
+                        Shinee es un espacio digital multimarca donde podrás encontrar productos cosméticos y de skincare enfocados en marcas colombianas.
                     </p>
                     <p class="page-footer__text">
-                        Por el momento, Shinee es una marca 100% virtual, por lo que no contamos con un espacio físico donde puedas ver nuestros productos.
-                        Aún así, podrás ver todos nuestros productos y marcas con las que trabajamos aquí mismo en la página web, en nuestra cuenta de WhatsApp
-                        y redes sociales. Allí mismo tendrás información sobre stock, ofertas y descuentos, tiempos de envío, compras y devoluciones.
+                        Queríamos crear una marca con una vibración única, donde las personas puedan redescubrir el significado de la belleza y el cuidado personal, más allá de comercializar productos, queremos ser una opción diferente en
+                        el mercado. Buscamos las mejores marcas desarrolladas en Colombia y hacemos lo posible por tener un set de productos de muy alta calidad y asequible para todos.
+                    </p>
+                    <p class="page-footer__text">
+                        Por el momento, Shinee es una marca 100% virtual, por lo que no contamos con un espacio físico donde puedas ver nuestros productos. Aún así, podrás ver todos nuestros productos y marcas con las que trabajamos aquí
+                        mismo en la página web, en nuestra cuenta de WhatsApp y redes sociales. Allí mismo tendrás información sobre stock, ofertas y descuentos, tiempos de envío, compras y devoluciones.
                     </p>
                     <p class="page-footer__text">
                         Tenemos diferentes canales de comunicación para que puedas realizar tu compra o nos preguntes lo que querías.
@@ -601,23 +600,38 @@
                 </div>
 
                 <footer class="page-footer">
-                    <p class="page-footer__text">Nuestros usuarios y su salud son nuestra mayor prioridad, es por esto que te pedimos leer nuestro disclaimer
-                    antes de adquirir alguno de nuestros productos, si tienes dudas al respecto contactanos de inmediato.<a href="" class="hover-line">Leer mas aqui</a></p>
+                    <p class="page-footer__text">
+                        Nuestros usuarios y su salud son nuestra mayor prioridad, es por esto que te pedimos leer nuestro disclaimer antes de adquirir alguno de nuestros productos, si tienes dudas al respecto contactanos de inmediato.
+                        <a href="" class="hover-line">Leer mas aqui</a>
+                    </p>
                 </footer>
 
-
                 <div>
-                    <div class="wr-banner wr-3">
+                    <div class="wr-banner-2 wr-3 border-line">
                         <h2 class="cell__title oh"><span class="oh__inner">Compra ahora por whatsapp, facil y seguro!</span></h2>
                         <button class="clean-btn">Comprar ahora</button>
                     </div>
-                 
                 </div>
-                    
 
+                <div>
+                    <div class="wr-banner-3 wr-4 border-line">
+                        <h2 class="cell__title oh text-ticker-info"><span class="oh__inner"> Puedes pagar tu compra con transferencia bancaria, mercado pago, nequi, daviplata, movii y pago contra entrega (Solo en Bogota). </span></h2>
+            
+                    </div>
                 </div>
+
+                
+
+                <div class="wr-5">
+                    <a class="frame__prevdemo" href="">© SHINEE BEAUTY & COSMETICS CO. 2023</a>
+                </div>
+
+        
+                
+
+
+
             </section>
-         
         </main>
         <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
         <script src="js/controls-nav-bar.js"></script>
@@ -658,6 +672,31 @@
                     buttonSection.style.visibility = "hidden";
                 });
             });
+        </script>
+        <script>
+            const textTicker = $(".wr-4");
+const textTickerInfo = $(textTicker).find(".text-ticker-info");
+const textTickerContent = $(textTickerInfo).html();
+const textTickerWidth = textTickerInfo.width();
+
+function initTextTicker() {
+  const textTickerSpeed = textTickerWidth / $(textTicker).width() * 5;
+
+  $(textTickerInfo).html(textTickerContent + textTickerContent);
+
+  gsap.to(textTickerInfo, {
+    duration: textTickerSpeed,
+    x: "-" + textTickerWidth + "px",
+    repeat: -1,
+    ease: Linear.easeNone,
+    startAt: {x: 100}
+  });
+}
+
+$(window).on("load resize", function() {
+  initTextTicker();
+});
+
         </script>
     </body>
 </html>
