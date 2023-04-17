@@ -945,9 +945,9 @@ a:hover.menu-item {
     background-color: white;
     height: 100vh;
     position: fixed;
-    left: -20rem;
-    width: 20rem;
-    max-width: 20rem;
+    left: -21rem;
+    width: 21rem;
+    max-width: 21rem;
     top: 0;
     z-index: 9999999999;
     transition: all 0.4s;
@@ -1029,10 +1029,15 @@ a:hover.menu-item {
     padding: 18px 18px;
 }
 
+.menu_container .section-4 {
+    padding: 18px 18px;
+    border-top: 1px solid var(--color-row-border);
+}
+
 .menu_container .section-3 {
     padding: 18px 18px;
     overflow-y: scroll;
-    min-height: 70vh;
+    min-height: 50vh;
     height: 100vh;
     border-top: 1px solid var(--color-row-border);
 }
@@ -1649,3 +1654,7 @@ a:hover.menu-item {
 
    
 }
+
+
+
+
