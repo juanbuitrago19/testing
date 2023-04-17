@@ -106,6 +106,10 @@ body {
     display: none;
 }
 
+.stop-scroll {
+    overflow-y: hidden;
+}
+
 a {
     text-decoration: none;
     color: var(--color-link);
@@ -945,7 +949,7 @@ a:hover.menu-item {
     width: 20rem;
     max-width: 20rem;
     top: 0;
-    z-index: 102;
+    z-index: 9999999999;
     transition: all 0.4s;
 }
 
@@ -966,7 +970,7 @@ a:hover.menu-item {
     line-height: 2.5rem;
     font-size: 2rem;
     padding: 18px 18px;
-    background-image: linear-gradient(to bottom right, #d903a0, black);
+    background-color: #e900ff;
     text-transform: none;
     display: flex;
     flex-direction: column;
@@ -1018,12 +1022,20 @@ a:hover.menu-item {
 
 .menu .section-2 {
     padding: 18px 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.menu .section-2 li a{
+    padding: 18px 18px;
 }
 
 .menu .section-3 {
     padding: 18px 18px;
-    overflow-y: auto;
-    max-height: 450px; /* Set height to desired value */
+    overflow-y: scroll;
+    min-height: 100vh;
+    height: 100vh;
     border-top: 1px solid var(--color-row-border);
 }
 
@@ -1496,6 +1508,7 @@ a:hover.menu-item {
 /* Teléfonos */
 @media only screen and (max-width: 575px) {
 
+
     .wr-1 {
      
         display: flex;
@@ -1596,7 +1609,7 @@ a:hover.menu-item {
 
     .wr-banner-2 {
         flex: 1 1;
-        padding: 5rem 1rem;
+        padding: 3rem 1rem;
     }
 
     .wr-3 {
@@ -1634,6 +1647,7 @@ a:hover.menu-item {
     .wr-banner-3 {
         padding: 2rem 0rem;
     }
+
 
    
 }

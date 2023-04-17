@@ -28,17 +28,17 @@
                         </div>
                         <div class="fade"></div>
                         <div class="menu-responsive show-menu"><span class="material-symbols-outlined">menu</span></div>
-                        <nav class="menu_container">
+                        <nav class="menu_container menu-visible">
                             <ul class="menu">
                                 <div class="section-1">
-                                    <a>Compra ahora por Whatsapp</a>
+                                    <a>🎁 Compra ahora por Whatsapp</a>
                                     <button class="clean-btn">Comprar ahora</button>
                                 </div>
 
                                 <div class="section-2">
-                                    <li><a class="frame__prevdemo" href="#">Instagram</a></li>
-                                    <li><a class="frame__prevdemo" href="#">Facebook</a></li>
-                                    <li><a class="frame__prevdemo" href="#">Pinterest</a></li>
+                                    <a class="frame__prevdemo" href="#">Instagram</a>
+                                    <a class="frame__prevdemo" href="#">Facebook</a>
+                                    <a class="frame__prevdemo" href="#">Pinterest</a>
                                 </div>
 
                                 <div class="section-3">
@@ -616,21 +616,12 @@
                 <div>
                     <div class="wr-banner-3 wr-4 border-line">
                         <h2 class="cell__title oh text-ticker-info"><span class="oh__inner"> Puedes pagar tu compra con transferencia bancaria, mercado pago, nequi, daviplata, movii y pago contra entrega (Solo en Bogota). </span></h2>
-            
                     </div>
                 </div>
-
-                
 
                 <div class="wr-5">
                     <a class="frame__prevdemo" href="">© SHINEE BEAUTY & COSMETICS CO. 2023</a>
                 </div>
-
-        
-                
-
-
-
             </section>
         </main>
         <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
@@ -675,28 +666,27 @@
         </script>
         <script>
             const textTicker = $(".wr-4");
-const textTickerInfo = $(textTicker).find(".text-ticker-info");
-const textTickerContent = $(textTickerInfo).html();
-const textTickerWidth = textTickerInfo.width();
+            const textTickerInfo = $(textTicker).find(".text-ticker-info");
+            const textTickerContent = $(textTickerInfo).html();
+            const textTickerWidth = textTickerInfo.width();
 
-function initTextTicker() {
-  const textTickerSpeed = textTickerWidth / $(textTicker).width() * 5;
+            function initTextTicker() {
+                const textTickerSpeed = (textTickerWidth / $(textTicker).width()) * 5;
 
-  $(textTickerInfo).html(textTickerContent + textTickerContent);
+                $(textTickerInfo).html(textTickerContent + textTickerContent);
 
-  gsap.to(textTickerInfo, {
-    duration: textTickerSpeed,
-    x: "-" + textTickerWidth + "px",
-    repeat: -1,
-    ease: Linear.easeNone,
-    startAt: {x: 100}
-  });
-}
+                gsap.to(textTickerInfo, {
+                    duration: textTickerSpeed,
+                    x: "-" + textTickerWidth + "px",
+                    repeat: -1,
+                    ease: Linear.easeNone,
+                    startAt: { x: 100 },
+                });
+            }
 
-$(window).on("load resize", function() {
-  initTextTicker();
-});
-
+            $(window).on("load resize", function () {
+                initTextTicker();
+            });
         </script>
     </body>
 </html>
