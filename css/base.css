@@ -964,16 +964,21 @@ a:hover.menu-item {
 
 .menu_container .section-1 {
     height: auto;
-    font-family: neue-haas-grotesk-display, sans-serif;
-    line-height: 2.5rem;
-    font-size: 2rem;
-    padding: 18px 18px;
-    background-color: #e900ff;
-    text-transform: none;
+    padding: 24px 16px;
+    background-image: linear-gradient(180deg, rgba(233, 0, 255, 1) 10%, rgb(255, 255, 255));
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     gap: 16px;
+}
+
+.menu_container .section-1 > a {
+    text-transform: none;
+    font-weight: 600;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: #f5f3f4;
 }
 
 .clean-btn {
@@ -1014,16 +1019,19 @@ a:hover.menu-item {
     cursor: pointer;
 }
 
-.menu_container .section-1 > a {
-    color: #fbebe9;
-}
+
 
 .menu_container .section-2 {
     padding: 18px;
-    
+    background-color: #000;
+    color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: space-between
+}
+
+.menu_container .section-2 > a {
+    color: #fbebe9;
 }
 
 .menu_container .section-5 {
