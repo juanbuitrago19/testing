@@ -9,6 +9,7 @@
 *::after,
 *::before {
     box-sizing: border-box;
+    touch-action: manipulation;
 }
 
 :root {
