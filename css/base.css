@@ -1576,6 +1576,7 @@ a:hover.menu-item {
 
     .slide .info-section .title-price > span {
         font-size: 1rem;
+        white-space: pre-line;
     }
 
     .slide .info-section .brand > span {
