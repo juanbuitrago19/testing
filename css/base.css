@@ -593,6 +593,7 @@ a:hover.menu-item {
 }
 
 .row {
+    
     color: var(--color-text);
     display: flex;
     flex-direction: row;
@@ -602,6 +603,20 @@ a:hover.menu-item {
     grid-template-columns: auto 1fr;
     padding: 1rem;
     transition: background-color 0.3s ease-out, border-color 0.3s ease-out;
+}
+
+.row-2 {
+    background-color: #f0f0f0;
+    color: #131313;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    grid-template-columns: auto 1fr;
+    padding: 2rem 1rem;
+    transition: background-color 0.3s ease-out, border-color 0.3s ease-out;
+
 }
 
 .row--current {
@@ -1277,6 +1292,10 @@ a:hover.menu-item {
         padding: 2rem 1rem;
     }
 
+    .row-2 {
+        padding: 1rem 1rem;
+    }
+
     .slider-menu-wrapper {
         display: none;
     }
@@ -1284,7 +1303,7 @@ a:hover.menu-item {
     .cell__title,
     .preview__item-title {
         margin: 0;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         position: relative;
         font-weight: 400;
         line-height: 1;
@@ -1659,7 +1678,7 @@ a:hover.menu-item {
     }
 
     .intro-2 {
-        padding: 1rem;
+        padding: 2rem 1rem;
         background-color: black;
     }
 
@@ -1671,7 +1690,13 @@ a:hover.menu-item {
     .frame__title-main-3 {
         font-size: 2rem;
         color: #ffffff;
-    }
+        white-space:normal;
+        }
+
+        .clean-btn {
+            font-size: 1rem;
+            padding: 1rem 1rem;
+        }
 
    
 }
