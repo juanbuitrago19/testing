@@ -5,11 +5,19 @@
     src: url("../fonts/MadeBonVoyage.otf") format("truetype");
 }
 
+@font-face {
+    font-family: "Neue Montreal";
+    src: url("../fonts/Neue-montreal/PPNeueMontreal-Bold.otf") format("truetype");
+    font-weight: 1 999;
+    font-display: swap; }
+
 *,
 *::after,
 *::before {
     box-sizing: border-box;
     touch-action: manipulation;
+    overscroll-behavior: none;
+    
 }
 
 :root {
@@ -56,33 +64,7 @@ body {
     display: inline-block;
 }
 
-/* Page Loader */
-.js .loading::before,
-.js .loading::after {
-    content: "";
-    position: fixed;
-    z-index: 1000;
-}
 
-.js .loading::before {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: var(--color-bg);
-}
-
-.js .loading::after {
-    top: 50%;
-    left: 50%;
-    width: 60px;
-    height: 60px;
-    margin: -30px 0 0 -30px;
-    border-radius: 50%;
-    opacity: 0.4;
-    background: var(--color-link);
-    animation: loaderAnim 0.7s linear infinite alternate forwards;
-}
 
 .show-menu span {
     font-size: 3rem;
@@ -195,7 +177,7 @@ a:focus-visible {
 .frame {
     width: 100%;
     background-color: #ffffff;
-    padding: 3rem 1rem;
+    padding: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -274,14 +256,22 @@ a:focus-visible {
 }
 
 .intro-2 {
-    padding: 1rem 1rem;
-    background-color: #e900ff;
-    background-repeat: no-repeat, no-repeat;
+    padding: 2rem 1rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .frame__title-main-2 {
-    font-size: 5rem;
-    color: #f0f0f0;
+  
+    font-size: 3.5rem;
+    font-weight: 600;
+    max-width: 100%;
+   
+    
+    
 }
 
 .breadcrumb-wr {
@@ -295,6 +285,7 @@ a:focus-visible {
 }
 
 .breadcrumb-wr > a {
+    color: white;
     font-weight: 400;
 }
 
@@ -336,8 +327,9 @@ a:focus-visible {
     overflow-y: hidden;
 }
 .slider-menu a {
-    font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 600;
+    font-family: Neue Montreal;
+    text-transform: none;
+   
 }
 .slider-menu-no-transition {
     transition: none;
@@ -345,13 +337,14 @@ a:focus-visible {
 .menu-item {
     text-decoration: none;
     color: #000;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    font-weight: 100;
     display: inline-block;
     text-align: center;
     align-items: center;
-    padding: 20px 20px;
-    min-width: 100px;
-    border: 1px solid transparent;
+    padding: 24px 10px;
+    min-width: 80px;
+   
 }
 .menu-item:hover {
     cursor: pointer;
@@ -359,11 +352,12 @@ a:focus-visible {
 a:hover.menu-item {
     color: #ccc;
 }
+
 .menu-item + .menu-item {
     border-left-color: #fff;
 }
 .menu-item[aria-selected="true"] {
-    color: #000;
+    color: #e900ff;
 }
 .pn-Advancer {
     display: none;
@@ -419,7 +413,7 @@ a:hover.menu-item {
     left: 0;
     height: 2px;
     width: 100px;
-    background-color: transparent;
+    background-color: #e900ff;
     transform-origin: 0 0;
     transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
@@ -1413,13 +1407,12 @@ a:hover.menu-item {
     }
 
     .intro-2 {
-        padding: 1rem 1rem;
-        background-color: #e900ff;
-        background-repeat: no-repeat, no-repeat;
+        padding: 1rem;
+        background-color: black;
     }
 
     .frame__title-main-2 {
-        font-size: 2rem;
+        font-size: 1rem;
         color: #f0f0f0;
     }
 
@@ -1467,6 +1460,8 @@ a:hover.menu-item {
     .cards {
         grid-template-columns: repeat(4, 1fr);
     }
+
+    
 }
 /* Escritorio grande */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

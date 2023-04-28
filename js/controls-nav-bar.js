@@ -5,7 +5,7 @@ var SETTINGS = {
 }
 
 var colours = {
-  0: "#000000",
+  0: "#e900ff",
 }
 
 document.documentElement.classList.remove("no-js");
