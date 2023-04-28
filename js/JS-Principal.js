@@ -9,7 +9,7 @@ let products = {
         discount: true,
         newProduct: true,
         image: "product-0000001.jpg",
-        url: "title-product-1.html"
+        url: "product-1.html"
       },
       {
         productName: "Paleta color studio ",
@@ -20,7 +20,7 @@ let products = {
         discount: true,
         newProduct: true,
         image: "product-0000002.jpg",
-        url: "title-product-2.html"
+        url: "product-1.html"
       },
       {
         productName: "Paleta sombras hawaii",
@@ -31,7 +31,7 @@ let products = {
         discount: true,
         newProduct: true,
         image: "product-0000003.jpg",
-        url: "title-product-1.html"
+        url: "product-1.html"
       },
       {
         productName: "Paleta majestic",
@@ -42,7 +42,7 @@ let products = {
         discount: true,
         newProduct: true,
         image: "product-0000004.jpg",
-        url: "title-product-2.html"
+        url: "product-1.html"
       },
       {
         productName: "Paleta sombras birds",
@@ -53,7 +53,7 @@ let products = {
         discount: true,
         newProduct: true,
         image: "product-0000143.jpg",
-        url: "title-product-2.html"
+        url: "product-1.html"
       },
       {
         productName: "Paleta sombras marvelous",
@@ -64,7 +64,7 @@ let products = {
         discount: false,
         newProduct: false,
         image: "product-0000144.jpg",
-        url: "title-product-2.html"
+        url: "product-1.html"
       },
       {
         productName: "Paleta art deco",
@@ -75,7 +75,7 @@ let products = {
         discount: true,
         newProduct: true,
         image: "product-0000005.jpg",
-        url: "title-product-2.html"
+        url: "product-1.html"
       },
       {
         productName: "Paleta perfect mix",
@@ -86,7 +86,7 @@ let products = {
         discount: true,
         newProduct: true,
         image: "product-0000006.jpg",
-        url: "title-product-2.html"
+        url: "product-1.html"
       },
       {
         productName: "paleta hono lulu",
@@ -97,7 +97,7 @@ let products = {
         discount: true,
         newProduct: true,
         image: "product-0000007.jpg",
-        url: "title-product-2.html"
+        url: "product-1.html"
       },
       {
         productName: "paleta Perfect Neutral",
@@ -412,7 +412,7 @@ let products = {
 
         let cardProduct = document.createElement("div");
         cardProduct.classList.add("slide", "card-product");
-        cardProduct.setAttribute("onclick", `window.location.href='products/${product.url}';`);
+        cardProduct.setAttribute("onclick", `window.location.href='${product.url}';`);
 
         let imageSection = document.createElement("div");
         imageSection.classList.add("image-section");
