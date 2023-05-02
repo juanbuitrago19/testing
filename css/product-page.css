@@ -14,7 +14,7 @@
 
 .wrapper-product {
     width: 100%;
-    height: 70vh;
+    height: 60vh;
 }
 
 .info-product {
@@ -34,7 +34,7 @@
 
 .slider {
     position: relative;
-    width: 3000px;
+    width: 2500px;
     height: 100%;
 }
 
@@ -47,7 +47,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 5px;
+    gap: 6px;
 }
 
 .item {
@@ -74,7 +74,7 @@
 
     .wrapper-product {
         width: 100%;
-        height: 55vh;
+        height: 50vh;
     
     }
 
@@ -92,7 +92,7 @@
     
     .slider {
         position: relative;
-        width: 2300px;
+        width: 2200px;
         height: 100%;
     }
     
