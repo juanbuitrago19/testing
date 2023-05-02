@@ -248,7 +248,7 @@ a:focus-visible {
 
 .header-sticky {
     position: sticky;
-    z-index: 9999;
+    z-index: 9999999;
     top: 0;
     width: 100%;
     display: block;
@@ -356,6 +356,9 @@ a:focus-visible {
     flex-direction: row;
     align-items: center;
     align-content: center;
+    position: sticky;
+    z-index: 999;
+    top: 0;
 }
 
 .frame__title-main-2 {
@@ -856,6 +859,20 @@ a:hover.menu-item {
 .cell {
     position: relative;
     height: auto;
+}
+
+.space--elements {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    align-content: center;
+}
+
+.cell span {
+    font-size: 2.5rem;
+    color: #000;
+    font-weight: 600;
 }
 
 .cell__title,
@@ -1738,6 +1755,14 @@ a:hover.menu-item {
         color: #ffffff;
     }
 
+    .frame__title-main-4 {
+        font-family: neue-haas-grotesk-display, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        max-width: 50%;
+        color: black;
+    }
+
     .frame__title-main-3 {
         font-size: 2rem;
         color: #ffffff;
@@ -1759,21 +1784,26 @@ a:hover.menu-item {
         margin-bottom: 3rem;
     }
 
-    .cell__title,
-    .preview__item-title {
+    .cell__title {
         margin: 0;
-        font-size: 1.5rem;
-        position: relative;
-        font-weight: 600;
-        line-height: 1;
+        white-space: normal;
         font-family: neue-haas-grotesk-display, sans-serif;
-        white-space: nowrap;
+        font-size: 1rem;
+        font-weight: 600;
+      
     }
+
+    .cell span {
+        font-size: 2rem;
+        color: #000;
+        font-weight: 600;
+    }
+
 
     .intro-3 {
         padding: 1rem;
         position: sticky;
-    z-index: 9999999;
+    z-index: 999;
     top: 0;
     }
 }

@@ -358,26 +358,22 @@
         </script>
 
         <script>
-                // Obtiene el elemento con la clase intro-2
-    var intro2 = document.querySelector('.header-sticky');
-    // Obtiene el elemento con la clase intro-3
-    var intro3 = document.querySelector('.intro-3');
-    // Agrega el evento scroll al window
-    window.addEventListener('scroll', function() {
-        // Obtiene la posición de intro-2
-        var intro2Pos = intro2.getBoundingClientRect();
-        // Si la posicion de intro-2 es menor a 0
-        if (intro2Pos.top < 0) {
-            // Agrega la clase sticky al elemento intro-3
-            intro3.classList.add('sticky');
-        } else {
-            // Remueve la clase sticky al elemento intro-3
-            intro3.classList.remove('sticky');
-        }
-    });
+
+            let headerSticky = document.querySelector('.header-sticky');
 
 
+            let intro3 = document.querySelector('.intro-3');
 
+      
+            window.addEventListener('scroll', function(){
+
+            if (window.scrollY > 0){
+    
+                headerSticky.style.position = 'static';
+           
+                intro3.style.position = 'sticky';
+            }
+            });
     
         </script>
     </body>
