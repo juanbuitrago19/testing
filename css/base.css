@@ -1772,5 +1772,8 @@ a:hover.menu-item {
 
     .intro-3 {
         padding: 1rem;
+        position: sticky;
+    z-index: 9999999;
+    top: 0;
     }
 }
