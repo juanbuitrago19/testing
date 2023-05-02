@@ -869,7 +869,8 @@ a:hover.menu-item {
     align-content: center;
 }
 
-.space--elements > span,h1:hover {
+.space--elements > span,
+h1:hover {
     color: #ccc;
 }
 
@@ -1798,7 +1799,6 @@ a:hover.menu-item {
         padding: 1rem 1rem;
     }
 
-
     .clean-btn-2 {
         font-size: 1rem;
         padding: 1rem 1rem;
@@ -1809,15 +1809,16 @@ a:hover.menu-item {
         margin-bottom: 3rem;
     }
 
-  
+    .oh {
+        max-width: 150px;
+        white-space: normal;
+    }
 
     .cell__title {
-        
         font-family: neue-haas-grotesk-display, sans-serif;
         font-size: 1.5rem;
         font-weight: 600;
         color: #000;
-      
     }
 
     .space--elements {
@@ -1827,21 +1828,16 @@ a:hover.menu-item {
         gap: 0;
         align-items: center;
         align-content: center;
-
-        
     }
 
     .space--elements h1 {
-        white-space:nowrap;
+        white-space: nowrap;
     }
 
-  
-
-
     .intro-3 {
-    padding: 1rem;
-    position: sticky;
-    z-index: 999;
-    top: 0;
+        padding: 1rem;
+        position: sticky;
+        z-index: 999;
+        top: 0;
     }
 }
