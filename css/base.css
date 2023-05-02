@@ -1,104 +1,100 @@
 @font-face {
-    font-family: 'MadeBonVoyage';
-    src: url('../fonts/MadeBonVoyage.otf') format("OpenType");
+    font-family: "MadeBonVoyage";
+    src: url("../fonts/MadeBonVoyage.otf") format("OpenType");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'neue-haas-grotesk-display';
-    src: url('../fonts/neue-haas-grotesk-display/NeueHaasDisplayXThin.ttf') format('TrueType');
+    font-family: "neue-haas-grotesk-display";
+    src: url("../fonts/neue-haas-grotesk-display/NeueHaasDisplayXThin.ttf") format("TrueType");
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'neue-haas-grotesk-display';
-    src: url('../fonts/neue-haas-grotesk-display/NeueHaasDisplayThin.ttf') format('TrueType');
+    font-family: "neue-haas-grotesk-display";
+    src: url("../fonts/neue-haas-grotesk-display/NeueHaasDisplayThin.ttf") format("TrueType");
     font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'neue-haas-grotesk-display';
-    src: url('../fonts/neue-haas-grotesk-display/NeueHaasDisplayLight.ttf') format('TrueType');
+    font-family: "neue-haas-grotesk-display";
+    src: url("../fonts/neue-haas-grotesk-display/NeueHaasDisplayLight.ttf") format("TrueType");
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'neue-haas-grotesk-display';
-    src: url('../fonts/neue-haas-grotesk-display/NeueHaasDisplayRoman.ttf') format('TrueType');
+    font-family: "neue-haas-grotesk-display";
+    src: url("../fonts/neue-haas-grotesk-display/NeueHaasDisplayRoman.ttf") format("TrueType");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'neue-haas-grotesk-display';
-    src: url('../fonts/neue-haas-grotesk-display/NeueHaasDisplayMediu.ttf') format('TrueType');
+    font-family: "neue-haas-grotesk-display";
+    src: url("../fonts/neue-haas-grotesk-display/NeueHaasDisplayMediu.ttf") format("TrueType");
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'neue-haas-grotesk-display';
-    src: url('../fonts/neue-haas-grotesk-display/NeueHaasDisplayBold.ttf') format('TrueType');
+    font-family: "neue-haas-grotesk-display";
+    src: url("../fonts/neue-haas-grotesk-display/NeueHaasDisplayBold.ttf") format("TrueType");
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'neue-haas-grotesk-display';
-    src: url('../fonts/neue-haas-grotesk-display/NeueHaasDisplayBlack.ttf') format('TrueType');
+    font-family: "neue-haas-grotesk-display";
+    src: url("../fonts/neue-haas-grotesk-display/NeueHaasDisplayBlack.ttf") format("TrueType");
     font-weight: 700;
     font-style: normal;
 }
 
-
 @font-face {
-    font-family: 'auger-mono';
-    src: url('../fonts/auger-mono/AugerMono-XLight.otf') format('OpenType');
+    font-family: "auger-mono";
+    src: url("../fonts/auger-mono/AugerMono-XLight.otf") format("OpenType");
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'auger-mono';
-    src: url('../fonts/auger-mono/AugerMono-Light.otf') format('OpenType');
+    font-family: "auger-mono";
+    src: url("../fonts/auger-mono/AugerMono-Light.otf") format("OpenType");
     font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'auger-mono';
-    src: url('../fonts/auger-mono/AugerMono-Regular.otf') format('OpenType');
+    font-family: "auger-mono";
+    src: url("../fonts/auger-mono/AugerMono-Regular.otf") format("OpenType");
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'auger-mono';
-    src: url('../fonts/auger-mono/AugerMono-Medium.otf') format('OpenType');
+    font-family: "auger-mono";
+    src: url("../fonts/auger-mono/AugerMono-Medium.otf") format("OpenType");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'auger-mono';
-    src: url('../fonts/auger-mono/AugerMono-Bold.otf') format('OpenType');
+    font-family: "auger-mono";
+    src: url("../fonts/auger-mono/AugerMono-Bold.otf") format("OpenType");
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'auger-mono';
-    src: url('../fonts/auger-mono/AugerMono-Black.otf') format('OpenType');
+    font-family: "auger-mono";
+    src: url("../fonts/auger-mono/AugerMono-Black.otf") format("OpenType");
     font-weight: 600;
     font-style: normal;
 }
-
-
-
 
 *,
 *::after,
@@ -106,8 +102,6 @@
     box-sizing: border-box;
     touch-action: manipulation;
     overscroll-behavior: none;
-    
-    
 }
 
 :root {
@@ -147,16 +141,12 @@ body {
 .oh {
     position: relative;
     overflow: hidden;
-    
 }
 
 .oh__inner {
     will-change: transform;
     display: inline-block;
 }
-
-
-
 
 .show-menu span {
     font-size: 3rem;
@@ -438,7 +428,6 @@ a:focus-visible {
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 700;
     text-transform: none;
-   
 }
 .slider-menu-no-transition {
     transition: none;
@@ -453,7 +442,6 @@ a:focus-visible {
     align-items: center;
     padding: 24px 10px;
     min-width: 80px;
-   
 }
 .menu-item:hover {
     cursor: pointer;
@@ -699,7 +687,6 @@ a:hover.menu-item {
 }
 
 .row {
-    
     color: var(--color-text);
     display: flex;
     flex-direction: row;
@@ -722,7 +709,6 @@ a:hover.menu-item {
     grid-template-columns: auto 1fr;
     padding: 2rem 1rem;
     transition: background-color 0.3s ease-out, border-color 0.3s ease-out;
-
 }
 
 .row--current {
@@ -788,7 +774,6 @@ a:hover.menu-item {
 }
 
 .wr-4 {
-
     background-color: #e900ff;
     width: 100%;
     overflow: hidden;
@@ -796,14 +781,11 @@ a:hover.menu-item {
 
 .wr-4 h2 {
     display: table;
-  white-space: nowrap;
+    white-space: nowrap;
     font-size: 6rem;
     font-weight: 600;
     color: white;
 }
-
-
-
 
 .wr-5 {
     padding: 1rem;
@@ -821,9 +803,6 @@ a:hover.menu-item {
     color: #f5f3f4;
     font-size: 1rem;
 }
-
-
-
 
 .wr-1-optional {
     background-color: #f6e2fa;
@@ -874,10 +853,6 @@ a:hover.menu-item {
     background-size: cover;
 }
 
-
-
-
-
 .cell {
     position: relative;
     height: auto;
@@ -891,10 +866,7 @@ a:hover.menu-item {
     font-weight: 700;
     line-height: 1.5;
     font-family: neue-haas-grotesk-display, sans-serif;
-
 }
-
-
 
 .cell__title {
     display: grid;
@@ -950,15 +922,12 @@ a:hover.menu-item {
     border-top: 1px solid var(--color-row-border);
 }
 
-
-
-
 .page-footer__text {
     width: 100%;
     line-height: 1.5;
 }
 
-.page-footer__text > a{
+.page-footer__text > a {
     font-weight: 600;
 }
 
@@ -968,7 +937,7 @@ a:hover.menu-item {
     text-align: left;
 }
 
-.page-footer__credits{
+.page-footer__credits {
     color: #e900ff;
 }
 
@@ -1073,7 +1042,6 @@ a:hover.menu-item {
     justify-content: flex-start;
 }
 
-
 .menu_container .section-1 {
     height: auto;
     padding: 24px 16px;
@@ -1117,7 +1085,6 @@ a:hover.menu-item {
     padding: 1.5rem 3rem;
 }
 
-
 .ship-btn {
     max-width: 155px;
     background-color: black;
@@ -1138,13 +1105,10 @@ a:hover.menu-item {
     background-color: #1f1f1f;
 }
 
-
 .clean-btn:hover {
     background-color: #1f1f1f;
     cursor: pointer;
 }
-
-
 
 .menu_container .section-2 {
     padding: 18px;
@@ -1152,7 +1116,7 @@ a:hover.menu-item {
     color: #ffffff;
     display: flex;
     flex-direction: row;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .menu_container .section-2 > a {
@@ -1163,7 +1127,6 @@ a:hover.menu-item {
     padding: 16px;
     border-bottom: 1px solid var(--color-row-border);
 }
-
 
 .menu_container .section-4 {
     padding: 16px;
@@ -1197,10 +1160,6 @@ a:hover.menu-item {
 }
 
 /* End section styles */
-
-
-
-
 
 /* reel new products styles */
 
@@ -1415,8 +1374,6 @@ a:hover.menu-item {
         display: none;
     }
 
-
-
     .cell__img {
         display: flex;
         flex-direction: row;
@@ -1437,8 +1394,6 @@ a:hover.menu-item {
         justify-content: flex-start;
     }
 
- 
-
     .bandera-2 {
         margin: 1rem;
         background-color: #f6e2fa;
@@ -1446,8 +1401,6 @@ a:hover.menu-item {
         flex-direction: column;
         justify-content: flex-start;
     }
-
-   
 
     .wr-1 {
         background-color: #e900ff;
@@ -1506,7 +1459,6 @@ a:hover.menu-item {
         min-height: 300px;
     }
 
-
     .wr-3 h2 {
         font-size: 3rem;
         line-height: 3rem;
@@ -1530,8 +1482,6 @@ a:hover.menu-item {
         padding: 3rem 1rem 3rem;
         min-height: 300px;
     }
-
-
 
     .intro h1 {
         color: #ffffff;
@@ -1577,8 +1527,6 @@ a:hover.menu-item {
     .cards {
         grid-template-columns: repeat(4, 1fr);
     }
-
-    
 }
 /* Escritorio grande */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1632,28 +1580,22 @@ a:hover.menu-item {
         gap: 1rem;
         min-height: 300px;
     }
-
 }
 
 /* Teléfonos */
 @media only screen and (max-width: 575px) {
-
     body {
         overflow-x: hidden;
     }
 
-
     .wr-1 {
-     
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
         align-items: flex-start;
         align-content: center;
-     
     }
-
 
     .wr-1-optional {
         background-color: #f6e2fa;
@@ -1769,7 +1711,7 @@ a:hover.menu-item {
         align-items: center;
         gap: 1rem;
     }
-    
+
     .wr-5 > a {
         color: #f5f3f4;
         font-size: 0.8rem;
@@ -1799,42 +1741,36 @@ a:hover.menu-item {
     .frame__title-main-3 {
         font-size: 2rem;
         color: #ffffff;
-        white-space:normal;
-        }
+        white-space: normal;
+    }
 
-        .clean-btn {
-            font-size: 1rem;
-            padding: 1rem 1rem;
-        }
+    .clean-btn {
+        font-size: 1rem;
+        padding: 1rem 1rem;
+    }
 
-        .clean-btn-2 {
-            font-size: 1rem;
-            padding: 1rem 1rem;
-            font-weight: 400;
-        }
+    .clean-btn-2 {
+        font-size: 1rem;
+        padding: 1rem 1rem;
+        font-weight: 400;
+    }
 
-        .page-footer__text {
-            margin-bottom: 3rem;
-        }
+    .page-footer__text {
+        margin-bottom: 3rem;
+    }
 
-        .cell__title,
-        .preview__item-title {
-            margin: 0;
-            font-size: 1.5rem;
-            position: relative;
-            font-weight: 600;
-            line-height: 1;
-            font-family: neue-haas-grotesk-display, sans-serif;
-            white-space: nowrap;
-        }
+    .cell__title,
+    .preview__item-title {
+        margin: 0;
+        font-size: 1.5rem;
+        position: relative;
+        font-weight: 600;
+        line-height: 1;
+        font-family: neue-haas-grotesk-display, sans-serif;
+        white-space: nowrap;
+    }
 
-        .intro-3 {
-            padding: 1rem;
-        
-        }
-   
+    .intro-3 {
+        padding: 1rem;
+    }
 }
-
-
-
-
