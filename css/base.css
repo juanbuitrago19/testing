@@ -55,46 +55,34 @@
 }
 
 @font-face {
-    font-family: "auger-mono";
-    src: url("../fonts/auger-mono/AugerMono-XLight.otf") format("OpenType");
-    font-weight: 100;
-    font-style: normal;
+    font-family: "PPFraktionMono";
+    src: url("../fonts/Fraktion-Mono/PPFraktionMono-RegularItalic.otf") format("OpenType");
+    font-weight: 300;
+    font-style:italic;
 }
 
 @font-face {
-    font-family: "auger-mono";
-    src: url("../fonts/auger-mono/AugerMono-Light.otf") format("OpenType");
-    font-weight: 200;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "auger-mono";
-    src: url("../fonts/auger-mono/AugerMono-Regular.otf") format("OpenType");
+    font-family: "PPFraktionMono";
+    src: url("../fonts/Fraktion-Mono/PPFraktionMono-Regular.otf") format("OpenType");
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "auger-mono";
-    src: url("../fonts/auger-mono/AugerMono-Medium.otf") format("OpenType");
-    font-weight: 400;
-    font-style: normal;
+    font-family: "PPFraktionMono";
+    src: url("../fonts/Fraktion-Mono/PPFraktionMono-BoldItalic.ttf") format("TrueType");
+    font-weight: 600;
+    font-style: italic;
 }
 
 @font-face {
-    font-family: "auger-mono";
-    src: url("../fonts/auger-mono/AugerMono-Bold.otf") format("OpenType");
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "auger-mono";
-    src: url("../fonts/auger-mono/AugerMono-Black.otf") format("OpenType");
+    font-family: "PPFraktionMono";
+    src: url("../fonts/Fraktion-Mono/PPFraktionMono-Bold.otf") format("OpenType");
     font-weight: 600;
     font-style: normal;
 }
+
+
 
 *,
 *::after,
@@ -132,7 +120,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
-    font-family: auger-mono, monospace;
+    font-family: PPFraktionMono, monospace;
     font-weight: 200;
     text-transform: uppercase;
     position: relative;
@@ -571,7 +559,7 @@ a:hover.menu-item {
 
 .search input[type="search"] {
     color: #f0f0f0;
-    font-family: auger-mono, monospace;
+    font-family: PPFraktionMono, monospace;
     font-size: 2rem;
     border: 0px;
     width: 100%;
@@ -588,7 +576,7 @@ a:hover.menu-item {
     border: none;
     color: #1f1f1f;
     text-align: center;
-    font-family: auger-mono, monospace;
+    font-family: PPFraktionMono, monospace;
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
@@ -625,7 +613,7 @@ a:hover.menu-item {
         border: none;
         color: #1f1f1f;
         text-align: center;
-        font-family: auger-mono, monospace;
+        font-family: PPFraktionMono, monospace;
         text-decoration: none;
         display: inline-block;
         font-size: 1rem;
@@ -657,7 +645,7 @@ a:hover.menu-item {
         border: none;
         color: #1f1f1f;
         text-align: center;
-        font-family: auger-mono, monospace;
+        font-family: PPFraktionMono, monospace;
         text-decoration: none;
         display: inline-block;
         font-size: 1rem;
@@ -869,13 +857,13 @@ a:hover.menu-item {
     align-content: center;
 }
 
-.space--elements > span,
-h1:hover {
+.space--elements > span:hover {
+    cursor: pointer;
     color: #ccc;
 }
 
 .cell span {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #000;
     font-weight: 600;
 }
@@ -1088,7 +1076,7 @@ h1:hover {
     border: none;
     color: white;
     text-align: center;
-    font-family: auger-mono, monospace;
+    font-family: PPFraktionMono, monospace;
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
@@ -1115,7 +1103,7 @@ h1:hover {
     border: none;
     color: black;
     text-align: center;
-    font-family: auger-mono, monospace;
+    font-family: PPFraktionMono, monospace;
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
@@ -1131,7 +1119,7 @@ h1:hover {
     display: flex;
     align-items: center;
     text-align: center;
-    font-family: auger-mono, monospace;
+    font-family: PPFraktionMono, monospace;
     text-decoration: none;
     font-size: 1rem;
     padding: 1rem;
@@ -1708,7 +1696,7 @@ h1:hover {
         display: flex;
         align-items: center;
         text-align: center;
-        font-family: auger-mono, monospace;
+        font-family: PPFraktionMono, monospace;
         text-decoration: none;
         font-size: 1rem;
         padding: 1rem;
@@ -1821,6 +1809,12 @@ h1:hover {
         color: #000;
     }
 
+    .cell span {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #000;
+    }
+
     .space--elements {
         display: flex;
         flex-direction: row;
@@ -1830,7 +1824,7 @@ h1:hover {
         align-content: center;
     }
 
-    .space--elements h1 {
+    .space--elements span {
         white-space: nowrap;
     }
 
