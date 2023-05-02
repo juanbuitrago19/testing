@@ -455,6 +455,6 @@ let products = {
 });
 
 let numNewProductsContainer = document.querySelector("#numNewProducts");
-numNewProductsContainer.innerHTML = newProductsCount + " nuevos productos";
+numNewProductsContainer.innerHTML = newProductsCount + " Productos";
   
 

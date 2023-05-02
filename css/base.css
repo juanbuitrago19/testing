@@ -1,15 +1,104 @@
 @font-face {
+    font-family: 'MadeBonVoyage';
+    src: url('../fonts/MadeBonVoyage.otf') format("OpenType");
     font-weight: normal;
     font-style: normal;
-    font-family: "MadeBonVoyage";
-    src: url("../fonts/MadeBonVoyage.otf") format("truetype");
 }
 
 @font-face {
-    font-family: "Neue Montreal";
-    src: url("../fonts/Neue-montreal/PPNeueMontreal-Bold.otf") format("truetype");
-    font-weight: 1 999;
-    font-display: swap; }
+    font-family: 'neue-haas-grotesk-display';
+    src: url('../fonts/neue-haas-grotesk-display/NeueHaasDisplayXThin.ttf') format('TrueType');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neue-haas-grotesk-display';
+    src: url('../fonts/neue-haas-grotesk-display/NeueHaasDisplayThin.ttf') format('TrueType');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neue-haas-grotesk-display';
+    src: url('../fonts/neue-haas-grotesk-display/NeueHaasDisplayLight.ttf') format('TrueType');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neue-haas-grotesk-display';
+    src: url('../fonts/neue-haas-grotesk-display/NeueHaasDisplayRoman.ttf') format('TrueType');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neue-haas-grotesk-display';
+    src: url('../fonts/neue-haas-grotesk-display/NeueHaasDisplayMediu.ttf') format('TrueType');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neue-haas-grotesk-display';
+    src: url('../fonts/neue-haas-grotesk-display/NeueHaasDisplayBold.ttf') format('TrueType');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neue-haas-grotesk-display';
+    src: url('../fonts/neue-haas-grotesk-display/NeueHaasDisplayBlack.ttf') format('TrueType');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'auger-mono';
+    src: url('../fonts/auger-mono/AugerMono-XLight.otf') format('OpenType');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'auger-mono';
+    src: url('../fonts/auger-mono/AugerMono-Light.otf') format('OpenType');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'auger-mono';
+    src: url('../fonts/auger-mono/AugerMono-Regular.otf') format('OpenType');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'auger-mono';
+    src: url('../fonts/auger-mono/AugerMono-Medium.otf') format('OpenType');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'auger-mono';
+    src: url('../fonts/auger-mono/AugerMono-Bold.otf') format('OpenType');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'auger-mono';
+    src: url('../fonts/auger-mono/AugerMono-Black.otf') format('OpenType');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
 
 *,
 *::after,
@@ -17,6 +106,7 @@
     box-sizing: border-box;
     touch-action: manipulation;
     overscroll-behavior: none;
+    
     
 }
 
@@ -49,7 +139,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
     font-family: auger-mono, monospace;
-    font-weight: 300;
+    font-weight: 200;
     text-transform: uppercase;
     position: relative;
 }
@@ -57,12 +147,14 @@ body {
 .oh {
     position: relative;
     overflow: hidden;
+    
 }
 
 .oh__inner {
     will-change: transform;
     display: inline-block;
 }
+
 
 
 
@@ -166,7 +258,7 @@ a:focus-visible {
 
 .header-sticky {
     position: sticky;
-    z-index: 99999999;
+    z-index: 9999;
     top: 0;
     width: 100%;
     display: block;
@@ -218,9 +310,10 @@ a:focus-visible {
 }
 
 .frame__title-main {
-    font-size: 3rem;
+    font-size: 4rem;
+    line-height: 4rem;
     margin: 0;
-    font-weight: 400;
+    font-weight: 500;
     font-family: neue-haas-grotesk-display, sans-serif;
     text-transform: none;
 }
@@ -249,7 +342,7 @@ a:focus-visible {
     align-items: center;
     padding: 5rem 1rem;
     min-height: 400px;
-    background-image: linear-gradient(-45deg, rgba(235, 90, 237, 0.8) 20%, rgba(248, 235, 223, 0)), url("../images/20200221_SHOT04_656_3.jpg");
+    background-image: linear-gradient(45deg, rgba(235, 90, 237, 1) 30%, rgba(248, 235, 223, 1));
     background-repeat: no-repeat, no-repeat;
     background-position: left center;
     background-size: cover;
@@ -264,8 +357,20 @@ a:focus-visible {
     gap: 16px;
 }
 
+.intro-3 {
+    padding: 2rem 1rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
 .frame__title-main-2 {
-    font-size: 3.5rem;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-size: 3rem;
     font-weight: 600;
     max-width: 100%;
 }
@@ -330,7 +435,8 @@ a:focus-visible {
     overflow-y: hidden;
 }
 .slider-menu a {
-    font-family: Neue Montreal;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 700;
     text-transform: none;
    
 }
@@ -423,8 +529,8 @@ a:hover.menu-item {
 /* End Nav Bar styles */
 
 .intro h1 {
-    color: aliceblue;
-    width: 70%;
+    color: white;
+    width: 100%;
 }
 
 .sticky-section {
@@ -782,16 +888,13 @@ a:hover.menu-item {
     margin: 0;
     font-size: 2rem;
     position: relative;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 1.5;
     font-family: neue-haas-grotesk-display, sans-serif;
 
 }
 
-.cell__title--switch {
-    font-family: lores-22-serif, sans-serif;
-    font-weight: 700;
-}
+
 
 .cell__title {
     display: grid;
@@ -852,7 +955,6 @@ a:hover.menu-item {
 
 .page-footer__text {
     width: 100%;
-    margin: 1.5rem auto;
     line-height: 1.5;
 }
 
@@ -1002,6 +1104,19 @@ a:hover.menu-item {
     font-size: 1rem;
     padding: 1.5rem 3rem;
 }
+
+.clean-btn-2 {
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    font-family: auger-mono, monospace;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 1.5rem 3rem;
+}
+
 
 .ship-btn {
     max-width: 155px;
@@ -1300,16 +1415,7 @@ a:hover.menu-item {
         display: none;
     }
 
-    .cell__title,
-    .preview__item-title {
-        margin: 0;
-        font-size: 1.5rem;
-        position: relative;
-        font-weight: 400;
-        line-height: 1;
-        font-family: neue-haas-grotesk-display, sans-serif;
-        white-space: nowrap;
-    }
+
 
     .cell__img {
         display: flex;
@@ -1683,7 +1789,10 @@ a:hover.menu-item {
     }
 
     .frame__title-main-2 {
-        font-size: 2rem;
+        font-family: neue-haas-grotesk-display, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        max-width: 50%;
         color: #ffffff;
     }
 
@@ -1698,6 +1807,31 @@ a:hover.menu-item {
             padding: 1rem 1rem;
         }
 
+        .clean-btn-2 {
+            font-size: 1rem;
+            padding: 1rem 1rem;
+            font-weight: 400;
+        }
+
+        .page-footer__text {
+            margin-bottom: 3rem;
+        }
+
+        .cell__title,
+        .preview__item-title {
+            margin: 0;
+            font-size: 1.5rem;
+            position: relative;
+            font-weight: 600;
+            line-height: 1;
+            font-family: neue-haas-grotesk-display, sans-serif;
+            white-space: nowrap;
+        }
+
+        .intro-3 {
+            padding: 1rem;
+        
+        }
    
 }
 
