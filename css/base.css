@@ -287,21 +287,7 @@ a:focus-visible {
     text-transform: none;
 }
 
-.frame__title-main {
-    width: 80%;
-    font-size: 6rem;
-    line-height: 5rem;
-    margin: 0;
-    font-weight: 500;
-    font-family: neue-haas-grotesk-display, sans-serif;
-    text-transform: none;
-    color: #FFF;
-    background: linear-gradient(to left, #1f1f1f, #e900ff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: animate 7.5s ease-in-out infinite;
-}
+
 
 .frame__title-back {
     position: relative;
@@ -328,11 +314,28 @@ a:focus-visible {
     padding: 2rem 1rem;
     width: 100%;
     height: 80vh;
-    background-image: linear-gradient(-45deg, #e900ff 20%, #F8EBDF 80%), url("../images/versed-press-restart-gentle-retinol-serum-284121-1575397194226-main.900x0c.jpg");
+    background-image: linear-gradient(-45deg, rgba(233, 0, 255, 1) 20%, rgba(19, 19, 19, 1) 100%);
     background-repeat: no-repeat, no-repeat;
     background-position: left center;
     background-size: 150% 150%;
     animation: animate 5s ease-in-out infinite;
+    color: #131313;
+}
+
+.frame__title-main {
+    width: 80%;
+    font-size: 6rem;
+    line-height: 5rem;
+    margin: 0;
+    font-weight: 500;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    text-transform: none;
+    color: #FFF;
+    background: linear-gradient(to left, #f6e2fa, #e900ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 7.5s ease-in-out infinite;
 }
 
 .intro-2 {
@@ -1520,13 +1523,12 @@ h2.visible {
 
     .intro {
         padding: 2rem 1rem;
-      
         display: flex;
     justify-content:left;
     align-items:flex-end;
     width: 100%;
     height: 60vh;
-    background-image: linear-gradient(-45deg, #e900ff 30%, #F8EBDF 80%), url("../images/versed-press-restart-gentle-retinol-serum-284121-1575397194226-main.900x0c.jpg");
+    background-image: linear-gradient(-45deg, rgba(233, 0, 255, 1) 20%, rgba(19, 19, 19, 1) 100%);
     background-repeat: no-repeat, no-repeat;
     background-position: left center;
     background-size: 150% 150%;
@@ -1776,13 +1778,13 @@ h2.visible {
 
     .frame__title-main {
         width: 100%;
-        font-size: 2.3rem;
-        line-height: 2rem;
+        font-size: 2.5rem;
+        line-height: 2.3rem;
         font-weight: 500;
         font-family: neue-haas-grotesk-display, sans-serif;
         text-transform: none;
         color: #FFF;
-        background: linear-gradient(-45deg, #1f1f1f, #e900ff);
+        background: linear-gradient(to left, #f6e2fa, #e900ff);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
