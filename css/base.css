@@ -799,7 +799,7 @@ a:hover.menu-item {
 }
 
 .wr-1-optional {
-    background-color: #f6e2fa;
+    background-color: #f0f0f0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -830,7 +830,7 @@ a:hover.menu-item {
     line-height: 5rem;
     max-width: 100%;
     white-space: normal;
-    color: #eb5aed;
+    color: #e900ff;
 }
 
 .wr-2 {
@@ -841,7 +841,7 @@ a:hover.menu-item {
 }
 
 .wr-2-optional {
-    background-image: linear-gradient(45deg, rgba(246, 226, 250, 1) 10%, rgba(248, 235, 223, 0)), url("../images/versed-target-the-everygirl.png");
+    background-image: linear-gradient(45deg, rgba(235, 90, 237, 0.5) 100%, rgba(248, 235, 223, 0)), url("../images/versed-target-the-everygirl.png");
     background-repeat: no-repeat, no-repeat;
     background-position: left top;
     background-size: cover;
@@ -855,12 +855,17 @@ a:hover.menu-item {
 .space--elements {
     display: flex;
     flex-direction: row;
-    gap: 0;
+    gap: 10px;
     align-items: center;
     align-content: center;
 }
 
 .space--elements > span:hover {
+    cursor: pointer;
+    color: #ccc;
+}
+
+.arrow:hover {
     cursor: pointer;
     color: #ccc;
 }
@@ -912,7 +917,7 @@ h2.visible {
 }
 
 .disabled {
-    color: #ccc;
+    opacity: 0;
 }
 
 .cell__img-inner {
@@ -1466,6 +1471,7 @@ h2.visible {
 
     .wr-1 h2 {
         font-size: 2rem;
+        font-weight: 700;
         line-height: 2.5rem;
         max-width: 90%;
         white-space: normal;
@@ -1474,10 +1480,11 @@ h2.visible {
 
     .wr-1-optional h2 {
         font-size: 2rem;
+        font-weight: 700;
         line-height: 2.5rem;
         max-width: 90%;
         white-space: normal;
-        color: #eb5aed;
+        color: #e900ff;
     }
 
     .wr-2 {
@@ -1599,7 +1606,7 @@ h2.visible {
     }
 
     .wr-1-optional {
-        background-color: #f6e2fa;
+        background-color: #f0f0f0;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -1627,7 +1634,7 @@ h2.visible {
     }
 
     .wr-1-optional {
-        background-color: #f6e2fa;
+        background-color: #f0f0f0;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -1710,7 +1717,7 @@ h2.visible {
 
     .wr-banner {
         flex: 1 1;
-        padding: 3rem 2rem;
+        padding: 1rem;
     }
 
     .wr-banner-2 {
@@ -1835,5 +1842,13 @@ h2.visible {
         position: sticky;
         z-index: 999;
         top: 0;
+    }
+
+    .arrow-prev {
+        opacity: 0;
+    }
+
+     .arrow-next {
+        opacity: 0;
     }
 }

@@ -1,4 +1,4 @@
-var instance = $(".first-section");
+var instance = $(".scroll--section");
 $.each( instance, function(key, value) {
     
   var arrows = $(instance[key]).find(".arrow"),

@@ -15,7 +15,17 @@
         <!-- Scripts -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+        <script src="js/app-main.js" defer></script>
+        <script src="js/app1.js" defer></script>
+        <script src="js/app2.js" defer></script>
+        <script src="js/app3.js" defer></script>
+        <script src="js/app4.js" defer></script>
         <script src="js/app5.js" defer></script>
+        <script src="js/app6.js" defer></script>
+        <script src="js/app7.js" defer></script>
+        <script src="js/app8.js" defer></script>
+        <script src="js/app9.js" defer></script>
+        <script src="js/app10.js" defer></script>
     </head>
     <body>
         <div id="header-sticky" class="header-sticky">
@@ -342,83 +352,9 @@
             <a class="frame__prevdemo" href="">© SHINEE BEAUTY & COSMETICS CO. 2023</a>
         </div>
 
-        <script src="js/controls-nav-bar.js"></script>
-        <script src="js/rev.js"></script>
-        <script src="js/responsive-menu.js"></script>
-        <script src="js/reel-controls.js"></script>
 
-        <script>
-            window.onscroll = function () {
-                myFunction();
-            };
 
-            var nav = document.getElementById("header-sticky");
-            var sticky = nav.offsetTop;
 
-            function myFunction() {
-                if (window.pageYOffset >= sticky) {
-                    nav.classList.add("sticky");
-                } else {
-                    nav.classList.remove("sticky");
-                }
-            }
-        </script>
-        <script>
-            const cards = document.querySelectorAll(".slide");
-
-            cards.forEach((slide) => {
-                const buttonSection = slide.querySelector(".product-detail-btn");
-
-                slide.addEventListener("mouseover", () => {
-                    buttonSection.style.transition = "0.5s ease";
-                    buttonSection.style.transform = "translate( 5px, 0px)";
-                    buttonSection.style.visibility = "visible";
-                });
-
-                slide.addEventListener("mouseout", () => {
-                    buttonSection.style.transition = "0s ease";
-                    buttonSection.style.transform = "translate( -5px, 0px)";
-                    buttonSection.style.visibility = "hidden";
-                });
-            });
-        </script>
-        <script>
-            const textTicker = $(".wr-4");
-            const textTickerInfo = $(textTicker).find(".text-ticker-info");
-            const textTickerContent = $(textTickerInfo).html();
-            const textTickerWidth = textTickerInfo.width();
-
-            function initTextTicker() {
-                const textTickerSpeed = (textTickerWidth / $(textTicker).width()) * 5;
-
-                $(textTickerInfo).html(textTickerContent + textTickerContent);
-
-                gsap.to(textTickerInfo, {
-                    duration: textTickerSpeed,
-                    x: "-" + textTickerWidth + "px",
-                    repeat: -1,
-                    ease: Linear.easeNone,
-                    startAt: { x: 100 },
-                });
-            }
-
-            $(window).on("load resize", function () {
-                initTextTicker();
-            });
-        </script>
-
-        <script>
-            let headerSticky = document.querySelector(".header-sticky");
-
-            let intro3 = document.querySelector(".intro-3");
-
-            window.addEventListener("scroll", function () {
-                if (window.scrollY > 0) {
-                    headerSticky.style.position = "static";
-
-                    intro3.style.position = "sticky";
-                }
-            });
-        </script>
+    
     </body>
 </html>
