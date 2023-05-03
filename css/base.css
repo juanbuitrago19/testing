@@ -288,12 +288,19 @@ a:focus-visible {
 }
 
 .frame__title-main {
-    font-size: 4rem;
-    line-height: 4rem;
+    width: 80%;
+    font-size: 6rem;
+    line-height: 5rem;
     margin: 0;
     font-weight: 500;
     font-family: neue-haas-grotesk-display, sans-serif;
     text-transform: none;
+    color: #FFF;
+    background: linear-gradient(to left, #1f1f1f, #e900ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 7.5s ease-in-out infinite;
 }
 
 .frame__title-back {
@@ -316,14 +323,16 @@ a:focus-visible {
 
 .intro {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 5rem 1rem;
-    min-height: 400px;
-    background-image: linear-gradient(45deg, rgba(235, 90, 237, 1) 30%, rgba(248, 235, 223, 1));
+    justify-content:left;
+    align-items:flex-end;
+    padding: 2rem 1rem;
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(-45deg, #e900ff 20%, #F8EBDF 80%), url("../images/versed-press-restart-gentle-retinol-serum-284121-1575397194226-main.900x0c.jpg");
     background-repeat: no-repeat, no-repeat;
     background-position: left center;
-    background-size: cover;
+    background-size: 150% 150%;
+    animation: animate 5s ease-in-out infinite;
 }
 
 .intro-2 {
@@ -507,11 +516,6 @@ a:hover.menu-item {
     transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 /* End Nav Bar styles */
-
-.intro h1 {
-    color: white;
-    width: 100%;
-}
 
 .sticky-section {
     position: sticky;
@@ -1515,14 +1519,18 @@ h2.visible {
     }
 
     .intro {
-        padding: 3rem 1rem 3rem;
-        min-height: 300px;
-    }
-
-    .intro h1 {
-        color: #ffffff;
-        font-size: 2rem;
-        width: 95%;
+        padding: 2rem 1rem;
+      
+        display: flex;
+    justify-content:left;
+    align-items:flex-end;
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(-45deg, #e900ff 30%, #F8EBDF 80%), url("../images/versed-press-restart-gentle-retinol-serum-284121-1575397194226-main.900x0c.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left center;
+    background-size: 150% 150%;
+    animation: animate 3s ease-in-out infinite;
     }
 
     .menu-section {
@@ -1766,6 +1774,21 @@ h2.visible {
         background-color: black;
     }
 
+    .frame__title-main {
+        width: 100%;
+        font-size: 2.3rem;
+        line-height: 2rem;
+        font-weight: 500;
+        font-family: neue-haas-grotesk-display, sans-serif;
+        text-transform: none;
+        color: #FFF;
+        background: linear-gradient(-45deg, #1f1f1f, #e900ff);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: animate 5s ease-in-out infinite;
+    }
+
     .frame__title-main-2 {
         line-height: 1.5rem;
         font-family: neue-haas-grotesk-display, sans-serif;
@@ -1852,3 +1875,16 @@ h2.visible {
         opacity: 0;
     }
 }
+
+
+@keyframes animate {
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  }
