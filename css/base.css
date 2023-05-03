@@ -1595,6 +1595,17 @@ h2.visible {
         white-space: normal;
         color: #eb5aed;
     }
+
+    .frame__title-main-2 {
+        line-height: 2rem;
+        font-family: neue-haas-grotesk-display, sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        max-width: 50%;
+        color: #ffffff;
+    }
+
+   
 }
 
 /* Tablets y phablets */
@@ -1626,6 +1637,17 @@ h2.visible {
         gap: 1rem;
         min-height: 300px;
     }
+
+    .frame__title-main-2 {
+        line-height: 2rem;
+        font-family: neue-haas-grotesk-display, sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        max-width: 50%;
+        color: #ffffff;
+    }
+
+  
 }
 
 /* Teléfonos */
