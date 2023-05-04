@@ -1,7 +1,7 @@
 let products = {
     data: [
       {
-        productName: "Paleta color vibes",
+        productName: "producto 1",
         brand: "Beauty Glazed",
         category: "Sombras",
         price: "60.000",
@@ -12,7 +12,7 @@ let products = {
         url: "product-1.html"
       },
       {
-        productName: "Paleta color studio",
+        productName: "producto 2",
         brand: "Beauty Glazed",
         category: "Sombras",
         price: "50.000",
@@ -23,7 +23,7 @@ let products = {
         url: "product-1.html"
       },
       {
-        productName: "Paleta sombras hawaii",
+        productName: "producto 3",
         brand: "Atenea",
         category: "Sombras",
         price: "78.000",
@@ -34,7 +34,7 @@ let products = {
         url: "product-1.html"
       },
       {
-        productName: "Paleta majestic",
+        productName: "producto 4",
         brand: "Atenea",
         category: "Sombras",
         price: "70.000",
@@ -45,7 +45,7 @@ let products = {
         url: "product-1.html"
       },
       {
-        productName: "Paleta sombras birds",
+        productName: "producto 5",
         brand: "Atenea",
         category: "Sombras",
         price: "80.000",
@@ -56,21 +56,10 @@ let products = {
         url: "product-1.html"
       },
       {
-        productName: "Paleta sombras marvelous",
+        productName: "producto 6",
         brand: "Atenea",
         category: "Sombras",
-        price: "70.000",
-        stock: true,
-        discount: false,
-        newProduct: false,
-        image: "product-0000144.jpg",
-        url: "product-1.html"
-      },
-      {
-        productName: "Paleta art deco",
-        brand: "Atenea",
-        category: "Sombras",
-        price: "37.000",
+        price: "80.000",
         stock: true,
         discount: true,
         newProduct: true,
@@ -78,10 +67,10 @@ let products = {
         url: "product-1.html"
       },
       {
-        productName: "Paleta perfect mix",
-        brand: "Beauty Glazed",
+        productName: "producto 7",
+        brand: "Atenea",
         category: "Sombras",
-        price: "35.000",
+        price: "80.000",
         stock: true,
         discount: true,
         newProduct: true,
@@ -89,10 +78,10 @@ let products = {
         url: "product-1.html"
       },
       {
-        productName: "paleta hono lulu",
+        productName: "producto 8",
         brand: "Atenea",
         category: "Sombras",
-        price: "55.000",
+        price: "80.000",
         stock: true,
         discount: true,
         newProduct: true,
@@ -100,311 +89,153 @@ let products = {
         url: "product-1.html"
       },
       {
-        productName: "paleta Perfect Neutral",
-        brand: "Beauty Glazed",
+        productName: "producto 9",
+        brand: "Atenea",
         category: "Sombras",
-        price: "29.000",
+        price: "80.000",
         stock: true,
         discount: true,
         newProduct: true,
         image: "product-0000008.jpg",
-        url: "title-product-2.html"
+        url: "product-1.html"
       },
       {
-        productName: "Paleta Mystic Glow",
-        brand: "Ruby Rose",
+        productName: "producto 10",
+        brand: "Atenea",
         category: "Sombras",
-        price: "48.000",
+        price: "80.000",
         stock: true,
         discount: true,
         newProduct: true,
         image: "product-0000009.jpg",
-        url: "title-product-2.html"
+        url: "product-1.html"
       },
       {
-        productName: "Paleta Sublime",
+        productName: "producto 11",
         brand: "Atenea",
         category: "Sombras",
-        price: "42.000",
+        price: "80.000",
         stock: true,
         discount: true,
         newProduct: true,
-        image: "product-0000010.jpg",
-        url: "title-product-2.html"
+        image: "product-0000100.jpg",
+        url: "product-1.html"
       },
       {
-        productName: "Paleta Atemporal",
+        productName: "producto 12",
         brand: "Atenea",
         category: "Sombras",
-        price: "70.000",
+        price: "80.000",
         stock: true,
         discount: true,
         newProduct: true,
-        image: "product-0000011.jpg",
-        url: "title-product-2.html"
+        image: "product-0000101.jpg",
+        url: "product-1.html"
       },
       {
-        productName: "Paleta thunder (Tono 6)",
-        brand: "Ushas",
-        category: "Sombras",
-        price: "15.000",
-        stock: true,
-        discount: true,
-        newProduct: true,
-        image: "product-0000012.jpg",
-        url: "title-product-2.html"
-      },
-      {
-        productName: "Paleta frutas (Fresa)",
-        brand: "Trendy",
-        category: "Sombras",
-        price: "15.000",
-        stock: true,
-        discount: true,
-        newProduct: true,
-        image: "product-0000013.jpg",
-        url: "title-product-2.html"
-      },
-      {
-        productName: "Paleta frutas (uva)",
-        brand: "Trendy",
-        category: "Sombras",
-        price: "15.000",
-        stock: true,
-        discount: true,
-        newProduct: true,
-        image: "product-0000014.jpg",
-        url: "title-product-2.html"
-      },
-      {
-        productName: "Paleta frutas (Coco)",
-        brand: "Trendy",
-        category: "Sombras",
-        price: "15.000",
-        stock: true,
-        discount: true,
-        newProduct: true,
-        image: "product-0000015.jpg",
-        url: "title-product-2.html"
-      },
-      {
-        productName: "Paleta frutas (Durazno)",
-        brand: "Trendy",
-        category: "Sombras",
-        price: "15.000",
-        stock: true,
-        discount: true,
-        newProduct: true,
-        image: "product-0000016.jpg",
-        url: "title-product-2.html"
-      },
-      {
-        productName: "Sombra liquida Sublime (Tono 2)",
+        productName: "producto 13",
         brand: "Atenea",
         category: "Sombras",
-        price: "25.000",
+        price: "80.000",
         stock: true,
         discount: true,
-        newProduct: false,
-        image: "product-0000017VAR1.jpg",
-        url: "title-product-2.html"
+        newProduct: true,
+        image: "product-0000102.jpg",
+        url: "product-1.html"
       },
       {
-        productName: "Sombra liquida Sublime (Tono 3)",
+        productName: "producto 14",
         brand: "Atenea",
         category: "Sombras",
-        price: "25.000",
+        price: "80.000",
         stock: true,
         discount: true,
-        newProduct: false,
-        image: "product-0000017VAR2.jpg",
-        url: "title-product-2.html"
+        newProduct: true,
+        image: "product-0000103.jpg",
+        url: "product-1.html"
       },
       {
-        productName: "Paleta Blusher",
+        productName: "producto 15",
         brand: "Atenea",
-        category: "Rubores",
-        price: "30.000",
+        category: "Sombras",
+        price: "80.000",
         stock: true,
         discount: true,
         newProduct: true,
-        image: "product-0000018.jpg",
-        url: "title-product-2.html"
+        image: "product-0000104.jpg",
+        url: "product-1.html"
       },
       {
-        productName: "Paleta Divine Baked",
+        productName: "producto 16",
         brand: "Atenea",
-        category: "Iluminadores",
-        price: "38.000",
+        category: "Sombras",
+        price: "80.000",
         stock: true,
         discount: true,
         newProduct: true,
-        image: "product-0000019.jpg",
-        url: "title-product-2.html"
+        image: "product-0000105.jpg",
+        url: "product-1.html"
       },
       {
-        productName: "Iluminador Baked powder (Tono rosa)",
+        productName: "producto 17",
         brand: "Atenea",
-        category: "Iluminadores",
-        price: "20.000",
+        category: "Sombras",
+        price: "80.000",
         stock: true,
         discount: true,
         newProduct: true,
-        image: "product-0000020VAR1.jpg",
-        url: "title-product-2.html"
+        image: "product-0000106.jpg",
+        url: "product-1.html"
       },
       {
-        productName: "Iluminador Baked powder (Tono bage)",
+        productName: "producto 18",
         brand: "Atenea",
-        category: "Iluminadores",
-        price: "20.000",
+        category: "Sombras",
+        price: "80.000",
         stock: true,
         discount: true,
         newProduct: true,
-        image: "product-0000020VAR2.jpg",
-        url: "title-product-2.html"
+        image: "product-0000107.jpg",
+        url: "product-1.html"
       },
       {
-        productName: "Iluminador corporal (Tono bronce)",
-        brand: "Elaya",
-        category: "Iluminadores",
-        price: "27.000",
+        productName: "producto 19",
+        brand: "Atenea",
+        category: "Sombras",
+        price: "80.000",
         stock: true,
         discount: true,
         newProduct: true,
-        image: "product-0000021VAR1.jpg",
-        url: "title-product-2.html"
+        image: "product-0000108.jpg",
+        url: "product-1.html"
       },
       {
-        productName: "Iluminador corporal (Tono plata)",
-        brand: "Elaya",
-        category: "Iluminadores",
-        price: "27.000",
+        productName: "producto 20",
+        brand: "Atenea",
+        category: "Sombras",
+        price: "80.000",
         stock: true,
         discount: true,
         newProduct: true,
-        image: "product-0000021VAR2.jpg",
-        url: "title-product-2.html"
-      },
-      {
-        productName: "Iluminador corporal (Tono oro rosa)",
-        brand: "Elaya",
-        category: "Iluminadores",
-        price: "27.000",
-        stock: true,
-        discount: true,
-        newProduct: true,
-        image: "product-0000021VAR3.jpg",
-        url: "title-product-2.html"
-      },
-      {
-        productName: "Iluminador liquido (Tono champaña)",
-        brand: "Elaya",
-        category: "Iluminadores",
-        price: "15.000",
-        stock: true,
-        discount: true,
-        newProduct: false,
-        image: "product-0000022VAR1.jpg",
-        url: "title-product-2.html"
-      },
-      {
-        productName: "Iluminador liquido (Tono dorado)",
-        brand: "Elaya",
-        category: "Iluminadores",
-        price: "15.000",
-        stock: true,
-        discount: true,
-        newProduct: false,
-        image: "product-0000022VAR2.jpg",
-        url: "title-product-2.html"
-      },
-      {
-        productName: "Iluminador liquido (Tono rosa)",
-        brand: "Elaya",
-        category: "Iluminadores",
-        price: "15.000",
-        stock: true,
-        discount: true,
-        newProduct: false,
-        image: "product-0000022VAR3.jpg",
-        url: "title-product-2.html"
-      },
-      {
-        productName: "Paleta iluminadores y contornos girl",
-        brand: "Ushas",
-        category: "Iluminadores",
-        price: "19.000",
-        stock: true,
-        discount: true,
-        newProduct: false,
-        image: "product-0000023.jpg",
-        url: "title-product-2.html"
-      },
-      {
-        productName: "Paleta cloud",
-        brand: "Trendy",
-        category: "Iluminadores",
-        price: "15.000",
-        stock: true,
-        discount: true,
-        newProduct: false,
-        image: "product-0000024.jpg",
-        url: "title-product-2.html"
-      },
-      {
-        productName: "Iluminador eclipse lunar",
-        brand: "Trendy",
-        category: "Iluminadores",
-        price: "12.000",
-        stock: true,
-        discount: true,
-        newProduct: false,
-        image: "product-0000025.jpg",
-        url: "title-product-2.html"
-      },
-      {
-        productName: "Polvo de hadas (Tono rosa)",
-        brand: "Dolce Bella",
-        category: "Iluminadores",
-        price: "15.000",
-        stock: true,
-        discount: true,
-        newProduct: false,
-        image: "product-0000026VAR1.jpg",
-        url: "title-product-2.html"
-      },
-      {
-        productName: "Polvo de hadas (Tono cobre)",
-        brand: "Dolce Bella",
-        category: "Iluminadores",
-        price: "15.000",
-        stock: true,
-        discount: true,
-        newProduct: false,
-        image: "product-0000026VAR2.jpg",
-        url: "title-product-2.html"
-      },
-      {
-        productName: "Polvo de hadas (Tono oro)",
-        brand: "Dolce Bella",
-        category: "Iluminadores",
-        price: "15.000",
-        stock: true,
-        discount: true,
-        newProduct: false,
-        image: "product-0000027VAR3.jpg",
-        url: "title-product-2.html"
+        image: "product-0000109.jpg",
+        url: "product-1.html"
       },
     ],
   };
 
 
-  let productsContainer = document.querySelector("#products");
+  let productsContainer = document.querySelector("#nuevos-productos");
   let newProductsCount = 0;
+  let maxViews = 0;
 
 
     products.data.forEach(product => {
+
+      if (maxViews < 10) {
+
+          //Generamos un número aleatorio entre 0 y el tamaño del array
+        let randomNumber = Math.floor(Math.random()*products.data.length);
+        let product = products.data[randomNumber];
 
         if (product.newProduct) {
 
@@ -450,8 +281,11 @@ let products = {
         cardProduct.appendChild(imageSection);
         cardProduct.appendChild(infoSection);
         productsContainer.appendChild(cardProduct);
+        
+        maxViews++;
 
         }
+      }
 });
 
 let numNewProductsContainer = document.querySelector("#numNewProducts");
