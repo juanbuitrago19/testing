@@ -1,7 +1,7 @@
 let products = {
     data: [
       {
-        productName: "Paleta color vibes ",
+        productName: "Paleta color vibes",
         brand: "Beauty Glazed",
         category: "Sombras",
         price: "60.000",
@@ -12,7 +12,7 @@ let products = {
         url: "product-1.html"
       },
       {
-        productName: "Paleta color studio ",
+        productName: "Paleta color studio",
         brand: "Beauty Glazed",
         category: "Sombras",
         price: "50.000",
