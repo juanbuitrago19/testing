@@ -10,7 +10,9 @@
     display: none;
 }
 
-
+video::-webkit-media-controls {
+    display: none;
+}
 
 .wrapper-product {
     width: 100%;
@@ -65,6 +67,16 @@
     background-repeat: no-repeat, no-repeat;
     background-position: center;
     background-size: auto;
+}
+
+.section-image video {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    background-size: auto;
+    border: none;
 }
 
 
