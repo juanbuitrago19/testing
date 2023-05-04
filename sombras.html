@@ -14,7 +14,7 @@
         <!-- Scripts -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-        <script src="js/app-main.js" defer></script>
+        <script type="module" src="js/app-main4.js" defer></script>
         <script src="js/app1.js" defer></script>
         <script src="js/app2.js" defer></script>
         <script src="js/app3.js" defer></script>
@@ -94,6 +94,7 @@
                             <a href="index.html" class="menu-item">Inicio</a>
                             <a href="nuevos-productos.html" class="menu-item">Nuevos productos <span class="icon">🔥</span></a>
                             <a href="sales-productos.html" class="menu-item">Descuentos</a>
+                            <a href="top-productos.html" class="menu-item">Productos Top</a>
                             <a href="" class="menu-item selected" aria-selected="true">Sombras</a>
                             <a href="iluminadores.html" class="menu-item">Iluminadores</a>
                             <a href="rubores.html" class="menu-item">Rubores</a>
@@ -117,6 +118,8 @@
                             <span id="line-selected-item" class="line-selected-item"></span>
                         </div>
                     </div>
+                    <button id="pnAdvancerLeft" class="pn-Advancer pn-Advancer_Left" type="button"><span class="pointer material-symbols-outlined">chevron_left</span></button>
+                    <button id="pnAdvancerRight" class="pn-Advancer pn-Advancer_Right" type="button"><span class="pointer material-symbols-outlined">chevron_right</span></button>
                 </div>
                 <!-- End Nav Bar section -->
             </div>
@@ -130,6 +133,23 @@
                 </div>
                 <h2 class="frame__title-main-2">Sombras</h2>
             </div>
+
+            <div class="row border-line">
+                <div class="cell cell--text">
+                    <h2 class="cell__title"><span class="oh__inner" id="numNewProducts"></span></h2>
+                </div>
+            </div>
+            
+            <section class="content">
+                <section class="products__wrapper">
+                    <div class="container">
+                        <div class="cards text-center" id="sombras-productos">
+
+                                <!-- Cards nuevos productos -->
+                           
+                        </div>
+                    </div>
+                </section>
 
         </main>
     </body>

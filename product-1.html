@@ -15,7 +15,7 @@
         <!-- Scripts -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-        <script src="js/app-main.js" defer></script>
+        <script type="module" src="js/app-main5.js" defer></script>
         <script src="js/app1.js" defer></script>
         <script src="js/app2.js" defer></script>
         <script src="js/app3.js" defer></script>
@@ -90,9 +90,10 @@
                 <div class="slider-menu-wrapper">
                     <div id="slider-menu-wrapper-2" class="slider-menu-wrapper-2">
                         <div id="slider-menu" class="slider-menu">
-                            <a href="index.html" class="menu-item">Inicio</a>
+                            <a href="index.html" class="menu-item selected">Inicio</a>
                             <a href="nuevos-productos.html" class="menu-item">Nuevos productos <span class="icon">🔥</span></a>
                             <a href="sales-productos.html" class="menu-item">Descuentos</a>
+                            <a href="top-productos.html" class="menu-item">Productos Top</a>
                             <a href="sombras.html" class="menu-item">Sombras</a>
                             <a href="iluminadores.html" class="menu-item">Iluminadores</a>
                             <a href="rubores.html" class="menu-item">Rubores</a>
@@ -113,6 +114,7 @@
                             <a href="mascarillas.html" class="menu-item">Mascarillas</a>
                             <a href="cremas.html" class="menu-item">Cremas</a>
                             <a href="accesorios.html" class="menu-item">Accesorios</a>
+                            <span id="line-selected-item" class="line-selected-item"></span>
                         </div>
                     </div>
                 </div>
@@ -120,7 +122,7 @@
             <!-- Main menu termina -->
 
             <!-- Title product inicia -->
-            <div class="intro-3">
+            <div class="intro-3" data-category="Bases">
                 <h2 class="frame__title-main-2">Paleta de sombras atenea</h2>
                 <button class="clean-btn-2">Comprar ahora</button>
             </div>
@@ -235,7 +237,7 @@
                 <div class="cell cell--text">
                     <h2 class="cell__title oh">Te puede interesar ✨</h2>
                 </div>
-                <div class="cell cell--text space--elements" onclick="window.location.href='index.html';">
+                <div class="cell cell--text space--elements" onclick="window.location.href='sombras.html';">
                     <span class="material-symbols-outlined">add</span>
                     <span class="cell__title">Ver mas</span>
                 </div>
@@ -243,86 +245,10 @@
 
             <section class="products__wrapper">
                 <div class="container">
-                    <div class="cards" id="products">
-                        <div class="slide" onclick="window.location.href='bases.html';">
-                            <div class="image-section">
-                                <img src="images/product-0000002.jpg" alt="Image" />
-                            </div>
-                            <div class="info-section">
-                                <div class="title-price">
-                                    <span>Title product</span>
-                                    <span>Price</span>
-                                </div>
-                                <div class="brand">
-                                    <span class="product-detail-brand">Brand</span>
-                                    <span class="product-detail-btn">Ver Detalles</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="slide" onclick="window.location.href='bases.html';">
-                            <div class="image-section">
-                                <img src="images/product-0000002.jpg" alt="Image" />
-                            </div>
-                            <div class="info-section">
-                                <div class="title-price">
-                                    <span>Title product</span>
-                                    <span>Price</span>
-                                </div>
-                                <div class="brand">
-                                    <span class="product-detail-brand">Brand</span>
-                                    <span class="product-detail-btn">Ver Detalles</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="slide" onclick="window.location.href='bases.html';">
-                            <div class="image-section">
-                                <img src="images/product-0000002.jpg" alt="Image" />
-                            </div>
-                            <div class="info-section">
-                                <div class="title-price">
-                                    <span>Title product</span>
-                                    <span>Price</span>
-                                </div>
-                                <div class="brand">
-                                    <span class="product-detail-brand">Brand</span>
-                                    <span class="product-detail-btn">Ver Detalles</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="slide" onclick="window.location.href='bases.html';">
-                            <div class="image-section">
-                                <img src="images/product-0000002.jpg" alt="Image" />
-                            </div>
-                            <div class="info-section">
-                                <div class="title-price">
-                                    <span>Title product</span>
-                                    <span>Price</span>
-                                </div>
-                                <div class="brand">
-                                    <span class="product-detail-brand">Brand</span>
-                                    <span class="product-detail-btn">Ver Detalles</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="slide" onclick="window.location.href='bases.html';">
-                            <div class="image-section">
-                                <img src="images/product-0000002.jpg" alt="Image" />
-                            </div>
-                            <div class="info-section">
-                                <div class="title-price">
-                                    <span>Title product</span>
-                                    <span>Price</span>
-                                </div>
-                                <div class="brand">
-                                    <span class="product-detail-brand">Brand</span>
-                                    <span class="product-detail-btn">Ver Detalles</span>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="cards" id="productos-similares">
+                   
+                        <!-- Cards productos similares -->
+    
                     </div>
                 </div>
             </section>

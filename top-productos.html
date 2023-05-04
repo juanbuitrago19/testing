@@ -14,7 +14,7 @@
         <!-- Scripts -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-        <script src="js/app-main.js" defer></script>
+        <script type="module" src="js/app-main2.js" defer></script>
         <script src="js/app1.js" defer></script>
         <script src="js/app2.js" defer></script>
         <script src="js/app3.js" defer></script>
@@ -39,7 +39,7 @@
                             <a class="frame__prevdemo hover-line" href="">Pinterest</a>
                         </div>
                         <div class="fade"></div>
-                        <div class="menu-responsive show-menu"><img src="assets/icon-1.svg" alt="" /></div>
+                        <div class="menu-responsive show-menu"><span class="material-symbols-outlined">menu</span></div>
                         <nav class="menu_container menu-visible">
                             <div class="section-2">
                                 <a class="frame__prevdemo" href="#">Instagram</a>
@@ -54,7 +54,7 @@
                                 </div>
 
                                 <div class="section-4">
-                                    <li><a href="nuevos-productos.html" class="frame__prevdemo">Nuevos productos</a></li>
+                                    <li><a href="nuevos-productos.html" class="frame__prevdemo item-selected">Nuevos productos</a></li>
                                     <li><a href="" class="frame__prevdemo">Mas vendidos</a></li>
                                 </div>
 
@@ -76,7 +76,7 @@
                                     <li><a href="jabones-faciales.html" class="frame__prevdemo">Jabones faciales</a></li>
                                     <li><a href="serums&acidos.html" class="frame__prevdemo">Serums&Acidos</a></li>
                                     <li><a href="tonicos.html" class="frame__prevdemo">Tonicos</a></li>
-                                    <li><a href="hidratantes.html" class="frame__prevdemo item-selected">Hidratantes</a></li>
+                                    <li><a href="hidratantes.html" class="frame__prevdemo">Hidratantes</a></li>
                                     <li><a href="mascarillas.html" class="frame__prevdemo">Mascarillas</a></li>
                                     <li><a href="cremas.html" class="frame__prevdemo">Cremas</a></li>
                                     <li><a href="accesorios.html" class="frame__prevdemo">Accesorios</a></li>
@@ -93,8 +93,8 @@
                         <div id="slider-menu" class="slider-menu">
                             <a href="index.html" class="menu-item">Inicio</a>
                             <a href="nuevos-productos.html" class="menu-item">Nuevos productos <span class="icon">🔥</span></a>
-                            <a href="sales-productos.html" class="menu-item">Descuentos</a>
-                            <a href="top-productos.html" class="menu-item">Productos Top</a>
+                            <a href="sales-productos.html" class="menu-item" >Descuentos</a>
+                            <a href="" class="menu-item selected" aria-selected="true">Productos Top</a>
                             <a href="sombras.html" class="menu-item">Sombras</a>
                             <a href="iluminadores.html" class="menu-item">Iluminadores</a>
                             <a href="rubores.html" class="menu-item">Rubores</a>
@@ -111,7 +111,7 @@
                             <a href="jabones-faciales.html" class="menu-item">Jabones faciales</a>
                             <a href="serums&acidos.html" class="menu-item">Serums&Acidos</a>
                             <a href="tonicos.html" class="menu-item">Tonicos</a>
-                            <a href="" class="menu-item selected" aria-selected="true">Hidratantes</a>
+                            <a href="hidratantes.html" class="menu-item">Hidratantes</a>
                             <a href="mascarillas.html" class="menu-item">Mascarillas</a>
                             <a href="cremas.html" class="menu-item">Cremas</a>
                             <a href="accesorios.html" class="menu-item">Accesorios</a>
@@ -125,17 +125,108 @@
             </div>
             <!-- End header sticky section -->
 
-           
             <div class="intro-2">
                 <div class="breadcrumb-wr">
                     <a href="index.html" class="hover-line">Inicio</a>
                     <span class="material-symbols-outlined">chevron_right</span>
-                    <a href="hidratantes.html">Hidratantes</a>
+                    <a href="top-productos.html">Productos Top</a>
                 </div>
-                <h2 class="frame__title-main-2">Hidratantes</h2>
+                <h2 class="frame__title-main-2">Productos Top</h2>
             </div>
 
-        </main>
+            <div class="row border-line">
+                <div class="cell cell--text">
+                    <h2 class="cell__title"><span class="oh__inner" id="numNewProducts"></span></h2>
+                </div>
+            </div>
+            
+            <section class="content">
+                <section class="products__wrapper">
+                    <div class="container">
+                        <div class="cards text-center" id="nuevos-productos">
+
+                                <!-- Cards nuevos productos -->
+                           
+                        </div>
+                    </div>
+                </section>
+
+                
+
       
+
+                <div class="bandera">
+                    <div class="wr-banner wr-2-optional"></div>
+                    <div class="wr-banner wr-1-optional">
+                        <h2 class="cell__title oh"><span class="oh__inner">Descuentos ahora y siempre, compra por whatsapp ahora.</span></h2>
+                        <button class="clean-btn">Ver Descuentos</button>
+                    </div>
+                </div>
+
+                <div class="row border-line">
+                    <div class="cell cell--text">
+                        <h2 class="cell__title oh"><span class="oh__inner">Sobre Shinee</span></h2>
+                    </div>
+                </div>
+
+                <footer class="page-footer">
+                    <p class="page-footer__credits">HECHO CON AMOR EN COLOMBIA.</p>
+
+                    <p class="page-footer__text">
+                        Shinee es un espacio digital multimarca donde podrás encontrar productos cosméticos y de skincare enfocados en marcas colombianas.
+                    </p>
+                    <p class="page-footer__text">
+                        Queríamos crear una marca con una vibración única, donde las personas puedan redescubrir el significado de la belleza y el cuidado personal, más allá de comercializar productos, queremos ser una opción diferente en
+                        el mercado. Buscamos las mejores marcas desarrolladas en Colombia y hacemos lo posible por tener un set de productos de muy alta calidad y asequible para todos.
+                    </p>
+                    <p class="page-footer__text">
+                        Por el momento, Shinee es una marca 100% virtual, por lo que no contamos con un espacio físico donde puedas ver nuestros productos. Aún así, podrás ver todos nuestros productos y marcas con las que trabajamos aquí
+                        mismo en la página web, en nuestra cuenta de WhatsApp y redes sociales. Allí mismo tendrás información sobre stock, ofertas y descuentos, tiempos de envío, compras y devoluciones.
+                    </p>
+                    <p class="page-footer__text">
+                        Tenemos diferentes canales de comunicación para que puedas realizar tu compra o nos preguntes lo que querías.
+                    </p>
+                </footer>
+
+                <div class="row border-line">
+                    <div class="cell cell--text">
+                        <h2 class="cell__title oh"><span class="oh__inner">Disclaimer</span></h2>
+                    </div>
+                </div>
+
+                <footer class="page-footer">
+                    <p class="page-footer__text">
+                        Nuestros usuarios y su salud son nuestra mayor prioridad, es por esto que te pedimos leer nuestro disclaimer antes de adquirir alguno de nuestros productos, si tienes dudas al respecto contactanos de inmediato.
+                        <a href="" class="hover-line">Leer mas aqui</a>
+                    </p>
+                </footer>
+
+                <div>
+                    <div class="wr-banner-2 wr-3 border-line">
+                        <h2 class="cell__title oh"><span class="oh__inner">Compra ahora por whatsapp, facil y seguro!</span></h2>
+                        <button class="clean-btn">Comprar ahora</button>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="wr-banner-3 wr-4 border-line">
+                        <h1 class="cell__title oh text-ticker-info">Puedes pagar tu compra con transferencia bancaria, mercado pago, nequi, daviplata, movii y pago contra entrega (Solo en Bogota).</h1>
+                    </div>
+                </div>
+
+                <div class="wr-5">
+                    <a class="frame__prevdemo" href="">© SHINEE BEAUTY & COSMETICS CO. 2023</a>
+                </div>
+
+           
+            </section>
+       
+        </main>
+       
+
+     
+  
+
+
     </body>
 </html>

@@ -478,6 +478,7 @@ a:hover.menu-item {
     cursor: pointer;
 }
 .pn-Advancer_Left {
+    display: none;
     left: 0;
 }
 [data-overflowing="both"] ~ .pn-Advancer_Left,
@@ -485,6 +486,7 @@ a:hover.menu-item {
     opacity: 1;
 }
 .pn-Advancer_Right {
+    display: none;
     right: 0;
 }
 [data-overflowing="both"] ~ .pn-Advancer_Right,
