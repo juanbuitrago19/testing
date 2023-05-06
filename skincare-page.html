@@ -14,8 +14,7 @@
         <!-- Scripts -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-        <script type="module" src="js/nuevos-productos-reel.js" defer></script>
-        <script type="module" src="js/top-productos-reel.js" defer></script>
+        <script type="module" src="js/accesorios-productos-page.js" defer></script>
         <script src="js/app1.js" defer></script>
         <script src="js/app2.js" defer></script>
         <script src="js/app3.js" defer></script>
@@ -28,9 +27,10 @@
     </head>
     <body>
         <main>
-            <!-- Inicia menu -->
             <div id="header-sticky" class="header-sticky">
+                <!-- Header sticky section -->
                 <div class="frame">
+                    <!-- Main menu section -->
                     <div class="frame__title"><a href="index.html" class="frame__prevdemo" href="">Shinee</a><span>Beauty&Cosmetics</span></div>
                     <div class="responsive-frame">
                         <div class="menu-section">
@@ -39,7 +39,7 @@
                             <a class="frame__prevdemo hover-line" href="">Pinterest</a>
                         </div>
                         <div class="fade"></div>
-                        <div class="menu-responsive show-menu"><span class="material-symbols-outlined">menu</span></div>
+                        <div class="menu-responsive show-menu"><img src="assets/icon-1.svg" alt="" /></div>
                         <nav class="menu_container menu-visible">
                             <div class="section-2">
                                 <a class="frame__prevdemo" href="#">Instagram</a>
@@ -59,7 +59,7 @@
                                 </div>
 
                                 <div class="section-5">
-                                    <li><a href="index.html" class="frame__prevdemo item-selected">Inicio</a></li>
+                                    <li><a href="index.html" class="frame__prevdemo">Inicio</a></li>
                                     <li><a href="sombras.html" class="frame__prevdemo">Sombras</a></li>
                                     <li><a href="iluminadores.html" class="frame__prevdemo">Iluminadores</a></li>
                                     <li><a href="rubores.html" class="frame__prevdemo">Rubores</a></li>
@@ -79,17 +79,19 @@
                                     <li><a href="hidratantes.html" class="frame__prevdemo">Hidratantes</a></li>
                                     <li><a href="mascarillas.html" class="frame__prevdemo">Mascarillas</a></li>
                                     <li><a href="cremas.html" class="frame__prevdemo">Cremas</a></li>
-                                    <li><a href="accesorios.html" class="frame__prevdemo">Accesorios</a></li>
+                                    <li><a href="accesorios.html" class="frame__prevdemo item-selected">Accesorios</a></li>
                                 </div>
                             </div>
                         </nav>
                     </div>
                 </div>
+                <!-- End Main menu section -->
 
                 <div class="slider-menu-wrapper">
+                    <!-- Nav Bar section -->
                     <div id="slider-menu-wrapper-2" class="slider-menu-wrapper-2">
                         <div id="slider-menu" class="slider-menu">
-                            <a href="" class="menu-item selected" aria-selected="true">Inicio</a>
+                            <a href="index.html" class="menu-item">Inicio</a>
                             <a href="nuevos-productos.html" class="menu-item">Nuevos productos <span class="icon">🔥</span></a>
                             <a href="sales-productos.html" class="menu-item">Descuentos</a>
                             <a href="top-productos.html" class="menu-item">Productos Top</a>
@@ -112,69 +114,39 @@
                             <a href="hidratantes.html" class="menu-item">Hidratantes</a>
                             <a href="mascarillas.html" class="menu-item">Mascarillas</a>
                             <a href="cremas.html" class="menu-item">Cremas</a>
-                            <a href="accesorios.html" class="menu-item">Accesorios</a>
+                            <a href="" class="menu-item selected" aria-selected="true">Accesorios</a>
                             <span id="line-selected-item" class="line-selected-item"></span>
                         </div>
                     </div>
                     <button id="pnAdvancerLeft" class="pn-Advancer pn-Advancer_Left" type="button"><span class="pointer material-symbols-outlined">chevron_left</span></button>
                     <button id="pnAdvancerRight" class="pn-Advancer pn-Advancer_Right" type="button"><span class="pointer material-symbols-outlined">chevron_right</span></button>
                 </div>
+                <!-- End Nav Bar section -->
             </div>
-            <!-- Termina menu -->
+            <!-- End header sticky section -->
 
-            <!-- Inicia hero banner -->
-            <div class="intro">
-                <h2 class="frame__title-main">¡Hola! Somos una tienda de productos cosméticos y skincare, tenemos cientos de productos de diferentes marcas y descuentos que no se acaban.</h2>
+            <div class="intro-2">
+                <div class="breadcrumb-wr">
+                    <a href="index.html" class="hover-line">Inicio</a>
+                    <span class="material-symbols-outlined">chevron_right</span>
+                    <a href="skincare-page.html">Skincare</a>
+                </div>
+                <h2 class="frame__title-main-2">Skincare</h2>
             </div>
-            <!-- Termina hero banner -->
 
+            <div class="row border-line">
+                <div class="cell cell--text">
+                    <h2 class="cell__title"><span class="oh__inner" id="numNewProducts"></span></h2>
+                </div>
+            </div>
+            
             <section class="content">
-                <div class="cover"></div>
-
-                <div class="scroll--section">
-                    <div class="row border-line">
-                        <div class="cell cell--text space--elements">
-                            <h2 class="cell__title oh">Nuevos productos</h2>
-                            <div class="arrows--reel">
-                                <span class="material-symbols-outlined arrow arrow-prev">arrow_back</span>
-                                <span class="material-symbols-outlined arrow arrow-next">arrow_forward</span>
-                            </div>
-                        </div>
-                        <div class="cell cell--text space--elements" onclick="window.location.href='nuevos-productos.html';">
-                            <span class="material-symbols-outlined">add</span>
-                            <span class="cell__title">Ver mas</span>
-                        </div>
-                    </div>
-
-                    <div class="slider-container">
-                        <div class="slider" id="nuevos-productos-main">
-                            <!-- Cards nuevos productos -->
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bandera">
-                    <div class="wr-banner wr-1">
-                        <h2 class="cell__title"><span class="oh__inner">Tenemos el producto perfecto para tu skincare.</span></h2>
-                        <button class="clean-btn" onclick="window.location.href='skincare-page.html';">Ver Productos</button>
-                    </div>
-                    <div class="wr-banner wr-2"></div>
-                </div>
-
-                <div class="row border-line">
-                    <div class="cell cell--text">
-                        <h2 class="cell__title oh">Productos Top ✨</h2>
-                    </div>
-                    <div class="cell cell--text space--elements" onclick="window.location.href='top-productos.html';">
-                        <span class="material-symbols-outlined">add</span>
-                        <span class="cell__title">Ver mas</span>
-                    </div>
-                </div>
-
                 <section class="products__wrapper">
                     <div class="container">
-                        <div class="cards" id="top-productos-main">
-                            <!-- Cards top productos -->
+                        <div class="cards text-center" id="skincare-productos">
+
+                                <!-- Cards nuevos productos -->
+                           
                         </div>
                     </div>
                 </section>
@@ -189,7 +161,9 @@
                 </div>
                 <!-- secccion -->
 
+                <!-- secccion -->
                 <div class="scroll--section">
+
                     <div class="row border-line">
                         <div class="cell cell--text space--elements">
                             <h2 class="cell__title oh">Marcas</h2>
@@ -203,155 +177,155 @@
                             <span class="cell__title">Ver mas</span>
                         </div>
                     </div>
-
-                    <div class="slider-container">
-                        <div class="slider">
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Trendy</span>
+    
+                        <div class="slider-container">
+                            <div class="slider">
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Trendy</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Atenea</span>
+    
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Atenea</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Ruby Rose</span>
+    
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Ruby Rose</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Ame</span>
+    
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Ame</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Elaya</span>
+    
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Elaya</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Dolce Bella</span>
+    
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Dolce Bella</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Beauty Glazed</span>
+    
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Beauty Glazed</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Maybellin</span>
+    
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Maybellin</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Samy</span>
+    
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Samy</span>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Ani-k</span>
+    
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Ani-k</span>
+                                        </div>
                                     </div>
                                 </div>
+    
                             </div>
                         </div>
                     </div>
-                </div>
+                    <!-- secccion -->
 
-                <div class="row border-line">
-                    <div class="cell cell--text">
-                        <h2 class="cell__title oh">Sobre shinee</h2>
+                    <!-- secccion -->
+                    <div class="row border-line">
+                        <div class="cell cell--text">
+                            <h2 class="cell__title oh">Sobre shinee</h2>
+                        </div>
                     </div>
-                </div>
+                    <!-- secccion -->
+    
+                    <!-- secccion -->
+                    <footer class="page-footer">
+    
+                        <p class="page-footer__text">
+                            Shinee es un espacio digital multimarca donde podrás encontrar productos cosméticos y de skincare enfocados en marcas colombianas.
+                        </p>
+                        <p class="page-footer__text">
+                            Queríamos crear una marca con una vibración única, donde las personas puedan redescubrir el significado de la belleza y el cuidado personal, más allá de comercializar productos, queremos ser una opción diferente en
+                            el mercado. Buscamos las mejores marcas desarrolladas en Colombia y hacemos lo posible por tener un set de productos de muy alta calidad y asequible para todos.
+                        </p>
+                        <p class="page-footer__text">
+                            Por el momento, Shinee es una marca 100% virtual, por lo que no contamos con un espacio físico donde puedas ver nuestros productos. Aún así, podrás ver todos nuestros productos y marcas con las que trabajamos aquí
+                            mismo en la página web, en nuestra cuenta de WhatsApp y redes sociales. Allí mismo tendrás información sobre stock, ofertas y descuentos, tiempos de envío, compras y devoluciones.
+                        </p>
+                        <p class="page-footer__text">
+                            Tenemos diferentes canales de comunicación para que puedas realizar tu compra o nos preguntes lo que querías.
+                        </p>
+                    </footer>
+                    <!-- secccion -->
 
-                <footer class="page-footer">
-                    <p class="page-footer__text">
-                        Shinee es un espacio digital multimarca donde podrás encontrar productos cosméticos y de skincare enfocados en marcas colombianas.
-                    </p>
-                    <p class="page-footer__text">
-                        Queríamos crear una marca con una vibración única, donde las personas puedan redescubrir el significado de la belleza y el cuidado personal, más allá de comercializar productos, queremos ser una opción diferente en
-                        el mercado. Buscamos las mejores marcas desarrolladas en Colombia y hacemos lo posible por tener un set de productos de muy alta calidad y asequible para todos.
-                    </p>
-                    <p class="page-footer__text">
-                        Por el momento, Shinee es una marca 100% virtual, por lo que no contamos con un espacio físico donde puedas ver nuestros productos. Aún así, podrás ver todos nuestros productos y marcas con las que trabajamos aquí
-                        mismo en la página web, en nuestra cuenta de WhatsApp y redes sociales. Allí mismo tendrás información sobre stock, ofertas y descuentos, tiempos de envío, compras y devoluciones.
-                    </p>
-                    <p class="page-footer__text">
-                        Tenemos diferentes canales de comunicación para que puedas realizar tu compra o nos preguntes lo que querías.
-                    </p>
-                </footer>
-
-                <div class="row border-line">
-                    <div class="cell cell--text">
-                        <h2 class="cell__title oh">Disclaimer</h2>
+                    <!-- secccion -->
+                    <div>
+                        <div class="wr-banner-2 wr-3 border-line">
+                            <h2 class="cell__title"><span class="oh__inner">Compra ahora por whatsapp, facil y seguro!</span></h2>
+                            <button class="clean-btn">Comprar ahora</button>
+                        </div>
                     </div>
-                </div>
-
-                <footer class="page-footer">
-                    <p class="page-footer__text">
-                        Nuestros usuarios y su salud son nuestra mayor prioridad, es por esto que te pedimos leer nuestro disclaimer antes de adquirir alguno de nuestros productos, si tienes dudas al respecto contactanos de inmediato.
-                        <a href="" class="hover-line">Leer mas aqui</a>
-                    </p>
-                </footer>
-
-                <div>
-                    <div class="wr-banner-2 wr-3 border-line">
-                        <h2 class="cell__title"><span class="oh__inner">Compra ahora por whatsapp, facil y seguro!</span></h2>
-                        <button class="clean-btn">Comprar ahora</button>
+                    <!-- secccion -->
+                    
+                    <!-- secccion -->
+                    <div>
+                        <div class="wr-banner-3 wr-4 border-line">
+                            <h1 class="cell__title oh text-ticker-info">Puedes pagar tu compra con transferencia bancaria, mercado pago, nequi, daviplata, movii y pago contra entrega (Solo en Bogota).</h1>
+                        </div>
                     </div>
-                </div>
-
-                <div>
-                    <div class="wr-banner-3 wr-4 border-line">
-                        <h1 class="cell__title oh text-ticker-info">Puedes pagar tu compra con transferencia bancaria, mercado pago, nequi, daviplata, movii y pago contra entrega (Solo en Bogota).</h1>
+                    <!-- secccion -->
+    
+                    <!-- secccion -->
+                    <div class="wr-5">
+                        <a class="frame__prevdemo" href="">© SHINEE BEAUTY & COSMETICS CO. 2023</a>
                     </div>
-                </div>
-
-                <div class="wr-5">
-                    <a class="frame__prevdemo" href="">© SHINEE BEAUTY & COSMETICS CO. 2023</a>
-                </div>
-            </section>
+                    <!-- secccion -->
+          
         </main>
     </body>
 </html>

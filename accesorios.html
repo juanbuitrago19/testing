@@ -14,7 +14,7 @@
         <!-- Scripts -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-        <script src="js/app-main.js" defer></script>
+        <script type="module" src="js/accesorios-productos-page.js" defer></script>
         <script src="js/app1.js" defer></script>
         <script src="js/app2.js" defer></script>
         <script src="js/app3.js" defer></script>
@@ -134,11 +134,198 @@
                 <h2 class="frame__title-main-2">Accesorios</h2>
             </div>
 
+            <div class="row border-line">
+                <div class="cell cell--text">
+                    <h2 class="cell__title"><span class="oh__inner" id="numNewProducts"></span></h2>
+                </div>
+            </div>
+            
+            <section class="content">
+                <section class="products__wrapper">
+                    <div class="container">
+                        <div class="cards text-center" id="accesorios-productos">
+
+                                <!-- Cards nuevos productos -->
+                           
+                        </div>
+                    </div>
+                </section>
+
+                <!-- secccion -->
+                <div class="bandera">
+                    <div class="wr-banner wr-2-optional"></div>
+                    <div class="wr-banner wr-1-optional">
+                        <h2 class="cell__title"><span class="oh__inner">Descuentos para siempre en cientos de productos.</span></h2>
+                        <button class="clean-btn" onclick="window.location.href='sales-productos.html';">Ver Descuentos</button>
+                    </div>
+                </div>
+                <!-- secccion -->
+
+                <!-- secccion -->
+                <div class="scroll--section">
+
+                    <div class="row border-line">
+                        <div class="cell cell--text space--elements">
+                            <h2 class="cell__title oh">Marcas</h2>
+                            <div class="arrows--reel">
+                                <span class="material-symbols-outlined arrow arrow-prev">arrow_back</span>
+                                <span class="material-symbols-outlined arrow arrow-next">arrow_forward</span>
+                            </div>
+                        </div>
+                        <div class="cell cell--text space--elements" onclick="window.location.href='nuevos-productos.html';">
+                            <span class="material-symbols-outlined">add</span>
+                            <span class="cell__title">Ver mas</span>
+                        </div>
+                    </div>
+    
+                        <div class="slider-container">
+                            <div class="slider">
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Trendy</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Atenea</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Ruby Rose</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Ame</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Elaya</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Dolce Bella</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Beauty Glazed</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Maybellin</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Samy</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="slide">
+                                    <div class="info-section-2 bck-color">
+                                        <div class="brand">
+                                            <span class="product-detail-btn">Ver Productos</span>
+                                            <span class="product-detail-brand">Ani-k</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                    <!-- secccion -->
+
+                    <!-- secccion -->
+                    <div class="row border-line">
+                        <div class="cell cell--text">
+                            <h2 class="cell__title oh">Sobre shinee</h2>
+                        </div>
+                    </div>
+                    <!-- secccion -->
+    
+                    <!-- secccion -->
+                    <footer class="page-footer">
+    
+                        <p class="page-footer__text">
+                            Shinee es un espacio digital multimarca donde podrás encontrar productos cosméticos y de skincare enfocados en marcas colombianas.
+                        </p>
+                        <p class="page-footer__text">
+                            Queríamos crear una marca con una vibración única, donde las personas puedan redescubrir el significado de la belleza y el cuidado personal, más allá de comercializar productos, queremos ser una opción diferente en
+                            el mercado. Buscamos las mejores marcas desarrolladas en Colombia y hacemos lo posible por tener un set de productos de muy alta calidad y asequible para todos.
+                        </p>
+                        <p class="page-footer__text">
+                            Por el momento, Shinee es una marca 100% virtual, por lo que no contamos con un espacio físico donde puedas ver nuestros productos. Aún así, podrás ver todos nuestros productos y marcas con las que trabajamos aquí
+                            mismo en la página web, en nuestra cuenta de WhatsApp y redes sociales. Allí mismo tendrás información sobre stock, ofertas y descuentos, tiempos de envío, compras y devoluciones.
+                        </p>
+                        <p class="page-footer__text">
+                            Tenemos diferentes canales de comunicación para que puedas realizar tu compra o nos preguntes lo que querías.
+                        </p>
+                    </footer>
+                    <!-- secccion -->
+
+                    <!-- secccion -->
+                    <div>
+                        <div class="wr-banner-2 wr-3 border-line">
+                            <h2 class="cell__title"><span class="oh__inner">Compra ahora por whatsapp, facil y seguro!</span></h2>
+                            <button class="clean-btn">Comprar ahora</button>
+                        </div>
+                    </div>
+                    <!-- secccion -->
+                    
+                    <!-- secccion -->
+                    <div>
+                        <div class="wr-banner-3 wr-4 border-line">
+                            <h1 class="cell__title oh text-ticker-info">Puedes pagar tu compra con transferencia bancaria, mercado pago, nequi, daviplata, movii y pago contra entrega (Solo en Bogota).</h1>
+                        </div>
+                    </div>
+                    <!-- secccion -->
+    
+                    <!-- secccion -->
+                    <div class="wr-5">
+                        <a class="frame__prevdemo" href="">© SHINEE BEAUTY & COSMETICS CO. 2023</a>
+                    </div>
+                    <!-- secccion -->
           
         </main>
-
-        
-      
-   
     </body>
 </html>

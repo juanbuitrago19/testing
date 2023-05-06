@@ -723,7 +723,7 @@ a:hover.menu-item {
 }
 
 .bandera {
-    margin: 1rem;
+    margin: 0.5rem;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -732,7 +732,7 @@ a:hover.menu-item {
 }
 
 .bandera-2 {
-    margin: 1rem;
+    margin: 0.5rem;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -1223,7 +1223,7 @@ h2.visible {
 .slider-container {
     width: 100%;
     overflow: hidden;
-    padding: 8px;
+    padding: 3px;
 }
 
 .slider {
@@ -1237,7 +1237,7 @@ h2.visible {
     display: flex;
     flex-direction: column;
     flex: 0 0 25%;
-    padding: 8px;
+    padding: 3px;
 }
 
 .slide-2 {
@@ -1349,7 +1349,7 @@ h2.visible {
     justify-content: center;
     align-content: center;
     margin: 0;
-    padding: 8px;
+    padding: 0.5rem;
 }
 
 .container {

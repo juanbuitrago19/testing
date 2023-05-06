@@ -10,12 +10,10 @@ let selectedProducts = [];
 let totalProducts = products.data.length;
 
 products.data.forEach((product) => {
-    if (maxViews < 16) {
-        let randomNumber = Math.floor(Math.random() * totalProducts);
 
-        if (!selectedProducts.includes(randomNumber)) {
-            selectedProducts.push(randomNumber);
-            let product = products.data[randomNumber];
+    if (maxViews < 16) {
+
+     
 
             if (product.category === dataCategory) {
                 let cardProduct = document.createElement("div");
@@ -61,6 +59,6 @@ products.data.forEach((product) => {
 
                 maxViews++;
             }
-        }
+        
     }
 });
