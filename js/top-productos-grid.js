@@ -1,6 +1,6 @@
 import { products } from "./Array-Objects.js";
 
-let var1 = document.querySelector("#top-productos-main");
+let var1 = document.querySelector("#show--products");
 
   //Codigo para pagina de nuevos productos
   products.data.forEach(product => {
@@ -9,7 +9,7 @@ let var1 = document.querySelector("#top-productos-main");
 
 
     let cardProduct = document.createElement("div");
-    cardProduct.classList.add("slide", "card-product");
+    cardProduct.classList.add("product--card--grid");
     cardProduct.setAttribute("onclick", `window.location.href='${product.url}';`);
 
     let imageSection = document.createElement("div");

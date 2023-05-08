@@ -1,6 +1,6 @@
 import { products } from "./Array-Objects.js";
 
-let var1 = document.querySelector("#jabonesFaciles-productos");
+let var1 = document.querySelector("#show--products");
 let newProductsCount = 0;
 
   //Codigo para pagina de nuevos productos
@@ -11,7 +11,7 @@ let newProductsCount = 0;
     newProductsCount++;
 
     let cardProduct = document.createElement("div");
-    cardProduct.classList.add("slide", "card-product");
+    cardProduct.classList.add("product--card--grid");
     cardProduct.setAttribute("onclick", `window.location.href='${product.url}';`);
 
     let imageSection = document.createElement("div");

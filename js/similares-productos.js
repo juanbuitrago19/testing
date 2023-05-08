@@ -1,6 +1,6 @@
 import { products } from "./Array-Objects.js";
 
-let var1 = document.querySelector("#productos-similares");
+let var1 = document.querySelector("#show--products");
 const usagevar = document.querySelector(".intro-3");
 const dataCategory = usagevar.dataset.category;
 let maxViews = 0;
@@ -17,7 +17,7 @@ products.data.forEach((product) => {
 
             if (product.category === dataCategory) {
                 let cardProduct = document.createElement("div");
-                cardProduct.classList.add("slide", "card-product");
+                cardProduct.classList.add("product--card--grid");
                 cardProduct.setAttribute("onclick", `window.location.href='${product.url}';`);
 
                 let imageSection = document.createElement("div");
