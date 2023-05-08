@@ -6,7 +6,7 @@ let maxViews = 0;
     //Codigo para reel nuevos productos
     products.data.forEach(product => {
 
-      if (maxViews < 10) {
+      if (maxViews < 13) {
 
         let randomNumber = Math.floor(Math.random()*products.data.length);
         let utilVar = products.data[randomNumber];
@@ -14,7 +14,7 @@ let maxViews = 0;
         if (utilVar.newProduct) {
 
         let cardProduct = document.createElement("div");
-        cardProduct.classList.add("slide");
+        cardProduct.classList.add("product--card");
         cardProduct.setAttribute("onclick", `window.location.href='${utilVar.url}';`);
 
         let imageSection = document.createElement("div");
