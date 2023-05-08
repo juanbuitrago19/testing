@@ -159,7 +159,7 @@ body {
     width: 5000px;
     height: 100%;
     display: flex;
-    padding: 10px;
+    padding: 1rem;
   }
   
   .item {
@@ -810,7 +810,7 @@ a:hover.menu-item {
 }
 
 .bandera {
-    margin: 0.5rem;
+    margin: 1rem;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -900,13 +900,30 @@ a:hover.menu-item {
 }
 
 .wr-1-optional {
-    background-color: #f0f0f0;
+    background-color: #1f1f1f;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 3rem;
+}
+
+.especial-btn {
+    border: none;
+    color: white;
+    text-align: center;
+    font-family: PPFraktionMono, monospace;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 2rem 3rem;
+    background-color: #333;
+}
+
+.especial-btn:hover {
+    cursor: pointer;
+    background-color: #131313;
 }
 
 .wr-1 h2 {
@@ -942,7 +959,7 @@ a:hover.menu-item {
 }
 
 .wr-2-optional {
-    background-image: linear-gradient(45deg, rgba(235, 90, 237, 0.5) 100%, rgba(248, 235, 223, 0)), url("../images/versed-target-the-everygirl.png");
+    background-image: linear-gradient(45deg, rgba(235, 90, 237, 0.5) 0%, rgba(248, 235, 223, 0)), url("../images/versed-target-the-everygirl.png");
     background-repeat: no-repeat, no-repeat;
     background-position: left top;
     background-size: cover;
@@ -1198,7 +1215,7 @@ h2.visible {
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
-    padding: 1rem;
+    padding: 2rem 3rem;
 }
 
 .tone--selected {
@@ -1548,7 +1565,7 @@ h2.visible {
     }
 
     .row {
-        padding: 0.5rem;
+        padding: 1rem;
     }
 
     .row--tone {
@@ -1585,7 +1602,7 @@ h2.visible {
 
     .bandera-2 {
         margin: 1rem;
-        background-color: #f6e2fa;
+        background-color: red;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -1613,7 +1630,7 @@ h2.visible {
     }
 
     .wr-1-optional {
-        background-color: #f6e2fa;
+        background-color: #1f1f1f;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -1627,16 +1644,16 @@ h2.visible {
     .wr-1 h2 {
         font-size: 2rem;
         font-weight: 700;
-        line-height: 2.5rem;
+        line-height: 2rem;
         max-width: 90%;
         white-space: normal;
-        color: aliceblue;
+        color: white;
     }
 
     .wr-1-optional h2 {
         font-size: 2rem;
         font-weight: 700;
-        line-height: 2.5rem;
+        line-height: 2rem;
         max-width: 90%;
         white-space: normal;
         color: #e900ff;
@@ -1775,7 +1792,7 @@ h2.visible {
     }
 
     .wr-1-optional {
-        background-color: #f0f0f0;
+        background-color: #1f1f1f;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -1806,7 +1823,7 @@ h2.visible {
 
 
     .product--card {
-        max-width: 300px;
+        max-width: 330px;
         flex: 1 1 30%; /* Proporción de ancho deseada */
         border: 1px solid #e5e5e5;
         overflow: hidden; /* Para evitar que la imagen sobresalga del contenedor */
@@ -1825,8 +1842,8 @@ h2.visible {
       .image-section img {
         object-fit: cover;
         width: 100%; /* Ancho máximo de la imagen */
-        height: auto; /* Altura automática para mantener la proporción */
-      }
+        height: 100%; /* Altura automática para mantener la proporción */
+    }
     
     
       
@@ -1888,7 +1905,7 @@ h2.visible {
     }
 
     .wr-1-optional {
-        background-color: #f0f0f0;
+        background-color: #1f1f1f;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;

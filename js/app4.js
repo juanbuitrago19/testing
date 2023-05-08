@@ -4,7 +4,7 @@ $.each( instance, function(key, value) {
   var arrows = $(instance[key]).find(".arrow"),
       prevArrow = arrows.filter('.arrow-prev'),
       nextArrow = arrows.filter('.arrow-next'),
-      box = $(instance[key]).find(".slider"), 
+      box = $(instance[key]).find(".slider-wrap-2"), 
       x = 0,
       mx = 0,
       maxScrollWidth = box[0].scrollWidth - (box[0].clientWidth / 2) - (box.width() / 2);

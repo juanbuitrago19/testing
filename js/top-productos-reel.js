@@ -1,14 +1,12 @@
 import { products } from "./Array-Objects.js";
 
 let var1 = document.querySelector("#top-productos-main");
-let newProductsCount = 0;
 
   //Codigo para pagina de nuevos productos
   products.data.forEach(product => {
 
     if (product.advised) {
 
-    newProductsCount++;
 
     let cardProduct = document.createElement("div");
     cardProduct.classList.add("slide", "card-product");
@@ -54,6 +52,3 @@ let newProductsCount = 0;
     }
 });
 
-
-let contador = document.querySelector("#numNewProducts");
-contador.innerHTML = newProductsCount + " Productos";
