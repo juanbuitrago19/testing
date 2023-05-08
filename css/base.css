@@ -1177,7 +1177,7 @@ h2.visible {
     z-index: 9999999999;
     transition: all 0.4s;
     list-style-type: none;
-    line-height: 2rem;
+    line-height: 1rem;
     margin: 0;
     padding: 0;
     text-align: left;
@@ -1307,6 +1307,7 @@ h2.visible {
 
 .menu_container li > a {
     font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 200;
     color: black;
     font-size: 1.3rem;
     text-transform: none;
