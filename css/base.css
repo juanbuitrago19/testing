@@ -1892,6 +1892,9 @@ h2.visible {
 
     }
 
+    .product--card--grid {
+        max-width: 100vh; 
+      }
 
     
 
