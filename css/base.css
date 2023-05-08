@@ -1824,13 +1824,13 @@ h2.visible {
 
     .slider_wrap_3 {
       
-        width: 4280px;
+        width: 4410px;
    
       }
 
 
     .product--card {
-        min-width: 320px;
+        min-width: 330px;
         flex: 1 1 30%; /* Proporción de ancho deseada */
         overflow: hidden; /* Para evitar que la imagen sobresalga del contenedor */
         font-family: neue-haas-grotesk-display, sans-serif;
