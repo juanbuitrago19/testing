@@ -405,7 +405,7 @@ a:focus-visible {
     background-repeat: no-repeat, no-repeat;
     background-position: left center;
     background-size: 150% 150%;
-    animation: animate 5s ease-in-out infinite;
+    animation: animate 3s ease-in-out infinite;
     color: #131313;
 }
 
@@ -874,7 +874,7 @@ a:hover.menu-item {
 
 
 
-.wr-4 h1 {
+.wr-4 h2 {
     display: table;
     white-space: nowrap;
     font-size: 6rem;
@@ -1004,7 +1004,7 @@ a:hover.menu-item {
 }
 
 h2 {
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.8s;
 }
 
@@ -2026,7 +2026,7 @@ h2.visible {
         font-size: 0.8rem;
     }
 
-    .wr-4 > h1 {
+    .wr-4 > h2 {
         font-size: 2rem;
     }
 
