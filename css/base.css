@@ -90,7 +90,14 @@
     box-sizing: border-box;
     touch-action: manipulation;
     overscroll-behavior: none;
+    
 }
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
 
 :root {
     font-size: 14px;
@@ -109,14 +116,13 @@
     --img-size-large: 14vw;
 }
 
-*::-webkit-scrollbar {
-    display: none;
-}
 
 body {
     margin: 0;
     color: var(--color-text);
     background-color: var(--color-bg);
+    scrollbar-width: none; /* para ocultar la barra de desplazamiento */
+    -webkit-overflow-scrolling: touch; /* para habilitar el desplazamiento suave */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
@@ -1859,7 +1865,7 @@ h2.visible {
 
     .clean-btn {
         font-size: 1rem;
-        padding: 2rem;
+        padding: 2rem 2rem;
     }
 
     .clean-btn-2 {
