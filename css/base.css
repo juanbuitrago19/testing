@@ -1343,7 +1343,6 @@ h2.visible {
 
 .product--card {
     flex: 1 1 30%; /* Proporción de ancho deseada */
-    border: 1px solid #e5e5e5;
     overflow: hidden; /* Para evitar que la imagen sobresalga del contenedor */
     font-family: neue-haas-grotesk-display, sans-serif;
     display: flex;
@@ -1366,7 +1365,7 @@ h2.visible {
   
   .info-section {
     flex-basis: 10%;
-    padding: 0.5rem;
+    padding: 0.5rem 0rem;
     gap: 2px;
     display: flex;
     flex-direction: column;
@@ -1821,11 +1820,16 @@ h2.visible {
         overflow-x: hidden;
     }
 
+    .slider_wrap_3 {
+      
+        width: 4000px;
+   
+      }
+
 
     .product--card {
         max-width: 330px;
         flex: 1 1 30%; /* Proporción de ancho deseada */
-        border: 1px solid #e5e5e5;
         overflow: hidden; /* Para evitar que la imagen sobresalga del contenedor */
         font-family: neue-haas-grotesk-display, sans-serif;
         display: flex;
@@ -1849,7 +1853,7 @@ h2.visible {
       
       .info-section {
         flex-basis: 10%;
-        padding: 0.5rem;
+        padding: 0.5rem 0rem;
         gap: 2px;
         display: flex;
         flex-direction: column;
