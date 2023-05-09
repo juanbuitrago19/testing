@@ -99,6 +99,10 @@
 
 
 
+
+
+
+
 :root {
     font-size: 14px;
     --color-text: #131313;
@@ -1177,7 +1181,7 @@ h2.visible {
     z-index: 9999999999;
     transition: all 0.4s;
     list-style-type: none;
-    line-height: 1rem;
+    line-height: 1.2rem;
     margin: 0;
     padding: 0;
     text-align: left;
@@ -1814,9 +1818,8 @@ h2.visible {
 
 /* Teléfonos */
 @media only screen and (max-width: 575px) {
-    body {
-        overflow-x: hidden;
-      
+    body::-webkit-scrollbar {
+        display: none;
     }
 
     .slider_wrap_3 {
