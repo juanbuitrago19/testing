@@ -1,7 +1,7 @@
 export const products = {
     data: [
       {
-        productName: "producto 1",
+        productName: "Paleta sombras sunshine",
         brand: "Beauty Glazed",
         category: "Sombras",
         price: "60.000",

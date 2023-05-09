@@ -157,7 +157,7 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: stretch;
-    gap: 8px;
+    gap: 3px;
     top: 0;
     left: 0;
     width: 4500px;
@@ -1380,6 +1380,7 @@ h2.visible {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: 600;
     font-size: 1rem;
     
   }
@@ -1392,7 +1393,7 @@ h2.visible {
     align-items: center;
     font-weight: 600;
     font-size: 1rem;
-    color: black;
+    color: #ccc;
   }
   
   .brand .product-detail-btn {
@@ -1508,16 +1509,15 @@ h2.visible {
     min-height: 30vh;
     display: grid;
   grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
-  grid-gap: 8px;
-  padding: 1rem;
+  grid-gap: 3px;
   justify-content: flex-start;
   align-items: flex-start;
-  align-content:flex-start;
+  align-content: flex-start;
 
 }
 
 .product--card--grid {
-    max-width: 350px;
+    max-width: 360px;
     overflow: hidden; /* Para evitar que la imagen sobresalga del contenedor */
     font-family: neue-haas-grotesk-display, sans-serif;
     display: flex;
@@ -1861,13 +1861,16 @@ h2.visible {
         flex-direction: column;
         justify-content: flex-start;
       }
+
+    
       
       .title-price {
         display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-        font-size: 1rem;
+        font-size: 0.8rem;
+        font-weight: 600;
         
       }
       
@@ -1877,9 +1880,9 @@ h2.visible {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        font-size: 0.8rem;
         font-weight: 600;
-        font-size: 1rem;
-        color: black;
+        color: #ccc;
       }
       
       .brand .product-detail-btn {
@@ -1929,10 +1932,7 @@ h2.visible {
         min-height: 300px;
     }
 
-    .title-price {
-        display: flex;
-        flex-direction: column;
-    }
+    
 
     .slide .info-section {
         flex: 0 1;
@@ -1950,7 +1950,7 @@ h2.visible {
     }
 
     .slide .info-section .title-price > span {
-        font-size: 1rem;
+        font-size: 0.5rem;
         white-space: pre-line;
     }
 
