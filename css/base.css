@@ -430,11 +430,12 @@ a:focus-visible {
 
 .intro-2 {
     padding: 2rem 1rem;
-    background-color: black;
+    background-color: #1f1f1f;
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    justify-content: space-between;
+   align-items: flex-start;
 }
 
 .intro-3 {
@@ -452,7 +453,7 @@ a:focus-visible {
 }
 
 .frame__title-main-2 {
-    line-height: 1rem;
+   
     font-family: neue-haas-grotesk-display, sans-serif;
     font-size: 3rem;
     font-weight: 600;
@@ -1574,7 +1575,7 @@ h2.visible {
     }
 
     .row {
-        padding: 0.5rem;
+        padding: 1rem 0.5rem;
     }
 
     .row--tone {
@@ -1766,7 +1767,7 @@ h2.visible {
     }
 
     .frame__title-main-2 {
-        line-height: 2rem;
+        
         font-family: neue-haas-grotesk-display, sans-serif;
         font-size: 2rem;
         font-weight: 600;
@@ -1808,7 +1809,6 @@ h2.visible {
     }
 
     .frame__title-main-2 {
-        line-height: 2rem;
         font-family: neue-haas-grotesk-display, sans-serif;
         font-size: 2rem;
         font-weight: 600;
@@ -2045,9 +2045,14 @@ h2.visible {
         padding: 2rem 0rem;
     }
 
+ 
+
     .intro-2 {
-        padding: 0.5rem;
-        background-color: black;
+        padding: 1rem 0.5rem;
+        background-color: #1f1f1f;
+        color: white;
+      
+ 
     }
 
     .frame__title-main {
@@ -2065,8 +2070,10 @@ h2.visible {
         animation: animate 5s ease-in-out infinite;
     }
 
+   
+
     .frame__title-main-2 {
-        line-height: 1.5rem;
+     
         font-family: neue-haas-grotesk-display, sans-serif;
         font-size: 1.5rem;
         font-weight: 600;
@@ -2084,6 +2091,8 @@ h2.visible {
     }
 
     .frame__title-main-3 {
+        max-width: 50%;
+        line-height: 2rem;
         font-size: 2rem;
         color: #ffffff;
         white-space: normal;
@@ -2153,6 +2162,8 @@ h2.visible {
      .arrow-next {
         opacity: 0;
     }
+
+  
 }
 
 
