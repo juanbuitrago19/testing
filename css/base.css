@@ -1379,7 +1379,7 @@ h2.visible {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: 600;
+    font-weight: 200;
     font-size: 1rem;
     
   }
@@ -1870,7 +1870,7 @@ h2.visible {
     align-items: flex-start;
     justify-content: space-between;
         font-size: 0.8rem;
-        font-weight: 600;
+        font-weight: 200;
         
       }
       
