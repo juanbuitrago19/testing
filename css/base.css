@@ -837,7 +837,7 @@ a:hover.menu-item {
 
 .wr-banner-2 {
     flex: 1 1;
-    padding: 10rem 1rem;
+    padding: 5rem 1rem;
 }
 
 .wr-banner-3 {
@@ -894,7 +894,6 @@ a:hover.menu-item {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    gap: 1rem;
 }
 
 .wr-5 > a {
@@ -1181,7 +1180,7 @@ h2.visible {
     z-index: 9999999999;
     transition: all 0.4s;
     list-style-type: none;
-    line-height: 1.2rem;
+    line-height: 1rem;
     margin: 0;
     padding: 0;
     text-align: left;
@@ -1292,11 +1291,11 @@ h2.visible {
 }
 
 .menu_container .section-5 li {
-    padding: 8px 8px;
+    padding: 1rem;
 }
 
 .menu_container .section-4 li {
-    padding: 8px 8px;
+    padding: 1rem;
 }
 
 .menu_container .section-4 {
@@ -1342,7 +1341,7 @@ h2.visible {
 .slider-container {
     width: 100%;
     overflow: hidden;
-    padding: 3px;
+    padding: 1rem;
 }
 
 .product--card {
@@ -1513,7 +1512,7 @@ h2.visible {
   justify-content: flex-start;
   align-items: flex-start;
   align-content: flex-start;
-
+    padding: 1rem;
 }
 
 .product--card--grid {
@@ -1571,7 +1570,7 @@ h2.visible {
     }
 
     .row {
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     .row--tone {
@@ -1599,7 +1598,7 @@ h2.visible {
     }
 
     .bandera {
-        margin: 1rem;
+        margin: 0.5rem;
         background-color: #e900ff;
         display: flex;
         flex-direction: column;
@@ -1693,9 +1692,9 @@ h2.visible {
     }
 
     .intro {
-        padding: 2rem 1rem;
+        padding: 0.5rem;
         display: flex;
-    justify-content:left;
+    justify-content:flex-start;
     align-items:flex-end;
     width: 100%;
     height: 60vh;
@@ -1823,7 +1822,8 @@ h2.visible {
     }
 
     .slider_wrap_3 {
-      
+        
+        padding: 0.5rem;
         width: 4410px;
    
       }
@@ -1856,7 +1856,7 @@ h2.visible {
       .info-section {
         flex-basis: 10%;
         padding: 0.5rem 0rem;
-        gap: 2px;
+        gap: 1px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -1895,6 +1895,7 @@ h2.visible {
 
       .products__wrapper {
     
+        padding: 0.5rem;
       grid-template-columns: repeat(auto-fit, minmax(35%, 1fr));
 
     }
@@ -1905,7 +1906,10 @@ h2.visible {
 
     
 
-
+      .slider-container {
+ 
+        padding: 0.5rem;
+    }
 
 
 
@@ -1973,7 +1977,7 @@ h2.visible {
     }
 
     .page-footer {
-        padding: 0rem 1rem;
+        padding: 0rem 0.5rem;
     }
 
     .ship-btn {
@@ -1991,11 +1995,7 @@ h2.visible {
         border-radius: 100px;
     }
 
-    .page-footer__credits {
-        font-weight: 800;
-        padding-top: 2vh;
-        text-align: left;
-    }
+  
 
     .wr-banner {
         flex: 1 1;
@@ -2004,7 +2004,7 @@ h2.visible {
 
     .wr-banner-2 {
         flex: 1 1;
-        padding: 3rem 1rem;
+        padding: 1rem 0.5rem;
     }
 
     .wr-3 {
@@ -2027,7 +2027,7 @@ h2.visible {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        gap: 1rem;
+        
     }
 
     .wr-5 > a {
@@ -2044,7 +2044,7 @@ h2.visible {
     }
 
     .intro-2 {
-        padding: 1rem;
+        padding: 0.5rem;
         background-color: black;
     }
 
@@ -2068,7 +2068,7 @@ h2.visible {
         font-family: neue-haas-grotesk-display, sans-serif;
         font-size: 1.5rem;
         font-weight: 600;
-        max-width: 50%;
+        max-width: 60%;
         color: #ffffff;
     }
 
@@ -2098,7 +2098,7 @@ h2.visible {
     }
 
     .page-footer__text {
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
     }
 
     .oh {
