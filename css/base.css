@@ -942,7 +942,7 @@ a:hover.menu-item {
     font-weight: 600;
     max-width: 100%;
     white-space: normal;
-    color: white;
+    color: #1f1f1f;
 }
 
 .wr-1-optional h2 {
@@ -1070,8 +1070,12 @@ h2.visible {
 }
 
 .page-footer__text {
+    font-family: PPFraktionMono, monospace;
+    font-size: 1rem;
     width: 100%;
     line-height: 1.5;
+    font-weight: 300;
+ 
 }
 
 .page-footer__text > a {
@@ -1209,7 +1213,7 @@ h2.visible {
 }
 
 .clean-btn {
-    background-color: black;
+    background-color: #1f1f1f;
     border: none;
     color: white;
     text-align: center;
@@ -1677,7 +1681,7 @@ h2.visible {
         line-height: 3rem;
         font-weight: 600;
         max-width: 100%;
-        color: aliceblue;
+        color: #1f1f1f;
     }
 
     .frame {
@@ -1855,8 +1859,6 @@ h2.visible {
       
       .info-section {
         flex-basis: 10%;
-        padding: 0.5rem 0rem;
-        gap: 1px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -2068,7 +2070,8 @@ h2.visible {
         font-family: neue-haas-grotesk-display, sans-serif;
         font-size: 1.5rem;
         font-weight: 600;
-        max-width: 60%;
+        max-width: 50%;
+        white-space: normal;
         color: #ffffff;
     }
 
@@ -2100,6 +2103,8 @@ h2.visible {
     .page-footer__text {
         margin-bottom: 1rem;
     }
+
+   
 
     .oh {
         max-width: 150px;
