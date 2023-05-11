@@ -17,6 +17,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
         <script type="module" src="js/nuevos-productos-reel.js" defer></script>
         <script type="module" src="js/top-productos-grid.js" defer></script>
+        <script type="module" src="js/test.js" defer></script>
         <script src="js/Filled-bar.js" defer></script>
         <script src="js/app1.js" defer></script>
         <script src="js/app2.js" defer></script>
@@ -27,6 +28,9 @@
         <script src="js/app7.js" defer></script>
         <script src="js/app8.js" defer></script>
         <script src="js/app9.js" defer></script>
+        <script src="js/app11.js" defer></script>
+        <script src="js/app12.js" defer></script>
+        
     </head>
     <body>
         <main>
@@ -200,115 +204,42 @@
                 </div>
                 <!-- secccion -->
 
-                <div class="scroll--section">
-                    <div class="row border-line">
-                        <div class="cell cell--text space--elements">
-                            <h2 class="cell__title oh">Marcas</h2>
-                            <div class="arrows--reel">
-                                <span class="material-symbols-outlined arrow arrow-prev">arrow_back</span>
-                                <span class="material-symbols-outlined arrow arrow-next">arrow_forward</span>
-                            </div>
-                        </div>
-                        <div class="cell cell--text space--elements" onclick="window.location.href='nuevos-productos.html';">
-                            <span class="material-symbols-outlined">add</span>
-                            <span class="cell__title">Ver mas</span>
-                        </div>
+                 <!-- secccion marcas inicia -->
+                 <div class="row border-line">
+                    <div class="cell cell--text space--elements">
+                        <h2 class="cell__title oh">Marcas</h2>
+                      
                     </div>
-
-                    <div class="slider-container">
-                        <div class="slider">
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Trendy</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Atenea</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Ruby Rose</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Ame</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Elaya</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Dolce Bella</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Beauty Glazed</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Maybellin</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Samy</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="slide">
-                                <div class="info-section-2 bck-color">
-                                    <div class="brand">
-                                        <span class="product-detail-btn">Ver Productos</span>
-                                        <span class="product-detail-brand">Ani-k</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="cell cell--text space--elements" onclick="window.location.href='nuevos-productos.html';">
+                        <span class="material-symbols-outlined">add</span>
+                        <span class="cell__title">Ver mas</span>
                     </div>
                 </div>
+
+            
+
+                <div class="marca-container">
+                    <ul class="marca-lista" id="show--brands">
+
+                         <!-- lista de marcas -->
+                       
+                    </ul>
+
+                    <button class="cta__ver__mas btn-ver-mas">
+                        <a class="hover-line">Ver más</a>
+                        <span class="material-symbols-outlined">expand_more</span>
+                    </button>
+
+                    <button class="cta__ver__menos btn-ver-menos hidden-2">
+                        <span class="material-symbols-outlined">expand_less</span>
+                        <a class="hover-line">Ver menos</a>
+                    </button>
+                   
+
+              
+                  </div>
+
+                 <!-- secccion marcas termina -->
 
                 <div class="row border-line">
                     <div class="cell cell--text">

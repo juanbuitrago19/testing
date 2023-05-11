@@ -10,7 +10,8 @@ export const products = {
         newProduct: true,
         advised: true,
         image: "product-0000001.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "primers.html"
       },
       {
         productName: "producto 2",
@@ -22,7 +23,8 @@ export const products = {
         newProduct: true,
         advised: true,
         image: "product-0000002.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 3",
@@ -34,7 +36,8 @@ export const products = {
         newProduct: true,
         advised: true,
         image: "product-0000003.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 4",
@@ -46,7 +49,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000004.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 5",
@@ -58,7 +62,8 @@ export const products = {
         newProduct: true,
         advised: true,
         image: "product-0000143.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 6",
@@ -70,7 +75,8 @@ export const products = {
         newProduct: true,
         advised: true,
         image: "product-0000005.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 7",
@@ -82,7 +88,8 @@ export const products = {
         newProduct: true,
         advised: true,
         image: "product-0000006.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 8",
@@ -94,7 +101,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000007.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 9",
@@ -106,7 +114,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000008.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 10",
@@ -118,7 +127,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000009.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 11",
@@ -130,7 +140,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000100.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 12",
@@ -142,7 +153,8 @@ export const products = {
         newProduct: true,
         advised: true,
         image: "product-0000101.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 13",
@@ -154,7 +166,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000102.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 14",
@@ -166,7 +179,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000103.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 15",
@@ -178,7 +192,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000104.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 16",
@@ -190,7 +205,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000105.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 17",
@@ -202,7 +218,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000106.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 18",
@@ -214,7 +231,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000107.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 19",
@@ -226,7 +244,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000108.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 20",
@@ -238,7 +257,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000109.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 20",
@@ -250,7 +270,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000109.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 20",
@@ -262,7 +283,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000109.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 20",
@@ -274,7 +296,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000109.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 20",
@@ -286,7 +309,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000109.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 20",
@@ -298,7 +322,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000109.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 20",
@@ -310,7 +335,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000109.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 20",
@@ -322,11 +348,12 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000109.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 20",
-        brand: "Atenea",
+        brand: "the factory",
         category: "Iluminadores",
         price: "80.000",
         stock: true,
@@ -334,7 +361,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000109.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 20",
@@ -346,11 +374,12 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000109.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 20",
-        brand: "Atenea",
+        brand: "more",
         category: "Hidratantes",
         price: "80.000",
         stock: true,
@@ -358,11 +387,12 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000109.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 20",
-        brand: "Atenea",
+        brand: "Ruby rose",
         category: "Desmaquillantes",
         price: "80.000",
         stock: true,
@@ -370,11 +400,12 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000109.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
       {
         productName: "producto 20",
-        brand: "Atenea",
+        brand: "Hous",
         category: "Delineadores",
         price: "80.000",
         stock: true,
@@ -382,7 +413,8 @@ export const products = {
         newProduct: true,
         advised: false,
         image: "product-0000109.jpg",
-        url: "product-1.html"
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
       },
      
     ],
