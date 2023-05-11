@@ -6,6 +6,8 @@ let maxViews = 0;
   //Codigo para pagina de nuevos productos
   products.data.forEach(product => {
 
+    if (product.stock) {
+
     if (maxViews < 15) {
 
     if (product.advised) {
@@ -54,6 +56,7 @@ let maxViews = 0;
 
     maxViews++;
     
+    }
     }
   }
 });

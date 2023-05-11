@@ -3,10 +3,10 @@ import { products } from "./Array-Objects.js";
 let var1 = document.querySelector("#show--products");
 let newProductsCount = 0;
 
-const Accesorios = products.data.filter(product => product.category.includes('Accesorios')).sort((a, b) => a.price - b.price);
+const Skincare = products.data.filter(product => product.category.includes('Skincare')).sort((a, b) => a.price - b.price);
 
-Accesorios.forEach(product => {
-    
+Skincare.forEach(product => {
+
     if (product.stock) {
 
     newProductsCount++;
@@ -51,8 +51,10 @@ Accesorios.forEach(product => {
     cardProduct.appendChild(imageSection);
     cardProduct.appendChild(infoSection);
     var1.appendChild(cardProduct);
-    
+
     }
+    
+    
 });
 
 

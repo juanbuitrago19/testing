@@ -3,10 +3,13 @@ import { products } from "./Array-Objects.js";
 let var1 = document.querySelector("#show--products");
 let newProductsCount = 0;
 
-  //Codigo para pagina de nuevos productos
-  products.data.forEach(product => {
+const Labios = products.data.filter(product => product.category.includes('Labios')).sort((a, b) => a.price - b.price);
 
-    if (product.category === "Labios") {
+
+Labios.forEach(product => {
+
+    if (product.stock) {
+
 
     newProductsCount++;
 
@@ -52,6 +55,7 @@ let newProductsCount = 0;
     var1.appendChild(cardProduct);
     
     }
+    
 });
 
 

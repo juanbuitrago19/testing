@@ -3,7 +3,7 @@ export const products = {
       {
         productName: "Paleta sombras sunshine",
         brand: "Beauty Glazed",
-        category: "Sombras",
+        category: ["Sombras","Skincare"],
         price: "60.000",
         stock: true,
         discount: true,
@@ -16,8 +16,8 @@ export const products = {
       {
         productName: "producto 2",
         brand: "Beauty Glazed",
-        category: "Cejas",
-        price: "50.000",
+        category: "Accesorios",
+        price: "3.000",
         stock: true,
         discount: true,
         newProduct: true,
@@ -30,7 +30,7 @@ export const products = {
         productName: "producto 3",
         brand: "Atenea",
         category: "Sombras",
-        price: "78.000",
+        price: "18.000",
         stock: true,
         discount: true,
         newProduct: true,
@@ -43,7 +43,7 @@ export const products = {
         productName: "producto 4",
         brand: "Atenea",
         category: "frer",
-        price: "70.000",
+        price: "22.000",
         stock: true,
         discount: true,
         newProduct: true,
@@ -56,7 +56,7 @@ export const products = {
         productName: "producto 5",
         brand: "Atenea",
         category: "erfer",
-        price: "80.000",
+        price: "8.000",
         stock: true,
         discount: false,
         newProduct: true,
@@ -147,7 +147,7 @@ export const products = {
         productName: "producto 12",
         brand: "Atenea",
         category: "Sombras",
-        price: "80.000",
+        price: "1.200",
         stock: true,
         discount: false,
         newProduct: true,
@@ -301,7 +301,7 @@ export const products = {
       },
       {
         productName: "producto 20",
-        brand: "Atenea",
+        brand: "Abis",
         category: "Bases",
         price: "80.000",
         stock: true,
@@ -314,7 +314,7 @@ export const products = {
       },
       {
         productName: "producto 20",
-        brand: "Atenea",
+        brand: "Zara",
         category: "Labios",
         price: "80.000",
         stock: true,
@@ -367,7 +367,7 @@ export const products = {
       {
         productName: "producto 20",
         brand: "Atenea",
-        category: "Cremas",
+        category: ["Cremas","Skincare"],
         price: "80.000",
         stock: true,
         discount: false,
@@ -456,6 +456,33 @@ export const products = {
         url: "product-1.html",
         brandUrl: "nuevos-productos.html"
       },
+      {
+        productName: "producto 20",
+        brand: "i8hn78y",
+        category: "Bases",
+        price: "80.000",
+        stock: true,
+        discount: false,
+        newProduct: true,
+        advised: false,
+        image: "product-0000109.jpg",
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
+      },
+      {
+        productName: "producto 2200",
+        brand: "i8hn78y",
+        category: "Bases",
+        price: "80.000",
+        stock: true,
+        discount: false,
+        newProduct: true,
+        advised: false,
+        image: "product-0000109.jpg",
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
+      },
+     
      
     ],
   };

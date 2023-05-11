@@ -3,8 +3,10 @@ import { products } from "./Array-Objects.js";
 let var1 = document.querySelector("#show--products");
 let newProductsCount = 0;
 
-  //Codigo para pagina de nuevos productos
-  products.data.forEach(product => {
+products.data.forEach(product => {
+
+    if (product.stock) {
+
 
     if (product.discount) {
 
@@ -52,6 +54,7 @@ let newProductsCount = 0;
     var1.appendChild(cardProduct);
     
     }
+}
 });
 
 

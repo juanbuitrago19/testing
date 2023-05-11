@@ -4,8 +4,9 @@ let var1 = document.querySelector("#show--brands");
 let newProductsCount = 0;
 
 let marcas = [...new Set(products.data.map(product => product.brand))];
+let marcasOrdenadas = marcas.sort((a, b) => a.localeCompare(b));
 
-marcas.forEach(marca => {
+marcasOrdenadas.forEach(marca => {
 
     newProductsCount++;
 

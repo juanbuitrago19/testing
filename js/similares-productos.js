@@ -5,11 +5,10 @@ const usagevar = document.querySelector(".intro-3");
 const dataCategory = usagevar.dataset.category;
 let maxViews = 0;
 
-let selectedProducts = [];
-
-let totalProducts = products.data.length;
-
 products.data.forEach((product) => {
+
+    if (product.stock) {
+
 
     if (maxViews < 16) {
 
@@ -59,6 +58,8 @@ products.data.forEach((product) => {
 
                 maxViews++;
             }
+
+        }
         
     }
 });

@@ -6,6 +6,9 @@ let maxViews = 0;
     //Codigo para reel nuevos productos
     products.data.forEach(product => {
 
+      if (product.stock) {
+
+
       if (maxViews < 13) {
 
         let randomNumber = Math.floor(Math.random()*products.data.length);
@@ -57,6 +60,7 @@ let maxViews = 0;
         maxViews++;
 
         }
+      }
       }
       
 });

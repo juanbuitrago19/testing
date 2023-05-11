@@ -1340,6 +1340,11 @@ h2.visible {
     flex-direction: column;
 }
 
+.product--card:hover,
+.product--card--grid:hover {
+    cursor: pointer;
+}
+
 .image-section {
     flex-basis: 90%;
     overflow: hidden; /* Para recortar la imagen si es más grande que el contenedor */
@@ -2168,6 +2173,7 @@ button span {
 
     .frame__title-main-2 {
         font-family: neue-haas-grotesk-display, sans-serif;
+        line-height: 1.5rem;
         font-size: 1.5rem;
         font-weight: 600;
         max-width: 50%;

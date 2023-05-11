@@ -3,10 +3,12 @@ import { products } from "./Array-Objects.js";
 let var1 = document.querySelector("#show--products");
 let newProductsCount = 0;
 
-  //Codigo para pagina de nuevos productos
-  products.data.forEach(product => {
+const Primers = products.data.filter(product => product.category.includes('Primers')).sort((a, b) => a.price - b.price);
 
-    if (product.category === "Primers") {
+Primers.forEach(product => {
+
+    if (product.stock) {
+
 
     newProductsCount++;
 

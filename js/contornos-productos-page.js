@@ -3,10 +3,11 @@ import { products } from "./Array-Objects.js";
 let var1 = document.querySelector("#show--products");
 let newProductsCount = 0;
 
-  //Codigo para pagina de nuevos productos
-  products.data.forEach(product => {
+const Contornos = products.data.filter(product => product.category.includes('Contornos')).sort((a, b) => a.price - b.price);
 
-    if (product.category === "Contornos") {
+Contornos.forEach(product => {
+
+    if (product.stock) {
 
     newProductsCount++;
 
@@ -50,7 +51,7 @@ let newProductsCount = 0;
     cardProduct.appendChild(imageSection);
     cardProduct.appendChild(infoSection);
     var1.appendChild(cardProduct);
-    
+     
     }
 });
 

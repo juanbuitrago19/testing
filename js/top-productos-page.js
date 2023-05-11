@@ -6,6 +6,8 @@ let newProductsCount = 0;
   //Codigo para pagina de nuevos productos
   products.data.forEach(product => {
 
+    if (product.stock) {
+
     if (product.advised) {
 
     newProductsCount++;
@@ -52,6 +54,7 @@ let newProductsCount = 0;
     var1.appendChild(cardProduct);
     
     }
+  }
 });
 
 

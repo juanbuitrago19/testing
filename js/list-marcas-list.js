@@ -3,9 +3,10 @@ import { products } from "./Array-Objects.js";
 let var1 = document.querySelector("#show--brands");
 
 let marcas = [...new Set(products.data.map(product => product.brand))];
+let marcasOrdenadas = marcas.sort((a, b) => a.localeCompare(b));
 let maxViews = 0;
 
-marcas.forEach(marca => {
+marcasOrdenadas.forEach(marca => {
 
     if (maxViews < 15) {
 
