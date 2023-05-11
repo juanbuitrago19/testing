@@ -1597,6 +1597,30 @@ button span {
     font-size: 1.5rem;
 }
 
+.cta__ver__mas span {
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.cta__ver__mas:hover {
+    color: #ccc;
+    transform: translateY(5px);
+    transition: all 0.3s ease;
+  }
+
+  .cta__ver__menos span {
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.cta__ver__menos:hover {
+    cursor: pointer;
+    color: #ccc;
+    transform: translateY(5px);
+    transition: all 0.3s ease;
+  }
+  
+
 .cta__ver__menos {
     font-family: PPFraktionMono, monospace;
 
