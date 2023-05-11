@@ -1494,6 +1494,43 @@ h2.visible {
     flex-direction: column;
 }
 
+.brand--card--grid {
+    background-color: #e900ff;
+    max-width: 360px;
+    min-height: 200px;
+    padding: 1rem;
+    overflow: hidden; /* Para evitar que la imagen sobresalga del contenedor */
+    font-family: neue-haas-grotesk-display, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.align_items_right_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    
+}
+
+.brand--card--grid:hover {
+    cursor: pointer;
+    background-color: #eb5aed;
+}
+
+.num__products_2,
+.cta__view__page_2 {
+    font-size: 1rem;
+    color: white;
+    font-family: PPFraktionMono, monospace;
+    font-weight: 100;
+}
+
+
+
+
 /* seccionde marcas*/
 
 .marca-container {
@@ -1512,7 +1549,7 @@ h2.visible {
 }
 
 .brand__element {
-    background-color: black;
+    background-color: #e900ff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1523,7 +1560,7 @@ h2.visible {
 
 .brand__element:hover {
     cursor: pointer;
-    background-color: #1f1f1f;
+    background-color: #eb5aed;
 }
 
 .marca-lista li {
@@ -2122,6 +2159,14 @@ button span {
         color: black;
     }
 
+    .align_items_right_2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 3px;
+        
+    }
+
     .frame__title-main-3 {
         max-width: 50%;
         line-height: 2rem;
@@ -2148,6 +2193,19 @@ button span {
     .oh {
         max-width: 150px;
         white-space: normal;
+    }
+
+    .brand--card--grid {
+        background-color: #e900ff;
+        max-width: 360px;
+        min-height: 150px;
+        padding: 0.5rem;
+        overflow: hidden; /* Para evitar que la imagen sobresalga del contenedor */
+        font-family: neue-haas-grotesk-display, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
     }
 
     .cell__title {
