@@ -416,6 +416,46 @@ export const products = {
         url: "product-1.html",
         brandUrl: "nuevos-productos.html"
       },
+      {
+        productName: "producto 20",
+        brand: "Atenea",
+        category: "Delineadores",
+        price: "80.000",
+        stock: true,
+        discount: false,
+        newProduct: true,
+        advised: false,
+        image: "product-0000109.jpg",
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
+      },
+
+      {
+        productName: "producto 20",
+        brand: "ff",
+        category: "Delineadores",
+        price: "80.000",
+        stock: true,
+        discount: false,
+        newProduct: true,
+        advised: false,
+        image: "product-0000109.jpg",
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
+      },
+      {
+        productName: "producto 20",
+        brand: "i8hn78y",
+        category: "Delineadores",
+        price: "80.000",
+        stock: true,
+        discount: false,
+        newProduct: true,
+        advised: false,
+        image: "product-0000109.jpg",
+        url: "product-1.html",
+        brandUrl: "nuevos-productos.html"
+      },
      
     ],
   };

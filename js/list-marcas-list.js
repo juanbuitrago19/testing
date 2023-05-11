@@ -12,6 +12,8 @@ marcas.forEach(marca => {
 
     let liBrandElement = document.createElement("li");
     liBrandElement.classList.add("brand__element", "border-line");
+    liBrandElement.setAttribute("onclick", `window.location.href='${brandUrl}';`);
+
 
     let h2CellTitle = document.createElement("h2");
     h2CellTitle.classList.add("cell__title_2");

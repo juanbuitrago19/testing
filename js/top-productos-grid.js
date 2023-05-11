@@ -1,9 +1,12 @@
 import { products } from "./Array-Objects.js";
 
 let var1 = document.querySelector("#show--products");
+let maxViews = 0;
 
   //Codigo para pagina de nuevos productos
   products.data.forEach(product => {
+
+    if (maxViews < 15) {
 
     if (product.advised) {
 
@@ -48,7 +51,10 @@ let var1 = document.querySelector("#show--products");
     cardProduct.appendChild(imageSection);
     cardProduct.appendChild(infoSection);
     var1.appendChild(cardProduct);
+
+    maxViews++;
     
     }
+  }
 });
 
