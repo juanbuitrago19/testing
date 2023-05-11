@@ -3,8 +3,11 @@ import { products } from "./Array-Objects.js";
 let var1 = document.querySelector("#show--brands");
 
 let marcas = [...new Set(products.data.map(product => product.brand))];
+let maxViews = 0;
 
 marcas.forEach(marca => {
+
+    if (maxViews < 15) {
 
     let count = products.data.filter(product => product.brand === marca).length;
     let brandUrl = products.data.filter(product => product.brand === marca)[0].brandUrl;
@@ -38,6 +41,10 @@ marcas.forEach(marca => {
     liBrandElement.appendChild(divAlignItemsRight);
 
     var1.appendChild(liBrandElement);
+
+    maxViews++;
+
+    }
 
 });
 

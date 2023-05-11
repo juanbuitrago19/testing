@@ -45,7 +45,7 @@ marcas.forEach(marca => {
 });
 
 let contador = document.querySelector("#numNewProducts");
-contador.innerHTML = newProductsCount + " Productos";
+contador.innerHTML = newProductsCount + " Marcas";
 
 
 
