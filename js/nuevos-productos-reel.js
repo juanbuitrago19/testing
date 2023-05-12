@@ -3,27 +3,24 @@ import { products } from "./Array-Objects.js";
 let var2 = document.querySelector("#nuevos-productos-main");
 let maxViews = 0;
 
-    //Codigo para reel nuevos productos
-    products.data.forEach(product => {
+const newProducts = products.data.filter(product => product.newProduct === true).sort((a, b) => a.price - b.price);
 
-      if (product.stock) {
+
+newProducts.forEach(product => {
 
 
       if (maxViews < 13) {
 
-        let randomNumber = Math.floor(Math.random()*products.data.length);
-        let utilVar = products.data[randomNumber];
-
-        if (utilVar.newProduct) {
+     
 
         let cardProduct = document.createElement("div");
         cardProduct.classList.add("product--card");
-        cardProduct.setAttribute("onclick", `window.location.href='${utilVar.url}';`);
+        cardProduct.setAttribute("onclick", `window.location.href='${product.url}';`);
 
         let imageSection = document.createElement("div");
         imageSection.classList.add("image-section");
         let img = document.createElement("img");
-        img.setAttribute("src", `images/${utilVar.image}`);
+        img.setAttribute("src", `images/${product.image}`);
         img.setAttribute("alt", "Image");
         imageSection.appendChild(img);
 
@@ -33,11 +30,11 @@ let maxViews = 0;
         let titlePrice = document.createElement("div");
         titlePrice.classList.add("title-price");
         let title = document.createElement("span");
-        title.textContent = utilVar.productName;
+        title.textContent = product.productName;
         titlePrice.appendChild(title);
 
         let priceSpan = document.createElement("span");
-        priceSpan.textContent = "$" + utilVar.price;
+        priceSpan.textContent = "$" + product.price;
         titlePrice.appendChild(priceSpan);
         infoSection.appendChild(titlePrice);
 
@@ -45,7 +42,7 @@ let maxViews = 0;
         brand.classList.add("brand");
         let brandSpan = document.createElement("span");
         brandSpan.classList.add("product-detail-brand");
-        brandSpan.textContent = utilVar.brand;
+        brandSpan.textContent = product.brand;
         brand.appendChild(brandSpan);
         let btnSpan = document.createElement("span");
         btnSpan.classList.add("product-detail-btn");
@@ -59,8 +56,8 @@ let maxViews = 0;
         
         maxViews++;
 
-        }
-      }
+        
+      
       }
       
 });

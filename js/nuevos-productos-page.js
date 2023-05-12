@@ -3,13 +3,14 @@ import { products } from "./Array-Objects.js";
 let var1 = document.querySelector("#show--products");
 let newProductsCount = 0;
 
-  //Codigo para pagina de nuevos productos
-  products.data.forEach(product => {
+const newProducts = products.data.filter(product => product.newProduct === true).sort((a, b) => a.price - b.price);
+
+newProducts.forEach(product => {
 
     if (product.stock) {
 
 
-    if (product.newProduct) {
+
 
     newProductsCount++;
 
@@ -54,7 +55,7 @@ let newProductsCount = 0;
     cardProduct.appendChild(infoSection);
     var1.appendChild(cardProduct);
     
-    }
+    
   }
 });
 

@@ -10,7 +10,7 @@ products.data.forEach((product) => {
     if (product.stock) {
 
 
-    if (maxViews < 16) {
+    if (maxViews < 8) {
 
      
 

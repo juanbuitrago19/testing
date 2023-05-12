@@ -3,15 +3,13 @@ import { products } from "./Array-Objects.js";
 let var1 = document.querySelector("#show--products");
 let maxViews = 0;
 
-  //Codigo para pagina de nuevos productos
-  products.data.forEach(product => {
+const goodProducts = products.data.filter(product => product.advised === true).sort((a, b) => a.price - b.price);
+
+goodProducts.forEach(product => {
 
     if (product.stock) {
 
     if (maxViews < 15) {
-
-    if (product.advised) {
-
 
     let cardProduct = document.createElement("div");
     cardProduct.classList.add("product--card--grid");
@@ -56,7 +54,7 @@ let maxViews = 0;
 
     maxViews++;
     
-    }
+    
     }
   }
 });

@@ -3,12 +3,11 @@ import { products } from "./Array-Objects.js";
 let var1 = document.querySelector("#show--products");
 let newProductsCount = 0;
 
-products.data.forEach(product => {
+const discountedProducts = products.data.filter(product => product.discount === true).sort((a, b) => a.price - b.price);
+
+discountedProducts.forEach(product => {
 
     if (product.stock) {
-
-
-    if (product.discount) {
 
     newProductsCount++;
 
@@ -53,7 +52,7 @@ products.data.forEach(product => {
     cardProduct.appendChild(infoSection);
     var1.appendChild(cardProduct);
     
-    }
+    
 }
 });
 
