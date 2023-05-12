@@ -5,7 +5,7 @@ let newProductsCount = 0;
 
 const Rubores = products.data.filter(product => product.category.includes('Rubores')).sort((a, b) => a.price - b.price);
 
-  products.forEach(product => {
+Rubores.forEach(product => {
 
     if (product.stock) {
 
