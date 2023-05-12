@@ -29,12 +29,12 @@ marcasOrdenadas.forEach(marca => {
 
     let aNumProducts = document.createElement('a');
     aNumProducts.classList.add("num__products");
-    aNumProducts.textContent = "("+ count + ")";
+    aNumProducts.innerText = '+';
 
     let aCtaViewPage = document.createElement("a");
     aCtaViewPage.classList.add("cta__view__page");
     aCtaViewPage.href = brandUrl;
-    aCtaViewPage.innerText = 'Ver todo';
+    aCtaViewPage.innerText = 'Mas productos';
 
     divAlignItemsRight.appendChild(aNumProducts);
     divAlignItemsRight.appendChild(aCtaViewPage);

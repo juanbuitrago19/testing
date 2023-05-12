@@ -132,7 +132,21 @@ body {
     height: 390px;
 }
 
+.slider-wrap-brand {
+    position: relative;
+    width: 100%;
+    height: 120px;
+}
+
 .slider-wrap-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+}
+.slider-wrap-2-brand {
     position: absolute;
     top: 0;
     left: 0;
@@ -151,6 +165,24 @@ body {
     top: 0;
     left: 0;
     width: 4500px;
+    height: 100%;
+    padding: 1rem;
+}
+
+.active-brand {
+    background-color: #131313;
+}
+
+.slider_wrap_3-brand {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 3px;
+    top: 0;
+    left: 0;
+    width: auto;
     height: 100%;
     padding: 1rem;
 }
@@ -240,6 +272,10 @@ a {
 .hover-line {
     overflow: hidden;
     position: relative;
+}
+
+.hide__cta_card-brand {
+    color: green;
 }
 
 .hover-line::before {
@@ -1500,8 +1536,8 @@ h2.visible {
 
 .brand--card--grid {
     background-color: #e900ff;
-    max-width: 360px;
-    min-height: 200px;
+    min-width: 250px;
+    min-height: 50px;
     padding: 1rem;
     overflow: hidden; /* Para evitar que la imagen sobresalga del contenedor */
     font-family: neue-haas-grotesk-display, sans-serif;
@@ -2190,7 +2226,7 @@ button span {
 
     .align_items_right_2 {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: flex-start;
         gap: 3px;
         
@@ -2224,10 +2260,17 @@ button span {
         white-space: normal;
     }
 
+    .slider_wrap_3-brand {
+       
+        padding: 0.5rem;
+    }
+
+    
+
     .brand--card--grid {
         background-color: #e900ff;
-        max-width: 360px;
-        min-height: 150px;
+        min-width: 180px;
+        min-height: 50px;
         padding: 1rem;
         overflow: hidden; /* Para evitar que la imagen sobresalga del contenedor */
         font-family: neue-haas-grotesk-display, sans-serif;
@@ -2236,6 +2279,8 @@ button span {
         justify-content: space-between;
         align-items: flex-start;
     }
+
+   
 
     .cell__title {
         font-family: neue-haas-grotesk-display, sans-serif;
