@@ -16,7 +16,7 @@ marcasOrdenadas.forEach(marca => {
 
     let liBrandElement = document.createElement("li");
     liBrandElement.classList.add("brand__element", "border-line");
-    liBrandElement.setAttribute("onclick", `window.location.href='${brandUrl}';`);
+    liBrandElement.setAttribute("onclick", `window.location.href='marcas.html';`);
 
 
     let h2CellTitle = document.createElement("h2");
@@ -29,12 +29,12 @@ marcasOrdenadas.forEach(marca => {
 
     let aNumProducts = document.createElement('a');
     aNumProducts.classList.add("num__products");
-    aNumProducts.innerText = '+';
+    aNumProducts.textContent = "(" + count + "Productos" + ")";
 
     let aCtaViewPage = document.createElement("a");
     aCtaViewPage.classList.add("cta__view__page");
     aCtaViewPage.href = brandUrl;
-    aCtaViewPage.innerText = 'Mas productos';
+    aCtaViewPage.innerText = '+';
 
     divAlignItemsRight.appendChild(aNumProducts);
     divAlignItemsRight.appendChild(aCtaViewPage);

@@ -1,42 +1,17 @@
-// Obtener todos los elementos li con la clase "brand__element"
-var brandElements = document.querySelectorAll('.brand__element');
+// obtenemos todos los divs con la clase "brand--card--grid"
+const cards = document.querySelectorAll('.brand--card--grid');
 
-// Iterar sobre cada elemento li
-brandElements.forEach(function(element) {
-  // Obtener el enlace "Ver todo" dentro del elemento li actual
-  var link = element.querySelector('a.cta__view__page');
+// ponemos el fondo negro en el primer div
+cards[0].style.backgroundColor = 'black';
 
-  // Agregar un evento de escucha para el evento de hover
-  element.addEventListener('mouseover', function() {
-    // Agregar la clase "hover-line" al enlace "Ver todo"
-    link.classList.add('hover-line');
-  });
-
-  // Agregar un evento de escucha para el evento de dejar de hacer hover
-  element.addEventListener('mouseout', function() {
-    // Eliminar la clase "hover-line" del enlace "Ver todo"
-    link.classList.remove('hover-line');
-  });
-});
-
-
-// Obtener todos los elementos li con la clase "brand__element"
-var brandElements2 = document.querySelectorAll('.brand--card--grid');
-
-// Iterar sobre cada elemento li
-brandElements2.forEach(function(element) {
-  // Obtener el enlace "Ver todo" dentro del elemento li actual
-  var link = element.querySelector('.cta__view__page_2');
-
-  // Agregar un evento de escucha para el evento de hover
-  element.addEventListener('mouseover', function() {
-    // Agregar la clase "hover-line" al enlace "Ver todo"
-    link.classList.add('hover-line');
-  });
-
-  // Agregar un evento de escucha para el evento de dejar de hacer hover
-  element.addEventListener('mouseout', function() {
-    // Eliminar la clase "hover-line" del enlace "Ver todo"
-    link.classList.remove('hover-line');
+// agregamos un event listener a cada div
+cards.forEach((card, index) => {
+  card.addEventListener('click', () => {
+    // retiramos el fondo negro de todos los divs
+    cards.forEach(card => {
+      card.style.backgroundColor = '';
+    });
+    // ponemos el fondo negro en el div clickeado
+    card.style.backgroundColor = 'black';
   });
 });
