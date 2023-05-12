@@ -111,7 +111,7 @@ video::-webkit-media-controls {
         gap: 3px;
         top: 0;
         left: 0;
-        width: 2000px;
+        width: 1800px;
         height: 100%;
         padding: 0.5rem;
     }
