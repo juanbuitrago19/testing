@@ -984,6 +984,10 @@ a:hover.menu-item {
     justify-content: flex-start;
     align-items: center;
     gap: 5px;
+    background-color: #131313;
+    padding: 1rem;
+    width: 65%;
+    border-radius: 100px;
 
 }
 
@@ -1003,7 +1007,8 @@ a:hover.menu-item {
 }
 
 .row__align_2 > a { 
-    color: black;
+    line-height: 10px;
+    color: white;
 }
 
 .row__align > span { 
@@ -1012,6 +1017,7 @@ a:hover.menu-item {
 }
 
 .row__align_2 > span { 
+    color: white;
     line-height: 0px;
     font-weight: 300;
 }
@@ -1294,9 +1300,9 @@ h2.visible {
     background-color: white;
     height: 100vh;
     position: fixed;
-    left: -18rem;
-    width: 18rem;
-    max-width: 18rem;
+    left: -20rem;
+    width: 20rem;
+    max-width: 20rem;
     top: 0;
     z-index: 9999999999;
     transition: all 0.4s;
@@ -1312,7 +1318,7 @@ h2.visible {
 
 .menu_container .section-1 {
     height: auto;
-    padding: 16px;
+    padding: 2rem 1rem;
     background-image: linear-gradient(180deg, rgba(233, 0, 255, 1) 1%, rgb(255, 255, 255));
     display: flex;
     flex-direction: column;
@@ -1321,13 +1327,17 @@ h2.visible {
     border-bottom: 1px solid var(--color-row-border);
 }
 
+.menu_container .section-1 {
+
+}
+
 .menu_container .section-1 > a {
     text-transform: none;
     font-weight: 600;
-    font-family: neue-haas-grotesk-display, sans-serif;
+    font-family: PPFraktionMono, monospace;
     font-size: 1.5rem;
     line-height: 1;
-    color: #f5f3f4;
+    color: #131313;
 }
 
 .clean-btn {
@@ -1413,11 +1423,11 @@ h2.visible {
 }
 
 .menu_container .section-5 li {
-    padding: 0.8rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .menu_container .section-4 li {
-    padding: 0.8rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .menu_container .section-4 {
@@ -1427,13 +1437,12 @@ h2.visible {
 .menu_container .section-3 {
     overflow-y: scroll;
     height: 100vh;
-    border-top: 1px solid var(--color-row-border);
 }
 
 .menu_container li > a {
     font-family: Neue-Helvetica, Helvetica, Arial, sans-serif;
     color: black;
-    font-size: 10px;
+    font-size: 0.8rem;
     letter-spacing: 0.6px;
     font-weight: 100;
    

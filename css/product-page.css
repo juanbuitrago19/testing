@@ -38,14 +38,14 @@ video::-webkit-media-controls {
     gap: 3px;
     top: 0;
     left: 0;
-    width: 2000px;
+    width: auto;
     height: 100%;
     padding: 1rem;
 }
 
 .item {
     position: relative;
-    width: 100%;
+    width: 400px;
     height: 100%;
     overflow: hidden;
     background-color: none;
@@ -111,8 +111,17 @@ video::-webkit-media-controls {
         gap: 3px;
         top: 0;
         left: 0;
-        width: 1800px;
+        width: auto;
         height: 100%;
         padding: 0.5rem;
+    }
+
+    .item {
+        position: relative;
+        width: 350px;
+        height: 100%;
+        overflow: hidden;
+        background-color: none;
+      
     }
 }
