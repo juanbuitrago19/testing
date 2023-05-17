@@ -225,6 +225,7 @@ body {
 }
 
 .oh {
+    
     position: relative;
     overflow: hidden;
 }
@@ -843,7 +844,7 @@ a:hover.menu-item {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 5px;
+    gap: 16px;
 }
 
 .bandera-2 {
@@ -1194,11 +1195,23 @@ h2.visible {
 }
 
 .page-footer__text {
-    font-family: Neue-Helvetica, Helvetica, Arial, sans-serif;
+    font-family: "PPFraktionMono";
     font-size: 10px;
     letter-spacing: 0.5px;
-    width: 50%;
+    width: 100%;
     line-height: 1.5rem;
+}
+
+.cell .oh {
+    font-family: "PPFraktionMono";
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.page-footer__text .hover-line {
+    font-family: "PPFraktionMono";
+    font-size: 10px;
+    font-weight: 600;
 }
 
 .preview {
@@ -1795,14 +1808,14 @@ button span {
     flex-direction: column;
     width: 50%;
     border-radius: 30px;
-
+    padding: 1rem;
 }
 
 .about_shine_section {
     display: flex;
     flex-direction: row;
     gap: 16px;
-    padding: 1rem;
+    padding: 1rem 1rem 0rem 1rem;
 }
 
 .footer__container {
@@ -2443,6 +2456,7 @@ button span {
     .about_shine_section {
         display: flex;
         flex-direction: column;
+        padding: 0.5rem 0.5rem 0rem 0.5rem;
     }
 
     .wr-3-optional {
@@ -2763,7 +2777,7 @@ button span {
     }
 
     .page-footer__text {
-        font-family: Neue-Helvetica, Helvetica, Arial, sans-serif;
+        font-family: PPFraktionMono, monospace;
         font-size: 10px;
         letter-spacing: 0.5px;
         width: 100%;
