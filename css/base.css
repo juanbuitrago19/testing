@@ -278,8 +278,6 @@ a {
     position: relative;
 }
 
-
-
 .hover-line::before {
     content: "";
     height: 1px;
@@ -358,7 +356,7 @@ a:focus-visible {
     justify-content: space-between;
     justify-items: start;
     align-items: center;
-    border-bottom: 0.5px solid #EEF2F6;
+    border-bottom: 0.5px solid #eef2f6;
 }
 
 .menu-section {
@@ -425,7 +423,6 @@ a:focus-visible {
     background-position: left center;
     background-size: 150% 150%;
     animation: animate 3s ease-in-out infinite;
-    
 }
 
 .frame__title-main {
@@ -555,7 +552,6 @@ a:focus-visible {
     align-items: center;
     padding: 1rem;
     min-width: 80px;
-   
 }
 .menu-item:hover {
     cursor: pointer;
@@ -637,8 +633,6 @@ a:hover.menu-item {
     transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 /* End Nav Bar styles */
-
-
 
 .arrows--reel > span {
     margin-top: 5px;
@@ -843,12 +837,13 @@ a:hover.menu-item {
 }
 
 .bandera {
-    margin: 1rem;
+    padding: 1rem;
     height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 5px;
 }
 
 .bandera-2 {
@@ -862,10 +857,10 @@ a:hover.menu-item {
 
 .wr-banner {
     flex: 1 1;
-    padding: 10rem 3rem;
+    padding: 5rem 3rem;
+    border-radius: 30px;
+    overflow: hidden;
 }
-
-
 
 .wr-banner-3 {
     padding: 1rem 0rem;
@@ -876,7 +871,6 @@ a:hover.menu-item {
     background-color: #e900ff;
     display: flex;
     flex-direction: column;
-   
     
 }
 
@@ -909,8 +903,8 @@ a:hover.menu-item {
 .row__align_3 > a {
     font-size: 1rem;
     letter-spacing: 0px;
-        font-weight: 100;
-        color: white;
+    font-weight: 100;
+    color: white;
 }
 
 .wr-4 h2 {
@@ -918,7 +912,7 @@ a:hover.menu-item {
     white-space: nowrap;
     font-family: Neue-Helvetica, Helvetica, Arial, sans-serif;
     letter-spacing: -1px;
-        font-weight: 700;
+    font-weight: 700;
     font-size: 3rem;
     line-height: 1;
     color: white;
@@ -939,11 +933,16 @@ a:hover.menu-item {
     color: #ffffff;
     font-size: 10px;
     letter-spacing: 0.6px;
-        font-weight: 100;
+    font-weight: 100;
 }
 
+
+
+   
+   
+
 .wr-1-optional {
-    background-color: #1f1f1f;
+    background-color: #fff480;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -975,7 +974,6 @@ a:hover.menu-item {
     justify-content: flex-start;
     align-items: center;
     gap: 5px;
-
 }
 
 .row__align_2 {
@@ -988,7 +986,6 @@ a:hover.menu-item {
     padding: 1rem;
     width: 65%;
     border-radius: 100px;
-
 }
 
 .wr-1 h2 {
@@ -1002,28 +999,25 @@ a:hover.menu-item {
     color: white;
 }
 
-.row__align > a { 
-    color: white;
-}
 
-.row__align_2 > a { 
+
+.row__align_2 > a {
     line-height: 10px;
     color: white;
 }
 
-.row__align > span { 
+.row__align > span {
     line-height: 0px;
     font-weight: 300;
 }
 
-.row__align_2 > span { 
+.row__align_2 > span {
     color: white;
     line-height: 0px;
     font-weight: 300;
 }
 
 .wr-3 h3 {
-    
     font-family: Neue-Helvetica, Helvetica, Arial, sans-serif;
     font-size: 3rem;
     line-height: 3rem;
@@ -1045,17 +1039,19 @@ a:hover.menu-item {
     color: #e900ff;
 }
 
-.row__align > span {
-    color: white;
+.row__align > span,
+.row__align > a {
+    font-weight: 100;
+    color: #1b1b1f;
 }
+
+
 
 .wr-2 {
     background-image: linear-gradient(-45deg, rgba(235, 90, 237, 0.8) 20%, rgba(248, 235, 223, 0)), url("../images/versed-press-restart-gentle-retinol-serum-284121-1575397194226-main.900x0c.jpg");
     background-repeat: no-repeat, no-repeat;
     background-position: right top;
-    background-size:cover;
-   
-
+    background-size: cover;
 }
 
 .wr-2-optional {
@@ -1065,11 +1061,9 @@ a:hover.menu-item {
     background-size: cover;
 }
 
-
-
 .wr-3-optional {
     background-image: url("../images/34657688555.jpg");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
 }
@@ -1103,8 +1097,6 @@ a:hover.menu-item {
     color: #ccc;
 }
 
-
-
 .cell__title {
     font-family: Neue-Helvetica, Helvetica, Arial, sans-serif;
     font-size: 10px;
@@ -1122,7 +1114,6 @@ a:hover.menu-item {
     letter-spacing: 0.6px;
     color: white;
     margin: 0;
-  
 }
 
 .cta__view__page {
@@ -1130,9 +1121,6 @@ a:hover.menu-item {
     font-size: 1.5rem;
     font-weight: 100;
 }
-
-
-
 
 .align_items_right {
     display: flex;
@@ -1144,7 +1132,6 @@ a:hover.menu-item {
 h2 {
     opacity: 1;
     transition: opacity 0.8s;
-    
 }
 
 h2.visible {
@@ -1212,7 +1199,6 @@ h2.visible {
     letter-spacing: 0.5px;
     width: 50%;
     line-height: 1.5rem;
-    
 }
 
 .preview {
@@ -1328,7 +1314,6 @@ h2.visible {
 }
 
 .menu_container .section-1 {
-
 }
 
 .menu_container .section-1 > a {
@@ -1445,7 +1430,6 @@ h2.visible {
     font-size: 0.8rem;
     letter-spacing: 0.6px;
     font-weight: 100;
-   
 }
 
 .menu_container li > a:hover {
@@ -1509,11 +1493,18 @@ h2.visible {
 
 .title-price {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     font-weight: 100;
     font-size: 10px;
     letter-spacing: 0.6px;
+    width: 100%;
+}
+
+.title-price span:first-child {
+    max-width: 80%;
+    white-space: normal;
 }
 
 .brand {
@@ -1522,8 +1513,8 @@ h2.visible {
     align-items: center;
     font-size: 10px;
     letter-spacing: 0.6px;
-        font-weight: 100;
-        color: #ccc;
+    font-weight: 100;
+    color: #ccc;
 }
 
 .brand .product-detail-btn {
@@ -1662,8 +1653,6 @@ h2.visible {
     flex-direction: row;
     justify-content: flex-start;
     gap: 10px;
-   
-    
 }
 
 .brand--card--grid:hover {
@@ -1680,7 +1669,6 @@ h2.visible {
     color: white;
 }
 
-
 .num__products_2,
 .cta__view__page_2 {
     font-family: Neue-Helvetica, Helvetica, Arial, sans-serif;
@@ -1693,11 +1681,7 @@ h2.visible {
 .wr-banner-2 {
     padding: 1rem;
     min-height: 380px;
-
 }
-
-
-
 
 /* seccionde marcas*/
 
@@ -1774,9 +1758,9 @@ button span {
     color: #ccc;
     transform: translateY(5px);
     transition: all 0.3s ease;
-  }
+}
 
-  .cta__ver__menos span {
+.cta__ver__menos span {
     font-size: 4rem;
     font-weight: 100;
 }
@@ -1786,8 +1770,7 @@ button span {
     color: #ccc;
     transform: translateY(5px);
     transition: all 0.3s ease;
-  }
-  
+}
 
 .cta__ver__menos {
     font-family: PPFraktionMono, monospace;
@@ -1800,8 +1783,6 @@ button span {
     font-size: 1.5rem;
 }
 
-
-
 .cta__ver__mas:hover {
     cursor: pointer;
 }
@@ -1809,22 +1790,20 @@ button span {
 /* seccionde marcas*/
 
 .content_section {
+    background-color: #F8FAFC;
     display: flex;
     flex-direction: column;
     width: 50%;
+    border-radius: 30px;
+
 }
 
 .about_shine_section {
     display: flex;
     flex-direction: row;
-    
+    gap: 16px;
+    padding: 1rem;
 }
-
-
-
-
-
-
 
 .footer__container {
     width: 100%;
@@ -1833,83 +1812,83 @@ button span {
     display: flex;
     flex-direction: row;
     gap: 5px;
-  }
-  
-  .tarjeta__left {
+}
+
+.tarjeta__left {
     flex: 1;
     width: 50%;
     color: white;
-  }
-  
-  .card__content {
+}
+
+.card__content {
     border-radius: 30px;
     transition: all 0.3s ease-out;
     overflow: hidden;
     transform: scale(0.98);
-  }
-  
-  .card-container {
+}
+
+.card-container {
     width: 100%;
     height: 100%;
-  
+
     border-radius: 30px;
-  }
-  
-  .tarjeta__left:hover {
+}
+
+.tarjeta__left:hover {
     transform: scale(0.92);
     cursor: pointer;
-  }
-  
-  .card__content:hover {
+}
+
+.card__content:hover {
     transform: scale(0.92);
     cursor: pointer;
-  }
-  
-  .tarjeta__left .card-container {
+}
+
+.tarjeta__left .card-container {
     background: #fe01fc;
     width: 100%;
     height: 100%;
-  }
-  
-  .tarjeta__righ {
+}
+
+.tarjeta__righ {
     flex: 1;
     width: 50%;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-  }
-  
-  .fila {
+}
+
+.fila {
     flex: 1;
     width: 100%;
     height: 50%;
     border-radius: 30px;
-  }
-  
-  .card__info {
+}
+
+.card__info {
     width: 50%;
     height: 100%;
     border-radius: 30px;
-  }
-  
-  /* shapes container */
-  
-  .shapes-container {
+}
+
+/* shapes container */
+
+.shapes-container {
     position: absolute;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .shapes {
+}
+
+.shapes {
     width: 35vh;
     height: 35vh;
     animation: round_round 12s linear infinite;
-  }
-  
-  #circle {
+}
+
+#circle {
     position: relative;
     left: 0;
     bottom: 0;
@@ -1918,24 +1897,24 @@ button span {
     background: #c900da;
     border-radius: 50%;
     transition: 0.2s;
-  }
-  
-  .card-container:hover #circle {
+}
+
+.card-container:hover #circle {
     background: #fe40ec;
-  }
-  
-  @keyframes round_round {
+}
+
+@keyframes round_round {
     from {
         transform: rotate(0deg);
     }
     to {
         transform: rotate(360deg);
     }
-  }
-  
-  /* Effectos text wrapper */
-  
-  .text-wrapper {
+}
+
+/* Effectos text wrapper */
+
+.text-wrapper {
     position: absolute;
     top: 50%;
     left: -20%;
@@ -1948,58 +1927,58 @@ button span {
     animation-delay: 0s;
     opacity: 0;
     padding: 20px 0;
-  }
-  
-  @keyframes float-text {
+}
+
+@keyframes float-text {
     0% {
         left: -20%;
     }
-  
+
     50% {
         left: -100%;
     }
-  
+
     100% {
         left: -20%;
     }
-  }
-  
-  .tarjeta__left .text-wrapper {
+}
+
+.tarjeta__left .text-wrapper {
     font-size: 70px;
     opacity: 0.5;
-  }
-  
-  .card-container:hover .text-wrapper {
+}
+
+.card-container:hover .text-wrapper {
     opacity: 1;
-  }
-  
-  .tarjeta__left .card-container:hover .text-wrapper {
+}
+
+.tarjeta__left .card-container:hover .text-wrapper {
     opacity: 0;
-  }
-  
-  .card-title {
+}
+
+.card-title {
     position: absolute;
     top: 0;
     left: 0;
     padding: 1.5rem;
     font-size: 0.8rem;
     font-weight: 400;
-  }
-  
-  .preview-text {
+}
+
+.preview-text {
     white-space: normal;
     max-width: 80%;
-  
+
     line-height: 30px;
     font-size: 30px;
     font-weight: 400;
-  }
-  
-  .opt-2 {
+}
+
+.opt-2 {
     color: #ccc;
-  }
-  
-  .preview-text-2 {
+}
+
+.preview-text-2 {
     position: absolute;
     color: white;
     white-space: normal;
@@ -2010,9 +1989,9 @@ button span {
     line-height: 30px;
     font-size: 30px;
     font-weight: 400;
-  }
-  
-  .aling__down {
+}
+
+.aling__down {
     padding: 1.5rem;
     position: absolute;
     bottom: 0;
@@ -2021,15 +2000,15 @@ button span {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-  }
-  
-  .aling__down span {
+}
+
+.aling__down span {
     font-size: 3rem;
     line-height: 2rem;
     font-weight: lighter;
-  }
-  
-  .aling__down__2 {
+}
+
+.aling__down__2 {
     width: 100%;
     padding: 1.5rem;
     position: absolute;
@@ -2039,133 +2018,124 @@ button span {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .aling__down__2 span {
+}
+
+.aling__down__2 span {
     font-size: 3rem;
     line-height: 2rem;
     font-weight: lighter;
-  }
-  
-  .card-container:hover .aling__down__2 {
+}
+
+.card-container:hover .aling__down__2 {
     display: none;
-  }
-  
-  /* Estilos adicionales para visualización */
-  
-  .tarjeta__left {
+}
+
+/* Estilos adicionales para visualización */
+
+.tarjeta__left {
     background-color: #fe01fc;
-  }
-  
-  .tarjeta__righ:nth-child(2) {
+}
+
+.tarjeta__righ:nth-child(2) {
     gap: 5px;
-  }
-  
-  .fila:nth-child(1) {
+}
+
+.fila:nth-child(1) {
     display: flex;
     flex-direction: row;
     gap: 5px;
-  }
-  
-  .fila:nth-child(2) {
+}
+
+.fila:nth-child(2) {
     background-color: #fff480;
-  }
-  
-  .card__info:nth-child(1) {
+}
+
+.card__info:nth-child(1) {
     background-color: white;
-  }
-  
-  .card__info:nth-child(2) {
+}
+
+.card__info:nth-child(2) {
     gap: 5px;
     background-color: #1b1b1f;
-  }
-  
-  /* media queries */
-  
-  @media (max-width: 800px) {
+}
+
+/* media queries */
+
+@media (max-width: 800px) {
     .footer__container {
         display: flex;
         flex-direction: column;
         padding: 0.5rem;
         height: auto;
     }
-  
+
     .tarjeta__left {
         width: 100%;
         min-height: 500px;
     }
-  
+
     .tarjeta__righ {
         flex: 1;
         width: 100%;
         height: auto;
         border-radius: 30px;
     }
-  
+
     .fila {
         width: 100%;
         height: auto;
     }
-  
+
     .fila:nth-child(1) {
         display: flex;
         flex-direction: column;
     }
-  
+
     .fila:nth-child(2) {
         min-height: 250px;
     }
-  
+
     .card__info {
         width: 100%;
         min-height: 250px;
     }
-  
+
     .shapes-container {
         display: none;
     }
-  
+
     .card-container {
         width: 100%;
     }
-  
+
     .tarjeta__left .card-container {
         width: 100%;
         min-height: 100%;
     }
-  
+
     .tarjeta__left .text-wrapper {
         opacity: 0.2;
         font-size: 100px;
     }
-  
+
     .card-title {
         padding: 1rem;
     }
-  
+
     .aling__down {
         padding: 1rem;
         line-height: 1rem;
     }
-  
+
     .aling__down__2 .op-6 {
-      max-width: 10%;
-      font-size: 1.2rem;
+        max-width: 10%;
+        font-size: 1.4rem;
     }
-  
-    .aling__down__2 .material-symbols-outlined {
-      display: none;
+
+    .aling__down__2 .op-7 {
+        display: none;
     }
-  }
-  
-
-
-
-
-
-
-
-
+}
 
 /* End section grid*/
 
@@ -2235,15 +2205,14 @@ button span {
     }
 
     .bandera {
-        margin: 0.5rem;
-        background-color: #e900ff;
+        padding: 0.5rem;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
     }
 
     .bandera-2 {
-        margin: 1rem;
+        padding: 0.5rem;
         background-color: red;
         display: flex;
         flex-direction: column;
@@ -2257,8 +2226,8 @@ button span {
         justify-content: flex-start;
         align-items: flex-start;
         gap: 1rem;
-        min-height: 300px;
-        
+        width: 100%;
+        height: auto;
     }
 
     .wr-3 {
@@ -2307,7 +2276,7 @@ button span {
     }
 
     .row__align > span {
-        color: white;
+        color: black;
     }
 
     .wr-2 {
@@ -2470,11 +2439,10 @@ button span {
         flex-direction: column;
         width: 100%;
     }
-    
+
     .about_shine_section {
         display: flex;
         flex-direction: column;
-        
     }
 
     .wr-3-optional {
@@ -2515,7 +2483,7 @@ button span {
         align-items: flex-start;
         justify-content: space-between;
         font-size: 10px;
-    letter-spacing: 0.6px;
+        letter-spacing: 0.6px;
         font-weight: 300;
     }
 
@@ -2524,7 +2492,7 @@ button span {
         justify-content: space-between;
         align-items: center;
         font-size: 10px;
-    letter-spacing: 0.6px;
+        letter-spacing: 0.6px;
         font-weight: 100;
         color: #ccc;
     }
@@ -2565,7 +2533,6 @@ button span {
         letter-spacing: 0.6px;
         color: white;
         margin: 0;
-      
     }
 
     .cta__view__page {
@@ -2575,13 +2542,13 @@ button span {
     }
 
     .num__products,
-.cta__view__page {
-    font-family: Neue-Helvetica, Helvetica, Arial, sans-serif;
-    font-weight: 100;
-    font-size: 10px;
-    letter-spacing: 0.6px;
-    color: white;
-}
+    .cta__view__page {
+        font-family: Neue-Helvetica, Helvetica, Arial, sans-serif;
+        font-weight: 100;
+        font-size: 10px;
+        letter-spacing: 0.6px;
+        color: white;
+    }
 
     .num__products_2,
     .cta__view__page_2 {
@@ -2591,7 +2558,6 @@ button span {
         letter-spacing: 0.6px;
         color: white;
     }
-    
 
     .wr-1 {
         display: flex;
@@ -2603,7 +2569,7 @@ button span {
     }
 
     .wr-1-optional {
-        background-color: #1f1f1f;
+        background-color: #fff480;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -2613,6 +2579,8 @@ button span {
         gap: 1rem;
         min-height: 300px;
     }
+
+  
 
     .slide .info-section {
         flex: 0 1;
@@ -2688,16 +2656,14 @@ button span {
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
-
     }
 
     .wr-3 {
-        
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-       
+
         gap: 1rem;
     }
 
@@ -2712,13 +2678,11 @@ button span {
     }
 
     .wr-5 > a {
-       
-            font-family: Neue-Helvetica, Helvetica, Arial, sans-serif;
-            color: #ffffff;
-            font-size: 10px;
-            letter-spacing: 0.6px;
-                font-weight: 100;
-        
+        font-family: Neue-Helvetica, Helvetica, Arial, sans-serif;
+        color: #ffffff;
+        font-size: 10px;
+        letter-spacing: 0.6px;
+        font-weight: 100;
     }
 
     .wr-4 > h2 {
@@ -2777,7 +2741,6 @@ button span {
         font-weight: 100;
         font-size: 10px;
         letter-spacing: 0.6px;
-        
     }
 
     .frame__title-main-3 {
@@ -2805,9 +2768,7 @@ button span {
         letter-spacing: 0.5px;
         width: 100%;
         line-height: 1.5rem;
-        
     }
-    
 
     .oh {
         max-width: 150px;
@@ -2815,11 +2776,8 @@ button span {
     }
 
     .slider_wrap_3-brand {
-       
         padding: 0.5rem;
     }
-
-    
 
     .brand--card--grid {
         background-color: #e900ff;
@@ -2834,21 +2792,15 @@ button span {
         align-items: flex-start;
     }
 
-   
-
-.cell__title {
-    font-family: Neue-Helvetica, Helvetica, Arial, sans-serif;
-    font-size: 10px;
-    letter-spacing: 0.6px;
-    font-weight: 100;
-    position: relative;
-    font-weight: 100;
-    line-height: 1;
-}
-
-   
-
-
+    .cell__title {
+        font-family: Neue-Helvetica, Helvetica, Arial, sans-serif;
+        font-size: 10px;
+        letter-spacing: 0.6px;
+        font-weight: 100;
+        position: relative;
+        font-weight: 100;
+        line-height: 1;
+    }
 
     .space--elements {
         display: flex;
