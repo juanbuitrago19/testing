@@ -6,6 +6,23 @@
     touch-action: manipulation;
 }
 
+:root {
+    font-size: 14px;
+    --color-text: #131313;
+    --color-bg: #fff;
+    --color-link: #000;
+    --color-link-hover: #131313;
+    --padding-sides: 2rem;
+    --padding-row: 1rem;
+    --color-row-border: #f0f0f0;
+    --color-bg-row-hover: #f0f0f0;
+    --color-text-alt: #000;
+    --image-gap: 1vw;
+    --image-gap-large: 2vw;
+    --img-size: 5vw;
+    --img-size-large: 14vw;
+}
+
 *::-webkit-scrollbar {
     display: none;
 }
@@ -72,12 +89,12 @@ video::-webkit-media-controls {
 }
 
 .progress-bar-2 {
-    background-color: #f0f0f0;
+    background-color: var(--color-row-border);
     position: relative;
     left: 0;
     height: 1px;
     width: 100%;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
  
 }
 
@@ -90,6 +107,10 @@ video::-webkit-media-controls {
     background-color: black;
 }
 
+
+.cell .oh {
+    font-size: 2rem;
+}
 
 /* Teléfonos */
 @media only screen and (max-width: 575px) {
@@ -123,5 +144,16 @@ video::-webkit-media-controls {
         overflow: hidden;
         background-color: none;
       
+    }
+
+    .cell .oh {
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+    }
+
+    .progress-bar-2 {
+   
+        margin-top: 0.5rem;
+     
     }
 }

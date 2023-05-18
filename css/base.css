@@ -197,7 +197,7 @@ body {
 }
 
 .progress-bar {
-    background-color: #e8e7e7;
+    background-color: var(--color-row-border);
     position: relative;
     left: 0;
     height: 1px;
@@ -839,12 +839,14 @@ a:hover.menu-item {
 
 .bandera {
     padding: 1rem;
+    
     height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 16px;
+    
+
 }
 
 .bandera-2 {
@@ -859,7 +861,7 @@ a:hover.menu-item {
 .wr-banner {
     flex: 1 1;
     padding: 5rem 3rem;
-    border-radius: 30px;
+    
     overflow: hidden;
 }
 
@@ -872,6 +874,8 @@ a:hover.menu-item {
     background-color: #e900ff;
     display: flex;
     flex-direction: column;
+
+    border-radius: 30px 0px 0px 30px;
     
 }
 
@@ -950,6 +954,7 @@ a:hover.menu-item {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 3rem;
+    border-radius: 0px 30px 30px 0px;
 }
 
 .especial-btn {
@@ -1037,7 +1042,7 @@ a:hover.menu-item {
     letter-spacing: -3px;
     max-width: 100%;
     white-space: normal;
-    color: #e900ff;
+    color: #131313;
 }
 
 .row__align > span,
@@ -1053,6 +1058,7 @@ a:hover.menu-item {
     background-repeat: no-repeat, no-repeat;
     background-position: right top;
     background-size: cover;
+    border-radius: 0px 30px 30px 0px;
 }
 
 .wr-2-optional {
@@ -1060,6 +1066,7 @@ a:hover.menu-item {
     background-repeat: no-repeat, no-repeat;
     background-position: left top;
     background-size: cover;
+    border-radius: 30px 0px 0px 30px;
 }
 
 .wr-3-optional {
@@ -1067,6 +1074,7 @@ a:hover.menu-item {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+    border-radius: 30px;
 }
 
 .cell {
@@ -1721,6 +1729,7 @@ h2.visible {
     align-items: center;
     grid-template-columns: auto 1fr;
     padding: 2rem 1rem;
+  
 }
 
 .brand__element:hover {
@@ -2241,6 +2250,7 @@ button span {
         gap: 1rem;
         width: 100%;
         height: auto;
+        border-radius: 30px 30px 0px 0px;
     }
 
     .wr-3 {
@@ -2264,6 +2274,7 @@ button span {
         align-content: center;
         gap: 1rem;
         min-height: 300px;
+        border-radius: 0px 0px 30px 30px;
     }
 
     .wr-1 h2 {
@@ -2285,7 +2296,7 @@ button span {
         line-height: 2rem;
         max-width: 100%;
         white-space: normal;
-        color: #e900ff;
+        color: #131313;
     }
 
     .row__align > span {
@@ -2294,10 +2305,12 @@ button span {
 
     .wr-2 {
         min-height: 300px;
+        border-radius: 0px 0px 30px 30px;
     }
 
     .wr-2-optional {
         min-height: 300px;
+        border-radius: 30px 30px 0px 0px;
     }
 
     .wr-3 h3 {
@@ -2782,6 +2795,11 @@ button span {
         letter-spacing: 0.5px;
         width: 100%;
         line-height: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .slider-wrap {
+        margin-top: 1rem;
     }
 
     .oh {

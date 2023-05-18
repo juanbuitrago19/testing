@@ -15,6 +15,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
         <script type="module" src="js/rubores-productos-page.js" defer></script>
+        <script type="module" src="js/nuevos-productos-reel.js" defer></script>
+        <script src="js/Filled-bar.js" defer></script>
         <script src="js/app1.js" defer></script>
         <script src="js/app2.js" defer></script>
         <script src="js/app3.js" defer></script>
@@ -148,6 +150,124 @@
             <section class="products__wrapper" id="show--products">
                 <!-- products cards -->
             </section>
+
+            <div class="scroll--section">
+                <div class="row border-line">
+                    <div class="cell cell--text space--elements">
+                        <h2 class="cell__title oh">Nuevos productos</h2>
+                        <div class="arrows--reel">
+                            <span class="material-symbols-outlined arrow arrow-prev">arrow_back</span>
+                            <span class="material-symbols-outlined arrow arrow-next">arrow_forward</span>
+                        </div>
+                    </div>
+                    <div class="cell cell--text space--elements" onclick="window.location.href='nuevos-productos.html';">
+                        <span class="material-symbols-outlined">add</span>
+                        <span class="cell__title">Ver mas</span>
+                    </div>
+                </div>
+
+                <div class="progress-bar">
+                    <div class="prog-bar-inner"></div>
+                </div>
+
+                <div class="slider-wrap">
+                    <div class="slider-wrap-2">
+                        <div class="slider_wrap_3" id="nuevos-productos-main">
+                            <!-- Products cards -->
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
+
+                 
+            <!-- secccion -->
+            <div class="bandera">
+                <div class="wr-banner wr-2-optional"></div>
+                <div class="wr-banner wr-1-optional">
+                    <h2 class="cell__title"><span class="oh__inner">Descuentos para siempre en cientos de productos.</span></h2>
+                    <div class="row__align tag_2">
+                        <a href="sales-productos.html" class="hover-line">Ver productos en descuento</a>
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- secccion -->
+
+
+
+            <div class="footer__container">
+                <div class="tarjeta__left card__content card__left">
+                    <div class="card-container">
+                        <div class="shapes-container">
+                            <div class="shapes">
+                                <div id="circle"></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-title">Compra online</div>
+
+                            <div class="aling__down">
+                                <div class="preview-text">Creamos un canal enfocado en ventas por Whatsapp, da click aqui para comprar ahora!</div>
+                                <span class="material-symbols-outlined">local_mall</span>
+                            </div>
+
+                            <div class="text-wrapper">
+                                #Cosmeticos #Amor #Belleza #Skincare
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tarjeta__righ">
+                    <div class="fila">
+                        <div class="card__info card__content">
+                            <div class="card-container">
+                                <div class="card">
+                                    <div class="aling__down__2">
+                                        <div class="preview-text">Medios de pago</div>
+                                        <span class="material-symbols-outlined">arrow_forward</span>
+                                    </div>
+
+                                    <div class="text-wrapper">Aceptamos medios de pagos digitales y pago contra entrega en algunas ciudades.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__info card__content">
+                            <div class="card-container">
+                                <div class="card">
+                                    <div class="preview-text-2 aling__down__2">Transferencia bancaria, Mercado pago, Nequi, Daviplata, Movii y Dale.</div>
+
+                                    <div class="text-wrapper opt-2">
+                                        Puedes realizar tus pagos con estos medios o pedirnos un link de pago por Whatsapp!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fila card__content">
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="card-title">Dejanos un mensaje</div>
+
+                                <div class="aling__down__2">
+                                    <div class="preview-text op-6">holasomosshinee@gmail.com</div>
+                                    <span class="material-symbols-outlined op-7">mail</span>
+                                </div>
+
+                                <div class="text-wrapper">
+                                    Dejanos un mensaje si tienes preguntas, dudas o comentarios sobre productos, pagos y envios (Respondemos mas rapidod de lo que crees).
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
         </main>
     </body>
