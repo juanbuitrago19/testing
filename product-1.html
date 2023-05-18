@@ -30,7 +30,6 @@
     </head>
     <body>
         <main>
-            <!-- Main menu inicia -->
             <div id="header-sticky" class="header-sticky">
                 <div class="frame">
                     <div class="frame__title"><a href="index.html" class="frame__prevdemo" href="">Shinee</a><span>Beauty&Cosmetics</span></div>
@@ -56,7 +55,9 @@
                                 </div>
 
                                 <div class="section-4">
-                                    <li><a href="nuevos-productos.html" class="frame__prevdemo">Nuevos productos <span class="icon">🔥</span></a></li>
+                                    <li>
+                                        <a href="nuevos-productos.html" class="frame__prevdemo">Nuevos productos <span class="icon">🔥</span></a>
+                                    </li>
                                     <li><a href="sales-productos.html" class="frame__prevdemo">Descuentos</a></li>
                                     <li><a href="top-productos.html" class="frame__prevdemo">Productos Top</a></li>
                                     <li><a href="skincare-page.html" class="frame__prevdemo">Skincare</a></li>
@@ -129,60 +130,42 @@
                     </div>
                 </div>
             </div>
-            <!-- Main menu termina -->
 
-            <!-- Title product inicia -->
-            <div class="intro-3" data-category="Sombras"><!-- Cambiar aqui la categoria -->
+            <div class="intro-3" data-category="Sombras">
+                <!-- Cambiar aqui la categoria -->
                 <h2 class="frame__title-main-2">Paleta de sombras atenea</h2>
                 <button class="clean-btn-2">Comprar ahora</button>
             </div>
-            <!-- Title product termina -->
-
 
             <div class="progress-bar-2">
                 <div class="prog-bar-inner-2"></div>
             </div>
 
-
             <div class="wrapper-product">
+                <div class="slider">
+                    <div class="slider-inner">
+                        <div class="item">
+                            <div class="section-image"><img src="images/1.jpg" alt="" /></div>
+                        </div>
+                        <div class="item">
+                            <div class="section-image"><img src="images/2.jpg" alt="" /></div>
+                        </div>
+                        <div class="item">
+                            <div class="section-image"><img src="images/3.jpg" alt="" /></div>
+                        </div>
+                        <div class="item">
+                            <div class="section-image"><img src="images/4.jpg" alt="" /></div>
+                        </div>
 
-                
-                
-                        <div class="slider">
-                            <div class="slider-inner">
-
-                                <div class="item">
-                                    <div class="section-image"><img src="images/1.jpg" alt="" /></div>
-                                </div>
-                                <div class="item">
-                                    <div class="section-image"><img src="images/2.jpg" alt="" /></div>
-                                </div>
-                                <div class="item">
-                                    <div class="section-image"><img src="images/3.jpg" alt="" /></div>
-                                </div>
-                                <div class="item">
-                                    <div class="section-image"><img src="images/4.jpg" alt="" /></div>
-                                </div>
-
-                                <div class="item">
-                                    <div class="section-image"><video src="videos/product-1.mp4" type="video/mp4" autoplay loop muted playsinline webkit-playsinline="false" x-webkit-wirelessvideoplaybackdisabled, x-webkit-airplay="deny"></video></div>
-                                </div>
-
+                        <div class="item">
+                            <div class="section-image">
+                                <video src="videos/product-1.mp4" type="video/mp4" autoplay loop muted playsinline webkit-playsinline="false" x-webkit-wirelessvideoplaybackdisabled, x-webkit-airplay="deny"></video>
                             </div>
                         </div>
-                     </div>
+                    </div>
+                </div>
+            </div>
 
-
-           
-
-
-
-            <!-- Reel imagenes termina -->
-
-
-
-
-            <!-- Row precio inicia -->
             <div class="row">
                 <div class="cell cell--text">
                     <h2 class="cell__title oh">Precio</h2>
@@ -191,9 +174,7 @@
                     <h2 class="cell__title oh">$59.900 COP</h2>
                 </div>
             </div>
-            <!-- Row precio termina -->
 
-            <!-- Row marca inicia -->
             <div class="row border-line">
                 <div class="cell cell--text">
                     <h2 class="cell__title oh">Marca</h2>
@@ -202,9 +183,7 @@
                     <h2 class="cell__title oh">Ruby Rose</h2>
                 </div>
             </div>
-            <!-- Row marca termina -->
 
-            <!-- Row descripcion inicia -->
             <div class="row border-line">
                 <div class="cell cell--text">
                     <h2 class="cell__title oh">Descripcion</h2>
@@ -217,39 +196,30 @@
                     desde los más naturales hasta los más elaborados. Esta paleta es una excelente opción para aquellos que buscan maquillaje de calidad a un precio asequible.
                 </p>
             </footer>
-            <!-- Row descripcion termina -->
 
-            <!-- Row tonos inicia -->
-            <div class="section--tones">
-                <div class="row border-line">
-                    <div class="cell cell--text">
-                        <h2 class="cell__title oh">Tonos disponibles!</h2>
-                    </div>
-                </div>
-
-                <footer class="page-footer">
-                    <p class="page-footer__text">Este producto suele venir en varios tonos o variaciones, podras verlos en el reel de fotos.</p>
-                </footer>
-
-      
-            <!-- Row tonos termina -->
-
-            <!-- Row productos relacionados inicia -->
             <div class="row border-line">
                 <div class="cell cell--text">
-                    <h2 class="cell__title oh">Te puede interesar ✨</h2>
+                    <h2 class="cell__title oh">Tonos disponibles!</h2>
                 </div>
-                <div class="cell cell--text space--elements" onclick="window.location.href='sombras.html';"><!-- Cambiar aqui link de la pagina -->
+            </div>
+
+            <footer class="page-footer">
+                <p class="page-footer__text">Este producto suele venir en varios tonos o variaciones, podras verlos en el reel de fotos.</p>
+            </footer>
+
+            <div class="row border-line">
+                <div class="cell cell--text">
+                    <h2 class="cell__title oh">Te puede interesar</h2>
+                </div>
+                <div class="cell cell--text space--elements" onclick="window.location.href='sombras.html';">
+                    <!-- Cambiar aqui link de la pagina -->
                     <span class="material-symbols-outlined">add</span>
                     <span class="cell__title">Ver mas</span>
                 </div>
             </div>
 
-            <section class="products__wrapper" id="show--products">
-                <!-- products cards -->
-            </section>
+            <section class="products__wrapper" id="show--products"></section>
 
-            <!-- Row disclaimer inicia -->
             <div class="row border-line">
                 <div class="cell cell--text">
                     <h2 class="cell__title oh">Disclaimer</h2>
@@ -262,8 +232,6 @@
                     <a href="" class="hover-line">Leer mas aqui</a>
                 </p>
             </footer>
-            <!-- Row disclaimer termina -->
-
 
             <div class="footer__container border-line">
                 <div class="tarjeta__left card__content card__left">
@@ -333,9 +301,6 @@
                     </div>
                 </div>
             </div>
-
-          
-        
         </main>
     </body>
 </html>
