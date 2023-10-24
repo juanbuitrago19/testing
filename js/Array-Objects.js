@@ -9,8 +9,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: true,
-        image: "img-000000001.jpg",
-        url: "product-1.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta color studio",
@@ -21,8 +20,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: true,
-        image: "img-000000002.jpg",
-        url: "paleta-color-studio.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta hawaii",
@@ -33,8 +31,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: true,
-        image: "img-000000003.jpg",
-        url: "paleta-hawaii.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta majestic",
@@ -45,8 +42,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000004.jpg",
-        url: "paleta-majestic.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta Birds",
@@ -57,8 +53,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: true,
-        image: "img-000000005.jpg",
-        url: "paleta-Birds.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta Marvelous",
@@ -69,8 +64,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: true,
-        image: "img-000000006.jpg",
-        url: "paleta-marvelous.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta Art Deco",
@@ -81,8 +75,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: true,
-        image: "img-000000007.jpg",
-        url: "paleta-art-deco.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta Perfect Mix",
@@ -93,8 +86,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000008.jpg",
-        url: "paleta-perfect-mix.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta Hono Lulu",
@@ -105,8 +97,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000009.jpg",
-        url: "paleta-hono-lulu.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta Perfect Neutral",
@@ -117,8 +108,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000010.jpg",
-        url: "paleta-perfect-neutral.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta Mystic Glow",
@@ -129,8 +119,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000011.jpg",
-        url: "paleta-mystic-glow.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta Sublime",
@@ -141,8 +130,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: true,
-        image: "img-000000012.jpg",
-        url: "paleta-sublime.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta Atemporal",
@@ -153,8 +141,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000013.jpg",
-        url: "paleta-atemporal.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta Thunder",
@@ -165,8 +152,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000014.jpg",
-        url: "paleta-thunder.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta Frutas (Fresa)",
@@ -177,8 +163,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000015.jpg",
-        url: "paleta-frutas-fresa.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta Frutas (Uva)",
@@ -189,8 +174,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000016.jpg",
-        url: "paleta-frutas-uva.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta Frutas (Coco)",
@@ -201,8 +185,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000017.jpg",
-        url: "paleta-frutas-coco.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta Frutas (Durazno)",
@@ -213,8 +196,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000018.jpg",
-        url: "paleta-frutas-durazno.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Sombra Liquida Sublime",
@@ -225,8 +207,7 @@ export const products = {
         discount: true,
         newProduct: true,
         advised: false,
-        image: "img-000000019.jpg",
-        url: "sombra-liquida-sublime.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta Blusher",
@@ -237,8 +218,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000020.jpg",
-        url: "paleta-blusher.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta Divine Baked",
@@ -249,8 +229,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000021.jpg",
-        url: "paleta-divine-baked.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Iluminador Baked Powder",
@@ -261,8 +240,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000022.jpg",
-        url: "iluminador-baked-powder.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Iluminador Corporal (Tono Bronce)",
@@ -273,8 +251,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000023.jpg",
-        url: "iluminador-corporal-tono-bronce.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Iluminador Corporal (Tono Plata)",
@@ -285,8 +262,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000024.jpg",
-        url: "iluminador-corporal-tono-plata.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Iluminador Corporal (Tono Rosa)",
@@ -297,8 +273,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000025.jpg",
-        url: "iluminador-corporal-tono-rosa.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Iluminador Liquido (Tono Champaña)",
@@ -309,8 +284,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000026.jpg",
-        url: "iluminador-liquido-tono-champaña.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Iluminador Liquido (Tono Dorado)",
@@ -321,8 +295,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000027.jpg",
-        url: "iluminador-liquido-tono-dorado.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Iluminador Liquido (Tono Rosa)",
@@ -333,8 +306,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000028.jpg",
-        url: "iluminador-liquido-tono-rosa.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta Iluminadores y Contornos Girl",
@@ -345,8 +317,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000029.jpg",
-        url: "paleta-iluminadores-contornos-girl.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta Cloud",
@@ -357,8 +328,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000030.jpg",
-        url: "paleta-cloud.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Iluminador Eclipse Lunar",
@@ -369,8 +339,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000031.jpg",
-        url: "iluminador-eclipse-lunar.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Polvo De Hadas (Tono Rosa)",
@@ -381,8 +350,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000032.jpg",
-        url: "polvo-de-hadas-tono-rosa.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Polvo De Hadas (Tono Cobre)",
@@ -393,8 +361,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000033.jpg",
-        url: "polvo-de-hadas-tono-cobre.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Polvo De Hadas (Tono Rosa)",
@@ -405,8 +372,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000034.jpg",
-        url: "polvo-de-hadas-tono-rosa.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Brow Cocktail Cejas",
@@ -417,8 +383,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000035.jpg",
-        url: "brow-cocktail-cejas.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Rubor En Crema Love Perfect",
@@ -429,8 +394,7 @@ export const products = {
         discount: false,
         newProduct: false,
         advised: false,
-        image: "img-000000036.jpg",
-        url: "rubor-en-crema-love-perfect.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Rubor En Barra Blush Love",
@@ -441,8 +405,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000037.jpg",
-        url: "rubor-en-barra-blush-love.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Polvos Sueltos (Tono 1)",
@@ -453,8 +416,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000038.jpg",
-        url: "polvos-sueltos-tono-1.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Contorno En Polvo",
@@ -465,8 +427,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000039.jpg",
-        url: "contorno-en-polvo.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Contorno En Barra",
@@ -477,8 +438,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000040.jpg",
-        url: "contorno-en-barra.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Contorno En Barra Doble Con Rubor",
@@ -489,20 +449,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000041.jpg",
-        url: "contorno-en-barra-doble-con-rubor.html"
-      },
-      {
-        productName: "AAA",
-        brand: "AAA",
-        category: "AAA",
-        price: "AAA",
-        stock: true,
-        discount: false,
-        newProduct: true,
-        advised: false,
-        image: "img-000000042.jpg",
-        url: "product-1.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Contorno De Ojos Eye Serum",
@@ -513,8 +460,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000043.jpg",
-        url: "contorno-de-ojos-eye-serum.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Base Tinted (Tono 1)",
@@ -525,8 +471,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000044.jpg",
-        url: "base-tinted-tono-1.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Base Larga Duracion (Tono 1)",
@@ -537,8 +482,7 @@ export const products = {
         discount: false,
         newProduct: false,
         advised: false,
-        image: "img-000000045.jpg",
-        url: "base-larga-duracion-tono-1.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Base BB Cream (Tono Honey)",
@@ -549,8 +493,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000046.jpg",
-        url: "base-bb-cream-tono-honey.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Base BB Cream (Tono Caramel)",
@@ -561,8 +504,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000047.jpg",
-        url: "base-bb-cream-tono-caramel.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Corrector Ojos Alta Cobertura",
@@ -573,8 +515,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000048.jpg",
-        url: "corrector-ojos-alta-cobertura.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Corrector Ojos Alta Cobertura",
@@ -585,8 +526,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000049.jpg",
-        url: "corrector-ojos-alta-cobertura.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Corrector Liquido Flawless",
@@ -597,8 +537,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000050.jpg",
-        url: "corrector-liquido-flawless.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Corrector Liquido Concealer",
@@ -609,8 +548,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000051.jpg",
-        url: "corrector-liquido-concealer.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Corrector Liquido Ojos",
@@ -621,8 +559,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000052.jpg",
-        url: "corrector-liquido-ojos.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Corrector Larga Duracion (Tono 1)",
@@ -633,8 +570,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000053.jpg",
-        url: "corrector-larga-duracion-tono-1.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Corrector Liquido Camouflage",
@@ -645,8 +581,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000054.jpg",
-        url: "corrector-liquido-camouflage.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Delineador Perfect Line 2 en 1",
@@ -657,8 +592,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000055.jpg",
-        url: "delineador-perfect-line-2-en-1.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Kit Delineadores x8 Neon Matte Rainbow",
@@ -669,8 +603,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000056.jpg",
-        url: "kit-delineadores-x8-neon-matte-rainbow.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Delineador Doble",
@@ -681,8 +614,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000057.jpg",
-        url: "delineador-doble.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Delineador Plumon Pin Up",
@@ -693,8 +625,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000058.jpg",
-        url: "delineador-plumon-pin-up.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Delineador Plumon Super Black",
@@ -705,8 +636,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000059.jpg",
-        url: "delineador-plumon-super-black.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Lapiz Delineador",
@@ -717,8 +647,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000060.jpg",
-        url: "lapiz-delineador.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Delineador Liquido Spring",
@@ -729,8 +658,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000061.jpg",
-        url: "delineador-liquido-spring.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Delineador glitter (Varios tonos)",
@@ -741,8 +669,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: true,
-        image: "img-000000062.jpg",
-        url: "delineador-glitter-varios-tonos.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Pestañina Collosal 7x Waterproof",
@@ -753,8 +680,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000063.jpg",
-        url: "pestañina-collosal-7x-waterproof.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Pestañina Collosal 36h",
@@ -765,8 +691,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000064.jpg",
-        url: "pestañina-collosal-36h.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Pestañina False Lash Effect",
@@ -777,8 +702,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000065.jpg",
-        url: "pestañina-false-lash-effect.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascara De Pestañas Boom",
@@ -789,8 +713,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000066.jpg",
-        url: "mascara-de-pestañas-boom.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascara De Pestañas Supreme",
@@ -801,8 +724,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000067.jpg",
-        url: "mascara-de-pestañas-supreme.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascara De Pestañas Profesional",
@@ -813,8 +735,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000068.jpg",
-        url: "mascara-de-pestañas-profesional.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascara De Pestañas Fortalecedora Fresh",
@@ -825,8 +746,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000069.jpg",
-        url: "mascara-de-pestañas-fortalecedora-fresh.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Gel Fijador De Cejas",
@@ -837,8 +757,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000070.jpg",
-        url: "gel-fijador-de-cejas.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Serum Crecimiento Pestañas",
@@ -849,8 +768,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000071.jpg",
-        url: "serum-crecimiento-pestañas.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Jabon De Cejas",
@@ -861,8 +779,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000072.jpg",
-        url: "jabon-de-cejas.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Face Primer",
@@ -873,8 +790,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000073.jpg",
-        url: "face-primer.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Primer Prebase Mate",
@@ -885,8 +801,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: true,
-        image: "img-000000074.jpg",
-        url: "primer-prebase-mate.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Primer Serum Summer",
@@ -897,8 +812,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000075.jpg",
-        url: "primer-serum-summer.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Primer Serum Water Melon",
@@ -909,8 +823,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000076.jpg",
-        url: "primer-serum-water-melon.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Spray Fijador De Maquillaje",
@@ -921,8 +834,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000077.jpg",
-        url: "spray-fijador-de-maquillaje-dolcebella.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Spray Fijador De Maquillaje",
@@ -933,8 +845,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000078.jpg",
-        url: "spray-fijador-de-maquillaje-trendy.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Aceite Desmaquillante",
@@ -945,8 +856,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000079.jpg",
-        url: "aceite-desmaquillante-ame.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Aceite desmaquillante",
@@ -957,8 +867,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000080.jpg",
-        url: "aceite-desmaquillante-trendy.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Espuma Desmaquillante De Pestañas",
@@ -969,8 +878,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000081.jpg",
-        url: "espuma-desmaquillante-de-pestañas.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Desmaquillador Con Proteina De Leche",
@@ -981,8 +889,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000082.jpg",
-        url: "desmaquillador-con-proteina-de-leche.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Jabon Facial Limpieza Purificante En Gel",
@@ -993,8 +900,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000083.jpg",
-        url: "jabon-facial-limpieza-purificante-en-gel.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Jabon Facial Liquido",
@@ -1005,8 +911,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000084.jpg",
-        url: "jabon-facial-liquido-dolcebella.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Jabon Facial Liquido",
@@ -1017,8 +922,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000085.jpg",
-        url: "jabon-facial-liquido-trendy.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Jabon Facial Liquido Para Hombre",
@@ -1029,8 +933,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000086.jpg",
-        url: "jabon-facial-liquido-para-hombre.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Serum De Vitamina C",
@@ -1041,8 +944,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000087.jpg",
-        url: "serum-de-vitamina-c.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Serum Acido Hialuronico",
@@ -1053,8 +955,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000088.jpg",
-        url: "serum-acido-hialuronico.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Serum acido hialuronico",
@@ -1065,8 +966,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000089.jpg",
-        url: "serum-acido-hialuronico-dolcebella.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Oleo Facial Anti Envejecimiento",
@@ -1077,8 +977,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000090.jpg",
-        url: "oleo-facial-anti-envejecimiento.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Suero Facial Renovador Celular",
@@ -1089,8 +988,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000091.jpg",
-        url: "suero-facial-renovador-celular.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Suero Facial Antioxidante",
@@ -1101,8 +999,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000092.jpg",
-        url: "suero-facial-antioxidante-rubyrose.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Acido Hialuronico en crema",
@@ -1113,8 +1010,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000093.jpg",
-        url: "acido-hialuronico-en-crema.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Suero Facial Con Filtro UV",
@@ -1125,8 +1021,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000094.jpg",
-        url: "suero-facial-con-filtro-uv.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Tonico en spray de aloe vera",
@@ -1137,8 +1032,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: true,
-        image: "img-000000095.jpg",
-        url: "tonico-en-spray-de-aloe-vera.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Tonico Rosas y Manzanilla (240 ml)",
@@ -1149,8 +1043,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000096.jpg",
-        url: "tonico-rosas-y-Manzanilla-240ml.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Tonico De Rosas (250 ml)",
@@ -1161,8 +1054,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000097.jpg",
-        url: "tonico-de-rosas-250ml.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Agua Micelar Pureactive (400ml)",
@@ -1173,8 +1065,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000098.jpg",
-        url: "agua-micelar-pureactive-400ml.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Agua Micelar (240ml)",
@@ -1185,8 +1076,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000099.jpg",
-        url: "agua-micelar-dolcebella-240ml.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Gel Hidratante Aloe Vera",
@@ -1197,8 +1087,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000100.jpg",
-        url: "gel-hidratante-aloe-vera.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Spray Hidratante De Vitamina C",
@@ -1207,10 +1096,9 @@ export const products = {
         price: "10.000",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000101.jpg",
-        url: "spray-hidratante-de-vitamina-c.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Hidratante labios strawberry",
@@ -1219,10 +1107,9 @@ export const products = {
         price: "10.000",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000102.jpg",
-        url: "hidratante-labios-strawberry.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascarilla Facial Exfoliante",
@@ -1231,10 +1118,9 @@ export const products = {
         price: "27.000",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000103.jpg",
-        url: "mascarilla-facial-exfoliante.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascarilla En Gel Exfoliante De Arroz",
@@ -1243,10 +1129,9 @@ export const products = {
         price: "22.000",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000104.jpg",
-        url: "mascarilla-en-gel-exfoliante-de-arroz.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascarilla Hidrogel De Pepino Ojos",
@@ -1255,10 +1140,9 @@ export const products = {
         price: "20.000",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000105.jpg",
-        url: "mascarilla-hidrogel-de-pepino-ojos.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascarilla De Arcilla",
@@ -1267,10 +1151,9 @@ export const products = {
         price: "17.000",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000106.jpg",
-        url: "mascarilla-de-arcilla.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascarilla Carbon Activado",
@@ -1279,10 +1162,9 @@ export const products = {
         price: "25.000",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000107.jpg",
-        url: "mascarilla-carbon-activado.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Gel Aloe Vera Pink",
@@ -1293,8 +1175,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000108.jpg",
-        url: "gel-aloe-vera-pink.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascarilla Hidratante Aloe Vera",
@@ -1303,10 +1184,9 @@ export const products = {
         price: "15.000",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000109.jpg",
-        url: "mascarilla-hidratante-aloe-vera-bioaqua.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascarilla Exfoliante Dual",
@@ -1315,10 +1195,9 @@ export const products = {
         price: "25.000",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000110.jpg",
-        url: "mascarilla-exfoliante-dual.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascarilla Hidratante Te Verde",
@@ -1327,10 +1206,9 @@ export const products = {
         price: "3.500",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000111.jpg",
-        url: "mascarilla-hidratante-te-verde.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascarilla Hidratante Miel",
@@ -1339,10 +1217,9 @@ export const products = {
         price: "3.500",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000112.jpg",
-        url: "mascarilla-hidratante-miel.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascarilla Hidratante Aloe Vera",
@@ -1351,10 +1228,9 @@ export const products = {
         price: "3.500",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000113.jpg",
-        url: "mascarilla-hidratante-aloe-vera.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascarilla Hidratante Pepino",
@@ -1363,10 +1239,9 @@ export const products = {
         price: "3.500",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000114.jpg",
-        url: "mascarilla-hidratante-pepino.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascarilla Hidratante Esencia De Rosas",
@@ -1375,10 +1250,9 @@ export const products = {
         price: "3.500",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000115.jpg",
-        url: "mascarilla-hidratante-esencia-de-rosas.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascarilla Hidratante Velo Hombre",
@@ -1387,22 +1261,20 @@ export const products = {
         price: "5.000",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000116.jpg",
-        url: "mascarilla-hidratante-velo-hombre.html"
+        image: "Product-1.jpg"
       },
       {
-        productName: "Mascarilla Acido Hialuronico + Esencia De Centella",
+        productName: "Mascarilla + Esencia De Centella",
         brand: "Bioaqua",
         category: "Mascarillas",
         price: "5.000",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000117.jpg",
-        url: "mascarilla-acido-hialuronico-esencia-de-centella.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascarilla Hidratante De Colageno",
@@ -1411,10 +1283,9 @@ export const products = {
         price: "5.000",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000118.jpg",
-        url: "mascarilla-hidratante-de-colageno.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascarilla Antiacne",
@@ -1423,10 +1294,9 @@ export const products = {
         price: "6.000",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000119.jpg",
-        url: "mascarilla-antiacne.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Kit parche ojos y labios",
@@ -1435,10 +1305,9 @@ export const products = {
         price: "5.000",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000120.jpg",
-        url: "kit-parche-ojos-y-labios.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascarilla Algas Marinas Ojos",
@@ -1447,10 +1316,9 @@ export const products = {
         price: "3.500",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000121.jpg",
-        url: "mascarilla-algas-marinas-ojos.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascarilla De Nanopeptidos Ojos",
@@ -1459,10 +1327,9 @@ export const products = {
         price: "3.500",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000122.jpg",
-        url: "mascarilla-de-nanopeptidos-ojos.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascarilla Colageno Oro Para Ojos",
@@ -1471,10 +1338,9 @@ export const products = {
         price: "3.500",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000123.jpg",
-        url: "mascarilla-colageno-oro-para-ojos.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Colageno Para Labios Cherry (20 Unidades)",
@@ -1483,10 +1349,9 @@ export const products = {
         price: "20.000",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000124.jpg",
-        url: "colageno-para-labios-cherry.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mascarilla Puntos Negros",
@@ -1495,10 +1360,9 @@ export const products = {
         price: "4.000",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000125.jpg",
-        url: "mascarilla-puntos-negros.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Mantequilla Corporal",
@@ -1507,10 +1371,9 @@ export const products = {
         price: "25.000",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000126.jpg",
-        url: "mantequilla-corporal.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Crema Hidratante De Vitamina C",
@@ -1521,8 +1384,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000127.jpg",
-        url: "crema-hidratante-de-vitamina-c.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Crema Antimanchas Blanqueadora",
@@ -1533,8 +1395,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000128.jpg",
-        url: "crema-antimanchas-blanqueadora.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Crema Contorno De Ojos y Arrugas Para Hombre",
@@ -1545,8 +1406,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000129.jpg",
-        url: "crema-contorno-de-ojos-y-arrugas-para-hombre.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Beauty Blender Profesional",
@@ -1557,8 +1417,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000130.jpg",
-        url: "beauty-blender-profesional.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Limpiador Instantaneo De Brochas",
@@ -1569,8 +1428,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000131.jpg",
-        url: "limpiador-instantaneo-de-brochas.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Jabon Limpiador De Brochas En Seco",
@@ -1581,8 +1439,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000132.jpg",
-        url: "jabon-limpiador-de-brochas-en-seco.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Jabon Liquido Limpiador De Brochas",
@@ -1593,8 +1450,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000133.jpg",
-        url: "jabon-liquido-limpiador-de-brochas.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Shampoo para brochas",
@@ -1605,8 +1461,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000134.jpg",
-        url: "shampoo-para-brochas.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Paleta Mezcladora",
@@ -1617,8 +1472,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000135.jpg",
-        url: "paleta-mezcladora.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Tapete Limpia Brochas",
@@ -1629,8 +1483,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000136.jpg",
-        url: "tapete-limpia-brochas.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Toalla Magica Desmaquillante",
@@ -1641,8 +1494,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: true,
-        image: "img-000000137.jpg",
-        url: "toalla-magica-desmaquillante.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Separador De Pestañas",
@@ -1653,8 +1505,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000138.jpg",
-        url: "separador-de-pestañas.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Kit Brochas De Ojos x12",
@@ -1665,8 +1516,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000139.jpg",
-        url: "kit-brochas-de-ojos-x12-trendy.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Kit Brochas De Ojos x12",
@@ -1677,8 +1527,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000140.jpg",
-        url: "kit-brochas-de-ojos-x12-purpure.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Kit Brochas De Ojos x12 + Estuche",
@@ -1689,8 +1538,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000141.jpg",
-        url: "kit-brochas-de-ojos-x12-shinee.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Jabon Liquido Facial Trendy + Sachet Pequeño",
@@ -1701,8 +1549,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000142.jpg",
-        url: "jabon-liquido-facial-trendy-sachet-pequeño.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Sachet Tonico De Rosas y Manzanilla",
@@ -1713,8 +1560,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000143.jpg",
-        url: "sachet-tonico-de-rosas-y-manzanilla.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Sachet Grande Jabon Liquido Facial",
@@ -1725,8 +1571,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000144.jpg",
-        url: "sachet-grande-jabon-liquido-facial.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Lip gloss Sweet As mellon",
@@ -1737,8 +1582,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000145.jpg",
-        url: "lip-gloss-sweet-as-mellon.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Kit x6 Delineadores Perlados",
@@ -1749,8 +1593,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000146.jpg",
-        url: "kit-x6-delineadores-perlados.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Polvos Sueltos (Varios Tonos)",
@@ -1761,8 +1604,7 @@ export const products = {
         discount: false,
         newProduct: true,
         advised: false,
-        image: "img-000000147.jpg",
-        url: "polvos-sueltos-varios-tonos-trendy.html"
+        image: "Product-1.jpg"
       },
       {
         productName: "Corrector Liquido Magic Concealer",
@@ -1771,10 +1613,9 @@ export const products = {
         price: "12.000",
         stock: true,
         discount: false,
-        newProduct: true,
+        newProduct: false,
         advised: false,
-        image: "img-000000148.jpg",
-        url: "corrector-liquido-magic-concealer.html"
+        image: "Product-1.jpg"
       }
     ],
   };

@@ -5,17 +5,25 @@ let maxViews = 0;
 
 const newProducts = products.data.filter(product => product.newProduct === true).sort((a, b) => a.price - b.price);
 
+// Función para ordenar aleatoriamente los productos
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+}
+
+shuffleArray(newProducts);
+
 
 newProducts.forEach(product => {
 
 
       if (maxViews < 13) {
 
-     
 
         let cardProduct = document.createElement("div");
         cardProduct.classList.add("product--card");
-        cardProduct.setAttribute("onclick", `window.location.href='${product.url}';`);
 
         let imageSection = document.createElement("div");
         imageSection.classList.add("image-section");
@@ -46,7 +54,7 @@ newProducts.forEach(product => {
         brand.appendChild(brandSpan);
         let btnSpan = document.createElement("span");
         btnSpan.classList.add("product-detail-btn");
-        btnSpan.textContent = "Ver Detalles";
+     
         brand.appendChild(btnSpan);
         infoSection.appendChild(brand);
 

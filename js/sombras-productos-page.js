@@ -13,7 +13,7 @@ const sombras = products.data.filter(product => product.category.includes('Sombr
 
     let cardProduct = document.createElement("div");
     cardProduct.classList.add("product--card--grid");
-    cardProduct.setAttribute("onclick", `window.location.href='${product.url}';`);
+ 
 
     let imageSection = document.createElement("div");
     imageSection.classList.add("image-section");
@@ -44,7 +44,7 @@ const sombras = products.data.filter(product => product.category.includes('Sombr
     brand.appendChild(brandSpan);
     let btnSpan = document.createElement("span");
     btnSpan.classList.add("product-detail-btn");
-    btnSpan.textContent = "Ver Detalles";
+   
     brand.appendChild(btnSpan);
     infoSection.appendChild(brand);
 

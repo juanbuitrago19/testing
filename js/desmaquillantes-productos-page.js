@@ -14,7 +14,7 @@ Desmaquillantes.forEach(product => {
 
     let cardProduct = document.createElement("div");
     cardProduct.classList.add("product--card--grid");
-    cardProduct.setAttribute("onclick", `window.location.href='${product.url}';`);
+    
 
     let imageSection = document.createElement("div");
     imageSection.classList.add("image-section");
@@ -45,7 +45,7 @@ Desmaquillantes.forEach(product => {
     brand.appendChild(brandSpan);
     let btnSpan = document.createElement("span");
     btnSpan.classList.add("product-detail-btn");
-    btnSpan.textContent = "Ver Detalles";
+   
     brand.appendChild(btnSpan);
     infoSection.appendChild(brand);
 
